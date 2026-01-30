@@ -1,11 +1,12 @@
 - Single-player mechanics
+- Learn Godot together
 - 5 office-workers and then 1
 - 3D
 	- We have to walk around
 - Tasks sidebar
 	- Just tick tasks when they are done, either good or bad
 - Dialogue system
-	- Text system
+	- Text system - how are we storing the text?
 - Insanity meter
 	- Could be visually shown with a bar or hinted with a vignette filter
 - Clock in the top right
@@ -20,3 +21,5 @@
 		- Both seem harmless at first but have consequences on the world
 		- E.g the characters and world around us start to look more messed up
 	- Changes in the environment and characters can disappear at will
+	- We make choices to the individual over 6 days
+		- The 7th day will reveal the consequences of our actions
