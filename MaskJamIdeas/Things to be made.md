@@ -1,0 +1,22 @@
+- Single-player mechanics
+- 5 office-workers and then 1
+- 3D
+	- We have to walk around
+- Tasks sidebar
+	- Just tick tasks when they are done, either good or bad
+- Dialogue system
+	- Text system
+- Insanity meter
+	- Could be visually shown with a bar or hinted with a vignette filter
+- Clock in the top right
+	- Set time to complete all of the tasks for the day
+		- We have 7 days in-game
+		- Tasks like:
+			- Helping out colleagues - two choices to help them out
+			- 
+	- Can talk to people - ignore them or talk to them - can this affect their sanity?
+- Choices
+	- Each task has two choices on how we complete it
+		- Both seem harmless at first but have consequences on the world
+		- E.g the characters and world around us start to look more messed up
+	- Changes in the environment and characters can disappear at will
