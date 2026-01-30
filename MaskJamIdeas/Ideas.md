@@ -1,0 +1,39 @@
+- Hidden Identity
+- Horror game
+- Mental f-over
+	- You are insane but you don't know it.
+	- Things are happening around you but you don't know why
+		- Self-awareness and bliss
+- Shock horror
+- Limited vision
+	- Minecraft pumpkin
+- Wrestling - lucha libre
+- Masked man
+- The Mask -Jim Carrey
+- Zorro
+- Ninja
+- Wolf's in sheep's clothing
+- Sideswipe stick survival
+- Masked dystopia
+- FNAF Mask
+- Kill people and wear their faces as masks
+- Screaming man mask/ banshee mask
+	- If you look at it too long, you have to wear it and scream until you die
+	- Scream until only blood pours out of the mouth
+- Put on mask and turn into MoistCritical
+- Payday 2 mechanics
+	- Put and mask on and go into Q mode
+	- Add a timer to it
+		- Take if off and put onto someone else but you're still crazy
+		- Sounds like a zombie thing
+- Bird Box
+- Jason's mask
+- Silent Hill Japan
+
+## Combo ideas
+- Disabled John Wick
+- "No I'm Not Human" with masks
+- Inconvenient mask communications
+- Horror Puzzle Game
+- Uncertainty of one's own mind
+	- Are we the monster or they?
