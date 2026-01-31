@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://kdgjqymkf3vk" path="res://Scripts/GameManager.gd" id="1_7rqgy"]
 [ext_resource type="PackedScene" uid="uid://cd4ac25cqkfmi" path="res://Scenes/clock_face.tscn" id="2_tr2i4"]
 [ext_resource type="PackedScene" uid="uid://cgjtlspjihm6k" path="res://Scenes/choice_control.tscn" id="3_nhkr4"]
+[ext_resource type="Script" uid="uid://b4fl20l7bo6n3" path="res://Scripts/choice_control.gd" id="5_qxria"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_3mqji"]
 
@@ -53,3 +54,4 @@ environment = SubResource("Environment_x4av3")
 [node name="ClockFace" parent="." unique_id=327393787 instance=ExtResource("2_tr2i4")]
 
 [node name="ChoiceControl" parent="." unique_id=1583314486 instance=ExtResource("3_nhkr4")]
+script = ExtResource("5_qxria")

@@ -26,8 +26,7 @@ func updateTasks():
 		var progress = tasks[task]
 		if progress == completion.NOT_DONE:
 			taskList.text += "* " + str(task) + "\n"
-		
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
