@@ -28,6 +28,7 @@ top_level = true
 transform = Transform3D(1, 0, 0, 0, 0.971961, 0.23514211, 0, -0.23514211, 0.971961, 0, 0, -0.48001415)
 
 [node name="Camera3D" type="Camera3D" parent="cameraController/camera_target" unique_id=2001161391]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2520761, -0.099095196)
 current = true
 script = ExtResource("2_6t5aa")
 
