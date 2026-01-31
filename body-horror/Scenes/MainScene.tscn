@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://b8meli5ej00ps"]
 
 [ext_resource type="PackedScene" uid="uid://cslq1wavt36nc" path="res://Scenes/player.tscn" id="1_3mqji"]
+[ext_resource type="Script" uid="uid://kdgjqymkf3vk" path="res://Scripts/GameManager.gd" id="1_7rqgy"]
 [ext_resource type="PackedScene" uid="uid://cd4ac25cqkfmi" path="res://Scenes/clock_face.tscn" id="2_tr2i4"]
+[ext_resource type="PackedScene" uid="uid://cgjtlspjihm6k" path="res://Scenes/choice_control.tscn" id="3_nhkr4"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_3mqji"]
 
@@ -26,7 +28,9 @@ background_energy_multiplier = 1.66
 sky = SubResource("Sky_3mqji")
 ambient_light_color = Color(0.26179984, 0.78737307, 0.89714074, 1)
 
-[node name="Node3D" type="Node3D" unique_id=749767476]
+[node name="GameManager" type="Node3D" unique_id=749767476 node_paths=PackedStringArray("choiceControl")]
+script = ExtResource("1_7rqgy")
+choiceControl = NodePath("ChoiceControl")
 
 [node name="CharacterBody3D" parent="." unique_id=1254661000 instance=ExtResource("1_3mqji")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 2.4313936)
@@ -47,3 +51,5 @@ transform = Transform3D(1, 0, 0, 0, 0.89493436, 0.4461978, 0, -0.4461978, 0.8949
 environment = SubResource("Environment_x4av3")
 
 [node name="ClockFace" parent="." unique_id=327393787 instance=ExtResource("2_tr2i4")]
+
+[node name="ChoiceControl" parent="." unique_id=1583314486 instance=ExtResource("3_nhkr4")]

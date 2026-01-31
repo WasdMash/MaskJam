@@ -7,6 +7,7 @@ extends Node
 @export var insanities := [0,0,0,0,0]
 #The following variables should increase either by each ask done or linearly#
 	#If linearly, this should force the player to either make choices or annoy co-workers by doing nothing
+@export var choiceControl : Control
 	
 @export_group("Office Clock")
 @export var time_speed: float = 5.0 # Higher = faster work day

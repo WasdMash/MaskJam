@@ -1,3 +1,4 @@
 - Fix the task list UI
 	- Honestly, it's way too big and ugly
-	- 
+- Escape
+	- Need a way to unlock the cursor so that we can leave the game without using Alt-Tab

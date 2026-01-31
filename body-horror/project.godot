@@ -18,8 +18,7 @@ config/icon="res://Sprites/icon.svg"
 [autoload]
 
 SoundManager="*uid://coa7q00l1r7ju"
-GameManager="*uid://cbqderujjjke5"
-Dialogic="*uid://ds2q0uclmolvu"
+GameManager="*uid://kdgjqymkf3vk"
 
 [dialogic]
 
