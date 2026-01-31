@@ -18,6 +18,7 @@ func _process(delta: float) -> void:
 		#Enable the player movement if disabled
 			#Play their walking animation
 		#Disable the current task UI
+		GameManager.choiceControl.visible = false #.process_mode = PROCESS_MODE_DISABLED shouldn't be necessary
 		pass
 	elif currentState == states.DOING_TASK:
 		#Need to check if the task is done well - should alter the insanity of those around us
