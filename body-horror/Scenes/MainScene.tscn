@@ -41,6 +41,15 @@ radius = 1.409
 [sub_resource type="SphereShape3D" id="SphereShape3D_q68mp"]
 radius = 1.409
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y4jh7"]
+albedo_color = Color(0.033350494, 0.52112806, 2.4065375e-06, 1)
+
+[sub_resource type="PrismMesh" id="PrismMesh_q68mp"]
+material = SubResource("StandardMaterial3D_y4jh7")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_0iob3"]
+radius = 1.035
+
 [node name="GameManager" type="Node3D" unique_id=749767476]
 script = ExtResource("1_7rqgy")
 
@@ -86,6 +95,18 @@ script = ExtResource("6_q68mp")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="supervisor/Area3D" unique_id=720406498]
 shape = SubResource("SphereShape3D_q68mp")
+
+[node name="water" type="MeshInstance3D" parent="." unique_id=721347729]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.608963, 1.313148, -18.909136)
+mesh = SubResource("PrismMesh_q68mp")
+script = ExtResource("6_y4jh7")
+maxTime = 60
+taskName = "Check up on Naomi"
+
+[node name="Area3D" type="Area3D" parent="water" unique_id=19681169]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="water/Area3D" unique_id=1902928573]
+shape = SubResource("SphereShape3D_0iob3")
 
 [connection signal="body_entered" from="paper/Area3D" to="paper" method="_on_area_3d_body_entered"]
 [connection signal="body_entered" from="supervisor/Area3D" to="supervisor" method="_on_area_3d_body_entered"]
