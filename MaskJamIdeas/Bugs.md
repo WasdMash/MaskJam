@@ -1,0 +1,3 @@
+- Fix the task list UI
+	- Honestly, it's way too big and ugly
+	- 

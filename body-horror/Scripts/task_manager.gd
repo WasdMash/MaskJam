@@ -16,7 +16,7 @@ var tasks:= {"Fetch the boss water": completion.NOT_DONE,
 			"Check up on Naomi": completion.NOT_DONE}
 			
 func _ready() -> void:
-	$ColorRect/ActualTaskList.text = "*" + str(tasks.keys()[0])
+	$PanelContainer/MarginContainer/ActualTaskList.text = "*" + str(tasks.keys()[0])
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

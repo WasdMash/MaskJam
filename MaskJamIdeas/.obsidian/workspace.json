@@ -54,9 +54,23 @@
               "icon": "lucide-file",
               "title": "Things to be made"
             }
+          },
+          {
+            "id": "bdc315b2a1c121ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bugs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bugs"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -219,11 +233,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "e5a787891195330d",
+  "active": "bdc315b2a1c121ae",
   "lastOpenFiles": [
-    "Things to be made.md",
+    "Bugs.md",
     "Ideas.md",
     "Game planning.md",
+    "Things to be made.md",
     "Welcome.md"
   ]
 }

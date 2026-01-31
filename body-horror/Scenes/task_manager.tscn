@@ -11,13 +11,23 @@ offset_right = 40.0
 offset_bottom = 40.0
 scale = Vector2(4.6800003, 6.96)
 
-[node name="TaskTitles" type="Label" parent="PanelContainer" unique_id=1642646782]
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=717812618]
 layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 7
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 7
+
+[node name="TaskTitles" type="Label" parent="PanelContainer/MarginContainer" unique_id=1642646782]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
 text = "Tasks for today:"
 
-[node name="ActualTaskList" type="Label" parent="PanelContainer" unique_id=338893122]
+[node name="ActualTaskList" type="Label" parent="PanelContainer/MarginContainer" unique_id=338893122]
 custom_minimum_size = Vector2(40, 0)
 layout_mode = 2
+size_flags_horizontal = 4
 theme_override_font_sizes/font_size = 13
 text = "* "
 autowrap_mode = 3
