@@ -49,6 +49,7 @@ radius = 0.854
 
 [node name="GameManager" type="Node3D" unique_id=749767476]
 script = ExtResource("1_7rqgy")
+time_speed = 8.0
 
 [node name="CreepySounds" parent="." unique_id=1252416560 instance=ExtResource("2_f140w")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)

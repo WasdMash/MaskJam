@@ -17,12 +17,14 @@ func _process(_delta: float) -> void:
 func play_random_creepy_sound() -> void:
 	# Pick a random sound from the array
 	var random_audio = creepy_sounds.pick_random()
+	var random_volume = randf()
 	
 	# We use a temporary player so sounds can overlap without cutting off
 	var temp_player = AudioStreamPlayer3D.new()
 	add_child(temp_player)
 	
 	temp_player.stream = random_audio
+	temp_player.volume_db = GameManager.playerInsanity/ 100
 	temp_player.position = Vector3(randf_range(-40, 40), 0, randf_range(-40, 40)) # Random direction!
 	temp_player.play()
 	

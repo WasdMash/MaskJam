@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://cgjtlspjihm6k" path="res://Scenes/choice_control.tscn" id="2_1ej1d"]
 [ext_resource type="Script" uid="uid://cj47myk3ddlj6" path="res://Scripts/task_list.gd" id="3_bt31k"]
 [ext_resource type="Shader" uid="uid://dp7eginl78ey7" path="res://Scripts/Shaders/Vignette.gdshader" id="4_s88do"]
-[ext_resource type="Script" uid="uid://xqtifrnv6xna" path="res://Scenes/vignette_effect.gd" id="4_xw221"]
+[ext_resource type="Script" uid="uid://xqtifrnv6xna" path="res://Scripts/vignette_effect.gd" id="4_xw221"]
 [ext_resource type="Texture2D" uid="uid://fov8cdlaasum" path="res://Sprites/icon.svg" id="5_xw221"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_gmp3g"]
@@ -26,6 +26,7 @@ texture = ExtResource("5_xw221")
 script = ExtResource("4_xw221")
 
 [node name="ChoiceControl" parent="." unique_id=1583314486 instance=ExtResource("2_1ej1d")]
+visible = false
 
 [node name="PanelContainer" type="PanelContainer" parent="." unique_id=115270611]
 offset_right = 312.0

@@ -52,7 +52,7 @@ func _process(delta: float) -> void:
 	if current_minute >= 60.0:
 		current_minute = 0.0
 		current_hour += 1
-		
+		print(str(current_hour))
 		# Check for the end of the shift (6 PM / 18:00)
 		if current_hour == 18:
 			start_next_day_sequence()
