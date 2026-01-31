@@ -1,15 +1,27 @@
-extends RigidBody3D
+extends CharacterBody3D
 
-var speed: float = 0.1
+const SPEED = 5.0
+const TURNING_CONSTANT = 0.1
 
-func look_follow(state: PhysicsDirectBodyState3D, current_transform: Transform3D, target_position: Vector3) -> void:
-	var forward_local_axis: Vector3 = Vector3(1, 0, 0)
-	var forward_dir: Vector3 = (current_transform.basis * forward_local_axis).normalized()
-	var target_dir: Vector3 = (target_position - current_transform.origin).normalized()
-	var local_speed: float = clampf(speed, 0, acos(forward_dir.dot(target_dir)))
-	if forward_dir.dot(target_dir) > 1e-4:
-		state.angular_velocity = local_speed * forward_dir.cross(target_dir) / state.step
+func _physics_process(delta: float) -> void:
+	# Get the input direction and handle the movement/deceleration.
+	# As good practice, you should replace UI actions with custom gameplay actions.
+		#Has to be in the order of left, right, up and down
+	var input_dir := Input.get_vector("move_left", "move_right", "move_up", "move_down")
+	#Lowkey don't fully know why my cameraController rotation is off by 90 degrees but i don't really care
+	if input_dir != Vector2(0,0):
+		$MeshInstance3D.rotation_degrees.y = $cameraController.rotation.y - 90 - rad_to_deg(input_dir.angle())
+	
+	var direction = ($cameraController.transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
+	if direction:
+		velocity.x = direction.x * SPEED
+		velocity.z = direction.z * SPEED
+		
+	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)
+		velocity.z = move_toward(velocity.z, 0, SPEED)
 
-func _integrate_forces(state):
-	var target_position = $MainScene.global_transform.origin
-	look_follow(state, global_transform, target_position)
+	move_and_slide()
+	
+	#Camera movement time - apparently less buggy when after physics
+	$cameraController.position = lerp($cameraController.position, position, delta * 5)

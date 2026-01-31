@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://bfm3y502x7i38"]
+
+[ext_resource type="Script" uid="uid://c5bkse4i0lh56" path="res://menu.gd" id="1_ouk20"]
+[ext_resource type="Texture2D" uid="uid://fov8cdlaasum" path="res://icon.svg" id="2_mae5d"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_4hy44"]
+font_size = 92
+
+[node name="Menu" type="Control" unique_id=936286804]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ouk20")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1942016214]
+layout_mode = 0
+offset_left = -7.0
+offset_top = -7.0
+offset_right = 1158.0
+offset_bottom = 655.0
+color = Color(0.09, 0.072450005, 0.019800004, 1)
+
+[node name="Label" type="Label" parent="." unique_id=829047304]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 166.0
+text = "The Night Shift"
+label_settings = SubResource("LabelSettings_4hy44")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1844549413]
+layout_mode = 0
+offset_left = 282.0
+offset_top = 168.0
+offset_right = 892.0
+offset_bottom = 466.0
+texture = ExtResource("2_mae5d")
+
+[node name="Button" type="Button" parent="." unique_id=1259135301]
+layout_mode = 0
+offset_left = 234.0
+offset_top = 526.0
+offset_right = 500.0
+offset_bottom = 591.0
+theme_override_colors/font_hover_color = Color(0.56508195, 0.5300347, 0.24726555, 1)
+theme_override_font_sizes/font_size = 40
+text = "Start"
+flat = true
+
+[node name="Button2" type="Button" parent="." unique_id=1561496369]
+layout_mode = 0
+offset_left = 667.0
+offset_top = 526.0
+offset_right = 933.0
+offset_bottom = 591.0
+theme_override_colors/font_hover_color = Color(0.56508195, 0.5300347, 0.24726555, 1)
+theme_override_font_sizes/font_size = 34
+text = "Options"
+flat = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

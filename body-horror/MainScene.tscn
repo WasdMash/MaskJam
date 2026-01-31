@@ -2,26 +2,45 @@
 
 [ext_resource type="PackedScene" uid="uid://cslq1wavt36nc" path="res://player.tscn" id="1_3mqji"]
 
-[sub_resource type="PlaneMesh" id="PlaneMesh_1305s"]
-
 [sub_resource type="BoxShape3D" id="BoxShape3D_3mqji"]
-size = Vector3(2, 0.005, 1.975)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mqji"]
+albedo_color = Color(0, 0.39667907, 0.39814213, 1)
+metallic = 0.8
+
+[sub_resource type="BoxMesh" id="BoxMesh_x4av3"]
+material = SubResource("StandardMaterial3D_3mqji")
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3mqji"]
+sky_top_color = Color(0.054096743, 0.04305879, 0.31080747, 1)
+sky_horizon_color = Color(0.22903726, 0.2342354, 0.24464303, 1)
+sun_angle_max = 50.25
+
+[sub_resource type="Sky" id="Sky_3mqji"]
+sky_material = SubResource("ProceduralSkyMaterial_3mqji")
+
+[sub_resource type="Environment" id="Environment_x4av3"]
+background_mode = 2
+background_energy_multiplier = 1.66
+sky = SubResource("Sky_3mqji")
+ambient_light_color = Color(0.26179984, 0.78737307, 0.89714074, 1)
 
 [node name="Node3D" type="Node3D" unique_id=749767476]
 
-[node name="Camera3D" type="Camera3D" parent="." unique_id=1159598706]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.018321097, 0.6547934)
+[node name="CharacterBody3D" parent="." unique_id=1254661000 instance=ExtResource("1_3mqji")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 2.4313936)
 
-[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1414524933]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=302933915]
+transform = Transform3D(64.49, 0, -4.9816995e-06, 0, -0.18, 0, 5.637895e-06, 0, 56.984, 0, 0, 0)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1659561515]
-mesh = SubResource("PlaneMesh_1305s")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=80044973]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=50002966]
 shape = SubResource("BoxShape3D_3mqji")
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="StaticBody3D/CollisionShape3D" unique_id=688656356]
-transform = Transform3D(0.8382112, 0.23986936, -0.4897599, 0.0735064, 0.84018207, 0.5372997, 0.5403692, -0.48637104, 0.6866181, 0, 1.515, 2.0101094)
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1674795816]
+mesh = SubResource("BoxMesh_x4av3")
 
-[node name="Player" parent="." unique_id=1466321925 instance=ExtResource("1_3mqji")]
-transform = Transform3D(0.465, 0, 0, 0, 0.465, 0, 0, 0, 0.465, 0, 0.21168804, -0.48693347)
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=703237182]
+transform = Transform3D(1, 0, 0, 0, 0.89493436, 0.4461978, 0, -0.4461978, 0.89493436, 0, 1.4452751, 3.1428328)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=243592655]
+environment = SubResource("Environment_x4av3")
