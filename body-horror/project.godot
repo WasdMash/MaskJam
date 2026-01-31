@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="BodyHorror"
-run/main_scene="uid://b8meli5ej00ps"
+run/main_scene="uid://bfm3y502x7i38"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Sprites/icon.svg"
 
 [input]
 

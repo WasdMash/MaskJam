@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b8meli5ej00ps"]
 
-[ext_resource type="PackedScene" uid="uid://cslq1wavt36nc" path="res://player.tscn" id="1_3mqji"]
+[ext_resource type="PackedScene" uid="uid://cslq1wavt36nc" path="res://Scenes/player.tscn" id="1_3mqji"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_3mqji"]
 
@@ -44,3 +44,5 @@ transform = Transform3D(1, 0, 0, 0, 0.89493436, 0.4461978, 0, -0.4461978, 0.8949
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=243592655]
 environment = SubResource("Environment_x4av3")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=966106799]

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bfm3y502x7i38"]
 
-[ext_resource type="Script" uid="uid://c5bkse4i0lh56" path="res://menu.gd" id="1_ouk20"]
-[ext_resource type="Texture2D" uid="uid://fov8cdlaasum" path="res://icon.svg" id="2_mae5d"]
+[ext_resource type="Script" uid="uid://c5bkse4i0lh56" path="res://Scripts/menu.gd" id="1_xhh6f"]
+[ext_resource type="Texture2D" uid="uid://fov8cdlaasum" path="res://Sprites/icon.svg" id="2_cayip"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_4hy44"]
 font_size = 92
@@ -13,7 +13,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_ouk20")
+script = ExtResource("1_xhh6f")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1942016214]
 layout_mode = 0
@@ -38,7 +38,7 @@ offset_left = 282.0
 offset_top = 168.0
 offset_right = 892.0
 offset_bottom = 466.0
-texture = ExtResource("2_mae5d")
+texture = ExtResource("2_cayip")
 
 [node name="Button" type="Button" parent="." unique_id=1259135301]
 layout_mode = 0
