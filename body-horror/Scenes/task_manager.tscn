@@ -3,9 +3,27 @@
 [ext_resource type="Script" uid="uid://v36ati4iqpro" path="res://Scripts/task_manager.gd" id="1_pwv7l"]
 [ext_resource type="PackedScene" uid="uid://cgjtlspjihm6k" path="res://Scenes/choice_control.tscn" id="2_1ej1d"]
 [ext_resource type="Script" uid="uid://cj47myk3ddlj6" path="res://Scripts/task_list.gd" id="3_bt31k"]
+[ext_resource type="Shader" uid="uid://dp7eginl78ey7" path="res://Scripts/Shaders/Vignette.gdshader" id="4_s88do"]
+[ext_resource type="Script" uid="uid://xqtifrnv6xna" path="res://Scenes/vignette_effect.gd" id="4_xw221"]
+[ext_resource type="Texture2D" uid="uid://fov8cdlaasum" path="res://Sprites/icon.svg" id="5_xw221"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gmp3g"]
+shader = ExtResource("4_s88do")
+shader_parameter/radius = 0.0
+shader_parameter/softness = 0.77600003686
+shader_parameter/intensity = 0.290000013775
+shader_parameter/contrast = 2.2
+shader_parameter/vignette_color = Color(0.08235294, 0, 0, 1)
 
 [node name="TaskManager" type="Node2D" unique_id=1926607034]
 script = ExtResource("1_pwv7l")
+
+[node name="VignetteEffect" type="Sprite2D" parent="." unique_id=1373701769]
+material = SubResource("ShaderMaterial_gmp3g")
+position = Vector2(577.5, 324)
+scale = Vector2(8.9921875, 4.984375)
+texture = ExtResource("5_xw221")
+script = ExtResource("4_xw221")
 
 [node name="ChoiceControl" parent="." unique_id=1583314486 instance=ExtResource("2_1ej1d")]
 
