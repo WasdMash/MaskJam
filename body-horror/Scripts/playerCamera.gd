@@ -6,6 +6,13 @@ func _ready():
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED # Locks mouse to center
 
 func _input(event):
+	# Toggle mouse mode with Escape
+	if event.is_action_pressed("ui_cancel"): # "ui_cancel" is Escape by default
+		if Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
+			Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+		else:
+			Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
+	
 	if event is InputEventMouseMotion:
 		# Rotate the player horizontally (Y-axis)
 		get_parent().rotate_y(-event.relative.x * sensitivity)

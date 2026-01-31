@@ -2,10 +2,10 @@
 
 [ext_resource type="Script" uid="uid://v36ati4iqpro" path="res://Scripts/task_manager.gd" id="1_pwv7l"]
 [ext_resource type="PackedScene" uid="uid://cgjtlspjihm6k" path="res://Scenes/choice_control.tscn" id="2_1ej1d"]
+[ext_resource type="Script" uid="uid://cj47myk3ddlj6" path="res://Scripts/task_list.gd" id="3_bt31k"]
 
-[node name="TaskManager" type="Node2D" unique_id=1926607034 node_paths=PackedStringArray("taskList")]
+[node name="TaskManager" type="Node2D" unique_id=1926607034]
 script = ExtResource("1_pwv7l")
-taskList = NodePath("PanelContainer/MarginContainer/VBoxContainer/TaskList")
 
 [node name="ChoiceControl" parent="." unique_id=1583314486 instance=ExtResource("2_1ej1d")]
 
@@ -35,3 +35,4 @@ custom_minimum_size = Vector2(4, 4)
 layout_mode = 2
 text = "* "
 autowrap_mode = 3
+script = ExtResource("3_bt31k")

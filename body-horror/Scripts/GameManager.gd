@@ -1,10 +1,6 @@
 extends Node
 
 @export_group("Environmental variables")
-#Need to be able to track the insanity metres of each NPC
-	#Emily. John , John Pork, Tyler and Naomi
-#Basically, the higher their insanity, the wackier they will become
-@export var insanities := [0,0,0,0,0]
 #The following variables should increase either by each ask done or linearly#
 	#If linearly, this should force the player to either make choices or annoy co-workers by doing nothing
 @export var choiceControl : Control

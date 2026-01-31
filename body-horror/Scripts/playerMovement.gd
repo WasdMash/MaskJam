@@ -6,8 +6,8 @@ func _physics_process(delta: float) -> void:
 	var input_dir := Input.get_vector("Left", "Right", "Forwad", "Back")
 	
 	# 1. Get the camera's forward and right vectors, but ignore the Y (vertical) component
-	var cam_forward = -$cameraController.global_transform.basis.z
-	var cam_right = $cameraController.global_transform.basis.x
+	var cam_forward = -$cameraController/camera_target/Camera3D.global_transform.basis.z
+	var cam_right = $cameraController/camera_target/Camera3D.global_transform.basis.x
 	
 	
 	# 2. Flatten them so we don't move up/down

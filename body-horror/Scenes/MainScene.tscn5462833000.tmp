@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://b8meli5ej00ps"]
+
+[ext_resource type="PackedScene" uid="uid://cslq1wavt36nc" path="res://Scenes/player.tscn" id="1_3mqji"]
+[ext_resource type="Script" uid="uid://kdgjqymkf3vk" path="res://Scripts/GameManager.gd" id="1_7rqgy"]
+[ext_resource type="PackedScene" uid="uid://cd4ac25cqkfmi" path="res://Scenes/clock_face.tscn" id="2_tr2i4"]
+[ext_resource type="Script" uid="uid://djwxq0r6sdlaa" path="res://Scripts/collect_water.gd" id="4_qxria"]
+[ext_resource type="PackedScene" uid="uid://c4spvjsmrcujc" path="res://Scenes/task_manager.tscn" id="5_y4jh7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3mqji"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mqji"]
+albedo_color = Color(0, 0.39667907, 0.39814213, 1)
+metallic = 0.8
+
+[sub_resource type="BoxMesh" id="BoxMesh_x4av3"]
+material = SubResource("StandardMaterial3D_3mqji")
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3mqji"]
+sky_top_color = Color(0.054096743, 0.04305879, 0.31080747, 1)
+sky_horizon_color = Color(0.22903726, 0.2342354, 0.24464303, 1)
+sun_angle_max = 50.25
+
+[sub_resource type="Sky" id="Sky_3mqji"]
+sky_material = SubResource("ProceduralSkyMaterial_3mqji")
+
+[sub_resource type="Environment" id="Environment_x4av3"]
+background_mode = 2
+background_energy_multiplier = 1.66
+sky = SubResource("Sky_3mqji")
+ambient_light_color = Color(0.26179984, 0.78737307, 0.89714074, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_q68mp"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_f140w"]
+material = SubResource("StandardMaterial3D_q68mp")
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_0iob3"]
+radius = 7.029
+
+[node name="GameManager" type="Node3D" unique_id=749767476 node_paths=PackedStringArray("choiceControl")]
+script = ExtResource("1_7rqgy")
+choiceControl = NodePath("")
+
+[node name="player" parent="." unique_id=1254661000 instance=ExtResource("1_3mqji")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 2.4313936)
+
+[node name="floor" type="StaticBody3D" parent="." unique_id=302933915]
+transform = Transform3D(64.49, 0, -4.9816995e-06, 0, -0.18, 0, 5.637895e-06, 0, 56.984, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="floor" unique_id=50002966]
+shape = SubResource("BoxShape3D_3mqji")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="floor" unique_id=1674795816]
+mesh = SubResource("BoxMesh_x4av3")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=703237182]
+transform = Transform3D(1, 0, 0, 0, 0.89493436, 0.4461978, 0, -0.4461978, 0.89493436, 0, 1.4452751, 3.1428328)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=243592655]
+environment = SubResource("Environment_x4av3")
+
+[node name="ClockFace" parent="." unique_id=327393787 instance=ExtResource("2_tr2i4")]
+
+[node name="papers" type="MeshInstance3D" parent="." unique_id=771023654]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.484238, 1.3925142, -21.503881)
+mesh = SubResource("BoxMesh_f140w")
+
+[node name="Area3D" type="Area3D" parent="papers" unique_id=1271532403]
+script = ExtResource("4_qxria")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="papers/Area3D" unique_id=58938035]
+shape = SubResource("SphereShape3D_0iob3")
+
+[node name="TaskManager" parent="." unique_id=1926607034 instance=ExtResource("5_y4jh7")]
+
+[connection signal="area_entered" from="papers/Area3D" to="papers/Area3D" method="_on_area_entered"]

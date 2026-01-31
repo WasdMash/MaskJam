@@ -3,12 +3,10 @@
 [ext_resource type="PackedScene" uid="uid://cslq1wavt36nc" path="res://Scenes/player.tscn" id="1_3mqji"]
 [ext_resource type="Script" uid="uid://kdgjqymkf3vk" path="res://Scripts/GameManager.gd" id="1_7rqgy"]
 [ext_resource type="PackedScene" uid="uid://cd4ac25cqkfmi" path="res://Scenes/clock_face.tscn" id="2_tr2i4"]
+[ext_resource type="Script" uid="uid://wt3qusygvnq0" path="res://Scripts/collect_paper.gd" id="5_qxria"]
 [ext_resource type="PackedScene" uid="uid://c4spvjsmrcujc" path="res://Scenes/task_manager.tscn" id="5_y4jh7"]
-[ext_resource type="Script" uid="uid://bxvkgyfc48xkj" path="res://Scripts/the_supervisor.gd" id="6_q68mp"]
-[ext_resource type="Script" uid="uid://wt3qusygvnq0" path="res://Scripts/task_progression.gd" id="6_y4jh7"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_qxria"]
-size = Vector3(21, 1, 1)
+[sub_resource type="BoxShape3D" id="BoxShape3D_3mqji"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mqji"]
 albedo_color = Color(0, 0.39667907, 0.39814213, 1)
@@ -31,29 +29,24 @@ background_energy_multiplier = 1.66
 sky = SubResource("Sky_3mqji")
 ambient_light_color = Color(0.26179984, 0.78737307, 0.89714074, 1)
 
-[sub_resource type="BoxMesh" id="BoxMesh_q68mp"]
-
-[sub_resource type="SphereShape3D" id="SphereShape3D_f140w"]
-radius = 1.409
-
 [sub_resource type="BoxMesh" id="BoxMesh_y4jh7"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_q68mp"]
-radius = 1.409
+radius = 2.318
 
 [node name="GameManager" type="Node3D" unique_id=749767476]
 script = ExtResource("1_7rqgy")
 
 [node name="player" parent="." unique_id=1254661000 instance=ExtResource("1_3mqji")]
-transform = Transform3D(-0.19806664, -0.0002666904, 0.9801886, 0.0047144066, 0.9999879, 0.0012247037, -0.9801772, 0.0048635695, -0.198063, 0.13469315, 0.6, 22.403706)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 2.4313936)
 
-[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=302933915]
+[node name="floor" type="StaticBody3D" parent="." unique_id=302933915]
 transform = Transform3D(64.49, 0, -4.9816995e-06, 0, -0.18, 0, 5.637895e-06, 0, 56.984, 0, 0, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=50002966]
-shape = SubResource("BoxShape3D_qxria")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="floor" unique_id=50002966]
+shape = SubResource("BoxShape3D_3mqji")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1674795816]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="floor" unique_id=1674795816]
 mesh = SubResource("BoxMesh_x4av3")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=703237182]
@@ -64,29 +57,16 @@ environment = SubResource("Environment_x4av3")
 
 [node name="ClockFace" parent="." unique_id=327393787 instance=ExtResource("2_tr2i4")]
 
-[node name="paper" type="MeshInstance3D" parent="." unique_id=1980657384]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.972448, 2.1046696, 21.874325)
-mesh = SubResource("BoxMesh_q68mp")
-script = ExtResource("6_y4jh7")
-taskName = "Print the files"
-
-[node name="Area3D" type="Area3D" parent="paper" unique_id=1162303659]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="paper/Area3D" unique_id=1818586049]
-shape = SubResource("SphereShape3D_f140w")
-
 [node name="TaskManager" parent="." unique_id=1926607034 instance=ExtResource("5_y4jh7")]
 
-[node name="supervisor" type="MeshInstance3D" parent="." unique_id=1965449020]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.625, 0)
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=795264909]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.136475, 0.7493839, -10.617001)
 mesh = SubResource("BoxMesh_y4jh7")
-script = ExtResource("6_q68mp")
+script = ExtResource("5_qxria")
 
-[node name="Area3D" type="Area3D" parent="supervisor" unique_id=624131547]
+[node name="Area3D" type="Area3D" parent="MeshInstance3D" unique_id=1373774693]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="supervisor/Area3D" unique_id=720406498]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/Area3D" unique_id=844744685]
 shape = SubResource("SphereShape3D_q68mp")
 
-[connection signal="body_entered" from="paper/Area3D" to="paper" method="_on_area_3d_body_entered"]
-[connection signal="body_entered" from="supervisor/Area3D" to="supervisor" method="_on_area_3d_body_entered"]
-[connection signal="body_exited" from="supervisor/Area3D" to="supervisor" method="_on_area_3d_body_exited"]
+[connection signal="body_entered" from="MeshInstance3D/Area3D" to="MeshInstance3D" method="_on_area_3d_body_entered"]

@@ -19,7 +19,7 @@ func _process(_delta: float) -> void:
 		#Enable the player movement if disabled
 			#Play their walking animation
 		#Disable the current task UI
-		GameManager.choiceControl.visible = false #.process_mode = PROCESS_MODE_DISABLED shouldn't be necessary
+		#GameManager.choiceControl.visible = false #.process_mode = PROCESS_MODE_DISABLED shouldn't be necessary
 		pass
 	elif currentState == states.DOING_TASK:
 		#Need to check if the task is done well - should alter the insanity of those around us
@@ -29,5 +29,5 @@ func _process(_delta: float) -> void:
 	else:
 		#Disable the player movement and freeze the NPCs in the background
 			#That except the one who we are talking to
-		GameManager.choiceControl.visible = true
+		#GameManager.choiceControl.visible = true
 		pass
