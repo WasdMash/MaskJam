@@ -30,6 +30,10 @@ layout/style_directory={}
 
 enabled=PackedStringArray()
 
+[filesystem]
+
+import/blender/enabled=false
+
 [input]
 
 move_left={

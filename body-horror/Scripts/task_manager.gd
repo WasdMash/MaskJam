@@ -8,6 +8,7 @@ extends Node2D
 		#Completion can be not_done, ignored, done_well or done_poorly
 		#Could be stored as an enum for optimisation
 		#Then read said values and use this to determine how it drives the insanity of the character
+@export var taskList: Label
 		
 enum completion{NOT_DONE, IGNORED, DONE_WELL, DONE_POORLY}
 #Lowkey ugly but we can make things better later
@@ -16,7 +17,16 @@ var tasks:= {"Fetch the boss water": completion.NOT_DONE,
 			"Check up on Naomi": completion.NOT_DONE}
 			
 func _ready() -> void:
-	$PanelContainer/MarginContainer/ActualTaskList.text = "*" + str(tasks.keys()[0])
+	updateTasks()
+	
+#This is the function to be ran to update the task list
+func updateTasks():
+	taskList.text = ""
+	for task in tasks:
+		var progress = tasks[task]
+		if progress == completion.NOT_DONE:
+			taskList.text += "* " + str(task) + "\n"
+		
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

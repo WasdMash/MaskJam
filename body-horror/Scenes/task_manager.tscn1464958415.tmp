@@ -3,9 +3,9 @@
 [ext_resource type="Script" uid="uid://v36ati4iqpro" path="res://Scripts/task_manager.gd" id="1_pwv7l"]
 [ext_resource type="PackedScene" uid="uid://cgjtlspjihm6k" path="res://Scenes/choice_control.tscn" id="2_1ej1d"]
 
-[node name="TaskManager" type="Node2D" unique_id=1926607034 node_paths=PackedStringArray("taskList")]
+[node name="TaskManager" type="Node2D" unique_id=1926607034]
+position = Vector2(16, 18)
 script = ExtResource("1_pwv7l")
-taskList = NodePath("PanelContainer/MarginContainer/VBoxContainer/TaskList")
 
 [node name="ChoiceControl" parent="." unique_id=1583314486 instance=ExtResource("2_1ej1d")]
 
@@ -25,13 +25,11 @@ layout_mode = 2
 theme_override_constants/separation = 21
 
 [node name="TaskTitle" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1035806289]
-custom_minimum_size = Vector2(4, 4)
 layout_mode = 2
 text = "Tasks for today"
 autowrap_mode = 3
 
 [node name="TaskList" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=153184212]
-custom_minimum_size = Vector2(4, 4)
 layout_mode = 2
 text = "* "
 autowrap_mode = 3
