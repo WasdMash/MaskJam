@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://coa7q00l1r7ju"]
 
 [ext_resource type="Script" uid="uid://ukugu0xndqx" path="res://Scripts/sound_manager.gd" id="1_25ke0"]
-[ext_resource type="Script" uid="uid://bn88f7dxej41d" path="res://Scenes/audio_stream_player.gd" id="2_1ohty"]
+[ext_resource type="Script" uid="uid://bn88f7dxej41d" path="res://Scripts/audio_stream_player.gd" id="2_1ohty"]
 
 [node name="SoundManager" type="Control" unique_id=1168635246]
 layout_mode = 3
