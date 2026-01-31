@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://cslq1wavt36nc"]
 
 [ext_resource type="Script" uid="uid://c7aeo5ajaxkpc" path="res://Scripts/playerMovement.gd" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://cfwb3ak5wcmb" path="res://Scripts/playerCamera.gd" id="2_6t5aa"]
+[ext_resource type="Script" uid="uid://batecmuhoi3qa" path="res://Scenes/player_interaction.gd" id="2_cvnsp"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4flbx"]
 albedo_color = Color(1, 0.26999998, 0.26999998, 1)
@@ -12,7 +14,7 @@ material = SubResource("StandardMaterial3D_4flbx")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_4flbx"]
 
-[node name="CharacterBody3D" type="CharacterBody3D" unique_id=1254661000]
+[node name="Player" type="CharacterBody3D" unique_id=1254661000]
 script = ExtResource("1_4flbx")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1592506674]
@@ -29,7 +31,11 @@ shape = SubResource("BoxShape3D_4flbx")
 top_level = true
 
 [node name="camera_target" type="Node3D" parent="cameraController" unique_id=723121016]
-transform = Transform3D(1, 0, 0, 0, 0.971961, 0.23514211, 0, -0.23514211, 0.971961, 0, 1.29, 2.1)
+transform = Transform3D(1, 0, 0, 0, 0.971961, 0.23514211, 0, -0.23514211, 0.971961, 0, 0, -0.48001415)
 
 [node name="Camera3D" type="Camera3D" parent="cameraController/camera_target" unique_id=2001161391]
 current = true
+script = ExtResource("2_6t5aa")
+
+[node name="PlayerInteraction" type="Node3D" parent="." unique_id=649944021]
+script = ExtResource("2_cvnsp")

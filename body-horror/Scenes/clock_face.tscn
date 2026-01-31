@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://cd4ac25cqkfmi"]
+
+[ext_resource type="Script" uid="uid://d2l6mnhhbj1pt" path="res://Scripts/clock_face.gd" id="1_2ytux"]
+
+[node name="ClockFace" type="Node2D" unique_id=327393787]
+position = Vector2(1018, 101)
+script = ExtResource("1_2ytux")
+
+[node name="HourHand" type="Line2D" parent="." unique_id=1021657836]
+points = PackedVector2Array(0, 0, 0, -9.585)
+width = 1.315
+
+[node name="MinuteHand" type="Line2D" parent="." unique_id=668295329]
+points = PackedVector2Array(0, 0, 0, -20.845)
+width = 1.315
+
+[node name="ClockLabel" type="Label" parent="." unique_id=449803527]
+offset_left = -15.0
+offset_top = 125.0
+offset_right = 25.0
+offset_bottom = 148.0
+text = "sfdfs"

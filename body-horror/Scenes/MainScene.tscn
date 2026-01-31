@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://b8meli5ej00ps"]
 
 [ext_resource type="PackedScene" uid="uid://cslq1wavt36nc" path="res://Scenes/player.tscn" id="1_3mqji"]
+[ext_resource type="PackedScene" uid="uid://cd4ac25cqkfmi" path="res://Scenes/clock_face.tscn" id="2_tr2i4"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_3mqji"]
 
@@ -44,3 +45,5 @@ transform = Transform3D(1, 0, 0, 0, 0.89493436, 0.4461978, 0, -0.4461978, 0.8949
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=243592655]
 environment = SubResource("Environment_x4av3")
+
+[node name="ClockFace" parent="." unique_id=327393787 instance=ExtResource("2_tr2i4")]

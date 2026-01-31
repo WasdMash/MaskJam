@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://c4spvjsmrcujc"]
+
+[ext_resource type="Script" uid="uid://v36ati4iqpro" path="res://Scripts/task_manager.gd" id="1_pwv7l"]
+
+[node name="TaskManager" type="Node2D" unique_id=1926607034]
+position = Vector2(16, 18)
+script = ExtResource("1_pwv7l")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=290223822]
+offset_right = 130.4
+offset_bottom = 172.915
+scale = Vector2(2.115, 2.115)
+color = Color(0.35933068, 0.3019789, 0.12489798, 1)
+
+[node name="TaskTitles" type="Label" parent="ColorRect" unique_id=1642646782]
+layout_mode = 0
+offset_left = 0.94562644
+offset_top = -0.94562644
+offset_right = 123.945625
+offset_bottom = 22.054373
+text = "Tasks for today:"
+
+[node name="ActualTaskList" type="Label" parent="ColorRect" unique_id=338893122]
+layout_mode = 0
+offset_top = 36.40662
+offset_right = 40.0
+offset_bottom = 59.40662
+theme_override_font_sizes/font_size = 13
+text = "* "

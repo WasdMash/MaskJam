@@ -29,3 +29,8 @@ Psychological body horror - identity crisis
 	- The madness oscillates up and down
 	- Everyone else is straight up going mad and you are left questioning this
 - Only the sane notices the insane things happening inside the game
+
+## Insanity metre
+- As the insanity increases,
+	- We start hearing things which aren't there
+	- Increased chance of flashbacks
