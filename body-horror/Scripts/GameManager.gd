@@ -18,11 +18,25 @@ signal request_choices(options: Array)
 var max_days:= 7
 var current_hour: int = 9
 var current_minute: float = 0.0
-
+var is_transitioning := false
 
 func get_vignette(vignette : ShaderMaterial) -> void:
 	insaneVignette = vignette
 	ogIntensity = insaneVignette.get_shader_parameter("intensity")
+
+func start_next_day_sequence() -> void:
+	is_transitioning = true
+	print("Shift over. Processing results...")
+	# This pauses this specific function for 10 seconds 
+	# without freezing the whole game
+	await get_tree().create_timer(10.0).timeout
+	
+	# Reset for the new day
+	current_hour = 9
+	current_day += 1
+	playerInsanity = 100.0 * current_day / 7
+	print("Welcome to Day ", current_day)
+	is_transitioning = false # Resumes the _process clock
 
 func _process(delta: float) -> void:
 	# Tick the minutes based on frame time
@@ -40,10 +54,5 @@ func _process(delta: float) -> void:
 		current_hour += 1
 		
 		# Check for the end of the shift (6 PM / 18:00)
-		if current_hour >= 18:
-			#Should ideally wait for user input before we start a new day
-			current_hour = 9   # Back to work!
-			current_day += 1   # Another day in the matrix
-			#This is where we should also temporarily add to player insanity, so that they don't immediately lose it
-			playerInsanity = 100 * current_day / 7 #Cuts down by like a 7th each day
-			print("Welcome to Day ", current_day, ". Get to your desk.")
+		if current_hour == 18:
+			start_next_day_sequence()
