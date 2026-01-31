@@ -21,10 +21,6 @@ func _physics_process(delta: float) -> void:
 	if direction:
 		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
-		
-		# 4. Smoothly rotate the mesh to face the movement direction
-		var target_rotation = atan2(direction.x, direction.z)
-		$MeshInstance3D.rotation.y = lerp_angle($MeshInstance3D.rotation.y, target_rotation, TURNING_CONSTANT)
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)

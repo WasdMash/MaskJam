@@ -2,23 +2,12 @@
 
 [ext_resource type="PackedScene" uid="uid://cslq1wavt36nc" path="res://Scenes/player.tscn" id="1_3mqji"]
 [ext_resource type="Script" uid="uid://kdgjqymkf3vk" path="res://Scripts/GameManager.gd" id="1_7rqgy"]
+[ext_resource type="PackedScene" uid="uid://duqlasgq387h8" path="res://Scenes/creepy_sounds.tscn" id="2_f140w"]
 [ext_resource type="PackedScene" uid="uid://cd4ac25cqkfmi" path="res://Scenes/clock_face.tscn" id="2_tr2i4"]
 [ext_resource type="PackedScene" uid="uid://c4spvjsmrcujc" path="res://Scenes/task_manager.tscn" id="5_y4jh7"]
-[ext_resource type="Script" uid="uid://bxvkgyfc48xkj" path="res://Scripts/the_supervisor.gd" id="6_q68mp"]
 [ext_resource type="Script" uid="uid://wt3qusygvnq0" path="res://Scripts/task_progression.gd" id="6_y4jh7"]
-
-[sub_resource type="NavigationMesh" id="NavigationMesh_y4jh7"]
-vertices = PackedVector3Array(-31.745003, 0.41, -27.992008, -31.745003, 0.41, 28.007992, 31.754997, 0.41, 28.007992, 31.754997, 0.41, -27.992008)
-polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_qxria"]
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mqji"]
-albedo_color = Color(0, 0.39667907, 0.39814213, 1)
-metallic = 0.8
-
-[sub_resource type="BoxMesh" id="BoxMesh_x4av3"]
-material = SubResource("StandardMaterial3D_3mqji")
+[ext_resource type="PackedScene" uid="uid://bh7s3yubemyed" path="res://Scenes/emily.tscn" id="7_q68mp"]
+[ext_resource type="PackedScene" uid="uid://xigwvp4qcfsn" path="res://Models/People/Tyler.fbx" id="8_f140w"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3mqji"]
 sky_top_color = Color(0.054096743, 0.04305879, 0.31080747, 1)
@@ -37,70 +26,10 @@ ambient_light_color = Color(0.26179984, 0.78737307, 0.89714074, 1)
 [sub_resource type="BoxMesh" id="BoxMesh_q68mp"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_f140w"]
-radius = 1.409
+radius = 1.549
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_y4jh7"]
-
-[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_q68mp"]
-
-[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_y4jh7"]
-
-[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_f140w"]
-
-[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_0iob3"]
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_4b75m"]
-advance_mode = 2
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_8ju71"]
-switch_mode = 2
-advance_mode = 2
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_xb4mg"]
-switch_mode = 2
-advance_mode = 2
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_6t1o7"]
-switch_mode = 2
-advance_mode = 2
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_5qxwa"]
-switch_mode = 2
-advance_mode = 2
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_xc4hf"]
-switch_mode = 2
-advance_mode = 2
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_6rnll"]
-switch_mode = 2
-advance_mode = 2
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_q68mp"]
-switch_mode = 2
-advance_mode = 2
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_f140w"]
-switch_mode = 2
-advance_mode = 2
-
-[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_enc0b"]
-states/Idle/node = SubResource("AnimationNodeBlendSpace2D_q68mp")
-states/Idle/position = Vector2(431, 76)
-states/Start/position = Vector2(251, 100)
-states/Talking/node = SubResource("AnimationNodeBlendSpace2D_y4jh7")
-states/Talking/position = Vector2(652, 3)
-states/Walking/node = SubResource("AnimationNodeBlendSpace2D_f140w")
-states/Walking/position = Vector2(720, 177)
-states/Working/node = SubResource("AnimationNodeBlendSpace2D_0iob3")
-states/Working/position = Vector2(431, 186)
-transitions = ["Start", "Idle", SubResource("AnimationNodeStateMachineTransition_4b75m"), "Idle", "Walking", SubResource("AnimationNodeStateMachineTransition_8ju71"), "Walking", "Working", SubResource("AnimationNodeStateMachineTransition_xb4mg"), "Working", "Idle", SubResource("AnimationNodeStateMachineTransition_6t1o7"), "Idle", "Working", SubResource("AnimationNodeStateMachineTransition_5qxwa"), "Working", "Walking", SubResource("AnimationNodeStateMachineTransition_xc4hf"), "Walking", "Idle", SubResource("AnimationNodeStateMachineTransition_6rnll"), "Idle", "Talking", SubResource("AnimationNodeStateMachineTransition_q68mp"), "Talking", "Idle", SubResource("AnimationNodeStateMachineTransition_f140w")]
-graph_offset = Vector2(161, -12)
-
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_f140w"]
-points = PackedVector3Array(-0.12520654, -0.532801, -0.4805069, 0.022783129, 0.4760704, 0.49888408, 0.16971254, 0.5591441, 0.46417162, 0.23105091, -0.8035912, 0.32045516, 0.40741014, 0.651043, -0.24352328, -0.4827893, 0.59484255, 0.082213186, -0.3628679, -0.68231165, 0.2896967, 0.46904355, -0.65452886, -0.06627126, -0.12744367, 0.8427015, -0.33810276, -0.39343542, -0.6839421, -0.24471663, 0.43825462, 0.62330925, 0.20084947, 0.0841477, 0.977454, 0.11479468, -0.06820232, -0.9764576, -0.12927033, 0.20054972, -0.56312895, -0.4514544, -0.18552664, 0.59545326, -0.4534751, -0.27336287, 0.59226835, 0.40775412, -0.0069364863, -0.47682306, 0.49966025, 0.37582088, -0.5886136, 0.31695515, 0.111579016, 0.5630594, -0.48117727, -0.41725034, 0.5278656, -0.27049688, -0.48454633, -0.59697217, -0.06650971, -0.27974695, 0.90856135, 0.05333608, -0.25019687, -0.8807117, 0.20531891, 0.263647, -0.90277094, -0.1273943, 0.29336792, 0.8715263, -0.15719566, 0.3734115, -0.5263189, -0.32824618, 0.4996626, 0.47664148, -0.0068885577, 0.053105574, 0.8750009, 0.32470253, -0.15454252, -0.5908538, 0.4658794, -0.09727988, -0.7823577, -0.39818847, -0.3876489, -0.49817133, 0.31564978, -0.30067965, -0.58799505, -0.38890144)
-
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_q68mp"]
+[sub_resource type="SphereShape3D" id="SphereShape3D_q68mp"]
+radius = 1.105
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y4jh7"]
 albedo_color = Color(0.033350494, 0.52112806, 2.4065375e-06, 1)
@@ -109,26 +38,23 @@ albedo_color = Color(0.033350494, 0.52112806, 2.4065375e-06, 1)
 material = SubResource("StandardMaterial3D_y4jh7")
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_0iob3"]
-radius = 1.035
+radius = 1.395
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_8ju71"]
+radius = 0.854
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_y4jh7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_q68mp"]
 
 [node name="GameManager" type="Node3D" unique_id=749767476]
 script = ExtResource("1_7rqgy")
 
+[node name="CreepySounds" parent="." unique_id=1252416560 instance=ExtResource("2_f140w")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+
 [node name="player" parent="." unique_id=1254661000 instance=ExtResource("1_3mqji")]
 transform = Transform3D(-0.19806664, -0.0002666904, 0.9801886, 0.0047144066, 0.9999879, 0.0012247037, -0.9801772, 0.0048635695, -0.198063, 0.13469315, 0.6, 22.403706)
-
-[node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=411251171]
-transform = Transform3D(1, 0, 7.1054274e-15, 0, 1, 0, 7.1054274e-15, 0, 0.99999994, 0, 0, 0)
-navigation_mesh = SubResource("NavigationMesh_y4jh7")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D" unique_id=302933915]
-transform = Transform3D(64.49, 0, -4.9817e-06, 0, -0.18, 0, 5.637895e-06, 0, 56.98401, 0, 0, 0)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/StaticBody3D" unique_id=50002966]
-shape = SubResource("BoxShape3D_qxria")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D/StaticBody3D" unique_id=1674795816]
-mesh = SubResource("BoxMesh_x4av3")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=703237182]
 transform = Transform3D(1, 0, 0, 0, 0.89493436, 0.4461978, 0, -0.4461978, 0.89493436, 0, 1.4452751, 3.1428328)
@@ -147,39 +73,18 @@ taskName = "Print the files"
 [node name="Area3D" type="Area3D" parent="paper" unique_id=1162303659]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="paper/Area3D" unique_id=1818586049]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4189999, 0)
 shape = SubResource("SphereShape3D_f140w")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="paper" unique_id=339468633]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="paper/StaticBody3D" unique_id=225306216]
+shape = SubResource("SphereShape3D_q68mp")
 
 [node name="TaskManager" parent="." unique_id=1926607034 instance=ExtResource("5_y4jh7")]
 
-[node name="supervisor" type="MeshInstance3D" parent="." unique_id=1965449020]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.39, 0)
-mesh = SubResource("CapsuleMesh_y4jh7")
-script = ExtResource("6_q68mp")
-
-[node name="AnimationTree" type="AnimationTree" parent="supervisor" unique_id=457191430]
-root_node = NodePath("../..")
-tree_root = SubResource("AnimationNodeStateMachine_enc0b")
-anim_player = NodePath("../../AnimationPlayer")
-parameters/Idle/blend_position = Vector2(0, 0)
-parameters/Talking/blend_position = Vector2(0, 0)
-parameters/Walking/blend_position = Vector2(0, 0)
-parameters/Working/blend_position = Vector2(0, 0)
-
-[node name="NavigationAgent3D" type="NavigationAgent3D" parent="supervisor" unique_id=94225789]
-debug_enabled = true
-
-[node name="CharacterBody3D" type="CharacterBody3D" parent="supervisor" unique_id=87099663]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="supervisor/CharacterBody3D" unique_id=1654924993]
-shape = SubResource("ConvexPolygonShape3D_f140w")
-
-[node name="Area3D" type="Area3D" parent="supervisor/CharacterBody3D" unique_id=624131547]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="supervisor/CharacterBody3D/Area3D" unique_id=720406498]
-shape = SubResource("CapsuleShape3D_q68mp")
-
 [node name="water" type="MeshInstance3D" parent="." unique_id=721347729]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.609, 0.798, -18.909)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.609, 1.5629545, -18.909)
 mesh = SubResource("PrismMesh_q68mp")
 script = ExtResource("6_y4jh7")
 maxTime = 60
@@ -190,6 +95,25 @@ taskName = "Check up on Naomi"
 [node name="CollisionShape3D" type="CollisionShape3D" parent="water/Area3D" unique_id=1902928573]
 shape = SubResource("SphereShape3D_0iob3")
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1719257011]
+[node name="StaticBody3D" type="StaticBody3D" parent="water" unique_id=226795829]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="water/StaticBody3D" unique_id=193389322]
+shape = SubResource("SphereShape3D_8ju71")
+
+[node name="Tyler" parent="." unique_id=1424354333 instance=ExtResource("8_f140w")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -10.207959, 0.010547996, 13.687588)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1062916665]
+transform = Transform3D(31.28, 0, 0, 0, 31.28, 0, 0, 0, 31.28, 0, 0, 0)
+mesh = SubResource("PlaneMesh_y4jh7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D" unique_id=1538379565]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" unique_id=1915454530]
+transform = Transform3D(1.98, 0, 0, 0, 0.01, 0, 0, 0, 1.98, 0, 0, 0)
+shape = SubResource("BoxShape3D_q68mp")
+
+[node name="Emily" parent="." unique_id=1460780756 instance=ExtResource("7_q68mp")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
 
 [connection signal="body_entered" from="paper/Area3D" to="paper" method="_on_area_3d_body_entered"]

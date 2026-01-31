@@ -4,17 +4,11 @@
 [ext_resource type="Script" uid="uid://cfwb3ak5wcmb" path="res://Scripts/playerCamera.gd" id="2_6t5aa"]
 [ext_resource type="Script" uid="uid://batecmuhoi3qa" path="res://Scripts/player_interaction.gd" id="2_cvnsp"]
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_6t5aa"]
-
 [sub_resource type="SphereShape3D" id="SphereShape3D_vgqql"]
 
 [node name="Player" type="CharacterBody3D" unique_id=1254661000 groups=["player"]]
 transform = Transform3D(-0.050261766, 0, 0.9987361, 0, 1, 0, -0.9987361, 0, -0.050261766, 0, 0, 0)
 script = ExtResource("1_4flbx")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1592506674 groups=["player"]]
-transform = Transform3D(0.99376786, 0, -0.111468926, 0, 1, 0, 0.111468926, 0, 0.99376786, 0, 0, 0)
-mesh = SubResource("CapsuleMesh_6t5aa")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1219749135 groups=["player"]]
 shape = SubResource("SphereShape3D_vgqql")
@@ -33,3 +27,5 @@ script = ExtResource("2_6t5aa")
 
 [node name="PlayerInteraction" type="Node3D" parent="." unique_id=649944021 groups=["player"]]
 script = ExtResource("2_cvnsp")
+
+[node name="AudioListener3D" type="AudioListener3D" parent="." unique_id=1744794726]
