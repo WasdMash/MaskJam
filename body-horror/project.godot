@@ -15,6 +15,10 @@ run/main_scene="uid://bfm3y502x7i38"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://Sprites/icon.svg"
 
+[autoload]
+
+SoundManager="*uid://coa7q00l1r7ju"
+
 [input]
 
 move_left={

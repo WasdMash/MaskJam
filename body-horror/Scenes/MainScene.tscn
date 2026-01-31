@@ -44,5 +44,3 @@ transform = Transform3D(1, 0, 0, 0, 0.89493436, 0.4461978, 0, -0.4461978, 0.8949
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=243592655]
 environment = SubResource("Environment_x4av3")
-
-[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=966106799]
