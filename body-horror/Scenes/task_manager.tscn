@@ -6,24 +6,18 @@
 position = Vector2(16, 18)
 script = ExtResource("1_pwv7l")
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=290223822]
-offset_right = 130.4
-offset_bottom = 172.915
-scale = Vector2(2.115, 2.115)
-color = Color(0.35933068, 0.3019789, 0.12489798, 1)
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=947538667]
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(4.6800003, 6.96)
 
-[node name="TaskTitles" type="Label" parent="ColorRect" unique_id=1642646782]
-layout_mode = 0
-offset_left = 0.94562644
-offset_top = -0.94562644
-offset_right = 123.945625
-offset_bottom = 22.054373
+[node name="TaskTitles" type="Label" parent="PanelContainer" unique_id=1642646782]
+layout_mode = 2
 text = "Tasks for today:"
 
-[node name="ActualTaskList" type="Label" parent="ColorRect" unique_id=338893122]
-layout_mode = 0
-offset_top = 36.40662
-offset_right = 40.0
-offset_bottom = 59.40662
+[node name="ActualTaskList" type="Label" parent="PanelContainer" unique_id=338893122]
+custom_minimum_size = Vector2(40, 0)
+layout_mode = 2
 theme_override_font_sizes/font_size = 13
 text = "* "
+autowrap_mode = 3
