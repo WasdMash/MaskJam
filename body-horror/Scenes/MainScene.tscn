@@ -6,7 +6,8 @@
 [ext_resource type="PackedScene" uid="uid://cgjtlspjihm6k" path="res://Scenes/choice_control.tscn" id="3_nhkr4"]
 [ext_resource type="Script" uid="uid://b4fl20l7bo6n3" path="res://Scripts/choice_control.gd" id="5_qxria"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_3mqji"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_qxria"]
+size = Vector3(21, 1, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3mqji"]
 albedo_color = Color(0, 0.39667907, 0.39814213, 1)
@@ -34,13 +35,13 @@ script = ExtResource("1_7rqgy")
 choiceControl = NodePath("ChoiceControl")
 
 [node name="CharacterBody3D" parent="." unique_id=1254661000 instance=ExtResource("1_3mqji")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 2.4313936)
+transform = Transform3D(-0.19806664, -0.0002666904, 0.9801886, 0.0047144066, 0.9999879, 0.0012247037, -0.9801772, 0.0048635695, -0.198063, 0.13469315, 0.6, 2.1869235)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=302933915]
 transform = Transform3D(64.49, 0, -4.9816995e-06, 0, -0.18, 0, 5.637895e-06, 0, 56.984, 0, 0, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=50002966]
-shape = SubResource("BoxShape3D_3mqji")
+shape = SubResource("BoxShape3D_qxria")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=1674795816]
 mesh = SubResource("BoxMesh_x4av3")
