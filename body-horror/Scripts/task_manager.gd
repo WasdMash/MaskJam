@@ -25,10 +25,12 @@ var currentTask: Label
 enum wellbeing{NORMAL,CREEP,WTF}
 
 func beginTask(taskName: String, taskMaxTime : float) -> void:
-	taskStarted = true
-	currentTaskName = taskName
-	currentMaxTaskTime = taskMaxTime
-	currentTask.text = "Current task: " + currentTaskName
+	#only start tasks that haven't been done yet - no takebacks
+	if tasks[taskName] == completion.NOT_DONE:
+		taskStarted = true
+		currentTaskName = taskName
+		currentMaxTaskTime = taskMaxTime
+		currentTask.text = "Current task: " + currentTaskName
 	
 func completeTask(insanityIndex : int):
 	#Now we can complete said task
