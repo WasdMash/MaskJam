@@ -1,4 +1,4 @@
-extends MeshInstance3D
+extends Node3D
 #Let's be mean and put a timer on the task
 	#Depending on how quickly the bottle is given to the manager, we determine how well this task is done
 #This max time should be unique based on the task
@@ -8,7 +8,6 @@ extends MeshInstance3D
 func _on_area_3d_body_entered(body: Node3D) -> void:
 	if body.is_in_group("player"):
 		#Cool, now let's just trigger the task for now
-		print("Let's get that paper")
 		TaskManager.beginTask(taskName, maxTime)
 		
 func _process(delta: float) -> void:

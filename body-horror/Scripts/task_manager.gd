@@ -27,6 +27,7 @@ func beginTask(taskName: String, taskMaxTime : float) -> void:
 	taskStarted = true
 	currentTaskName = taskName
 	currentMaxTaskTime = taskMaxTime
+	print(currentTaskName)
 	
 func completeTask(insanityIndex : int):
 	#Now we can complete said task

@@ -1,20 +1,8 @@
-- Single-player mechanics
-- Learn Godot together
-- 5 office-workers and then 1
-- 3D
-	- We have to walk around
-- Tasks sidebar
-	- Just tick tasks when they are done, either good or bad
+
+- In menu, give instructions so that new players know what to do
 - Dialogue system
 	- Text system - how are we storing the text?
-- Insanity meter
-	- Could be visually shown with a bar or hinted with a vignette filter
-- Clock in the top right
-	- Set time to complete all of the tasks for the day
-		- We have 7 days in-game
-		- Tasks like:
-			- Helping out colleagues - two choices to help them out
-			- 
+
 	- Can talk to people - ignore them or talk to them - can this affect their sanity?
 - Choices
 	- Each task has two choices on how we complete it
