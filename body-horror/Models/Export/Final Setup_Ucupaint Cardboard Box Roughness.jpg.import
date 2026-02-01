@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://blp8rd2c83da0"
 path.s3tc="res://.godot/imported/Final Setup_Ucupaint Cardboard Box Roughness.jpg-e9cc48fe1e76a644b63771cad85c27d1.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Ucupaint Cardboard Box Roughness.jpg-e9cc48fe1e76a644b63771cad85c27d1.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Ucupaint Cardboard Box Roughness.jpg"
-dest_files=["res://.godot/imported/Final Setup_Ucupaint Cardboard Box Roughness.jpg-e9cc48fe1e76a644b63771cad85c27d1.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Ucupaint Cardboard Box Roughness.jpg-e9cc48fe1e76a644b63771cad85c27d1.s3tc.ctex", "res://.godot/imported/Final Setup_Ucupaint Cardboard Box Roughness.jpg-e9cc48fe1e76a644b63771cad85c27d1.etc2.ctex"]
 
 [params]
 

@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgpx17ol6k8v6"
 path.s3tc="res://.godot/imported/Office_Ucupaint Binder 2 Normal.jpg-67ad5c2d2e138423921067e011e746f5.s3tc.ctex"
+path.etc2="res://.godot/imported/Office_Ucupaint Binder 2 Normal.jpg-67ad5c2d2e138423921067e011e746f5.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Maps/Office_Ucupaint Binder 2 Normal.jpg"
-dest_files=["res://.godot/imported/Office_Ucupaint Binder 2 Normal.jpg-67ad5c2d2e138423921067e011e746f5.s3tc.ctex"]
+dest_files=["res://.godot/imported/Office_Ucupaint Binder 2 Normal.jpg-67ad5c2d2e138423921067e011e746f5.s3tc.ctex", "res://.godot/imported/Office_Ucupaint Binder 2 Normal.jpg-67ad5c2d2e138423921067e011e746f5.etc2.ctex"]
 
 [params]
 

@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://js2tui3dvber"
 path.s3tc="res://.godot/imported/Office_Ucupaint PC Creme Front Normal.jpg-fabe631640b672a51f2a7399da3cb387.s3tc.ctex"
+path.etc2="res://.godot/imported/Office_Ucupaint PC Creme Front Normal.jpg-fabe631640b672a51f2a7399da3cb387.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Maps/Office_Ucupaint PC Creme Front Normal.jpg"
-dest_files=["res://.godot/imported/Office_Ucupaint PC Creme Front Normal.jpg-fabe631640b672a51f2a7399da3cb387.s3tc.ctex"]
+dest_files=["res://.godot/imported/Office_Ucupaint PC Creme Front Normal.jpg-fabe631640b672a51f2a7399da3cb387.s3tc.ctex", "res://.godot/imported/Office_Ucupaint PC Creme Front Normal.jpg-fabe631640b672a51f2a7399da3cb387.etc2.ctex"]
 
 [params]
 

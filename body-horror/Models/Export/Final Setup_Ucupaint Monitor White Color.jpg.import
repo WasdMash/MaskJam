@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg0648my1if0u"
 path.s3tc="res://.godot/imported/Final Setup_Ucupaint Monitor White Color.jpg-058e1e9ea5f229144fe75c9fe5c25056.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Ucupaint Monitor White Color.jpg-058e1e9ea5f229144fe75c9fe5c25056.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Ucupaint Monitor White Color.jpg"
-dest_files=["res://.godot/imported/Final Setup_Ucupaint Monitor White Color.jpg-058e1e9ea5f229144fe75c9fe5c25056.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Ucupaint Monitor White Color.jpg-058e1e9ea5f229144fe75c9fe5c25056.s3tc.ctex", "res://.godot/imported/Final Setup_Ucupaint Monitor White Color.jpg-058e1e9ea5f229144fe75c9fe5c25056.etc2.ctex"]
 
 [params]
 

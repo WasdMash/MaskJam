@@ -15,41 +15,55 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_xhh6f")
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1942016214]
-visible = false
-layout_mode = 0
-offset_left = -7.0
-offset_top = -7.0
-offset_right = 1158.0
-offset_bottom = 655.0
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=166048394]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer" unique_id=1942016214]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 color = Color(0.09, 0.072450005, 0.019800004, 1)
 
-[node name="Label" type="Label" parent="." unique_id=829047304]
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer" unique_id=1844549413]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_xhh6f")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=439297207]
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -329.0
+offset_right = 329.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer" unique_id=829047304]
 z_index = 1
-layout_mode = 0
-offset_right = 1152.0
-offset_bottom = 261.0
+layout_mode = 2
+size_flags_vertical = 6
 text = "The Night Shift"
 label_settings = SubResource("LabelSettings_4hy44")
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1844549413]
-layout_mode = 0
-offset_right = 3508.0
-offset_bottom = 2480.0
-scale = Vector2(0.33, 0.29)
-texture = ExtResource("2_xhh6f")
+[node name="Control" type="Control" parent="CanvasLayer/VBoxContainer" unique_id=233460545]
+layout_mode = 2
+size_flags_vertical = 3
 
-[node name="Button" type="Button" parent="." unique_id=1259135301]
-layout_mode = 0
-offset_left = 454.0
-offset_top = 534.0
-offset_right = 720.0
-offset_bottom = 599.0
+[node name="Button" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1259135301]
+layout_mode = 2
+size_flags_vertical = 3
 theme_override_colors/font_hover_color = Color(0.56508195, 0.5300347, 0.24726555, 1)
 theme_override_font_sizes/font_size = 40
 text = "Start"
 flat = true
 
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/VBoxContainer/Button" to="." method="_on_button_pressed"]

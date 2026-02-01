@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cm68xr0omft8n"
 path.s3tc="res://.godot/imported/Ucupaint Printer Top White Roughness.jpg-b98a8146e73f818455f035983ca6d11b.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Printer Top White Roughness.jpg-b98a8146e73f818455f035983ca6d11b.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Ucupaint Printer Top White Roughness.jpg"
-dest_files=["res://.godot/imported/Ucupaint Printer Top White Roughness.jpg-b98a8146e73f818455f035983ca6d11b.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ucupaint Printer Top White Roughness.jpg-b98a8146e73f818455f035983ca6d11b.s3tc.ctex", "res://.godot/imported/Ucupaint Printer Top White Roughness.jpg-b98a8146e73f818455f035983ca6d11b.etc2.ctex"]
 
 [params]
 

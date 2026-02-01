@@ -19,4 +19,7 @@ func _process(delta: float) -> void:
 
 
 func _on_body_entered(body: Node3D) -> void:
-	pass # Replace with function body.
+	if body.is_in_group("player") and TaskManager.currentTaskName == "":
+		#Cool, now let's just trigger the task for now
+		#Should probably check first to see if the task has already been done first
+		TaskManager.beginTask(taskName, maxTime, insaneIndex) #Replace with function body.

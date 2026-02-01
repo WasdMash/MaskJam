@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cst077wkqfxti"
 path.s3tc="res://.godot/imported/Final Setup_WhatsApp Image 2026-01-31 at 11.27.jpg-be6c33f3df2b3cab7a2b5f11eed6f47c.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_WhatsApp Image 2026-01-31 at 11.27.jpg-be6c33f3df2b3cab7a2b5f11eed6f47c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_WhatsApp Image 2026-01-31 at 11.27.jpg"
-dest_files=["res://.godot/imported/Final Setup_WhatsApp Image 2026-01-31 at 11.27.jpg-be6c33f3df2b3cab7a2b5f11eed6f47c.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_WhatsApp Image 2026-01-31 at 11.27.jpg-be6c33f3df2b3cab7a2b5f11eed6f47c.s3tc.ctex", "res://.godot/imported/Final Setup_WhatsApp Image 2026-01-31 at 11.27.jpg-be6c33f3df2b3cab7a2b5f11eed6f47c.etc2.ctex"]
 
 [params]
 

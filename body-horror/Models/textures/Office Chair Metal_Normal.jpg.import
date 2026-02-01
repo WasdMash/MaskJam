@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw4fgiqlsbjw4"
 path.s3tc="res://.godot/imported/Office Chair Metal_Normal.jpg-a3b8e157846196e24d99c7bf5b5ed429.s3tc.ctex"
+path.etc2="res://.godot/imported/Office Chair Metal_Normal.jpg-a3b8e157846196e24d99c7bf5b5ed429.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Office Chair Metal_Normal.jpg"
-dest_files=["res://.godot/imported/Office Chair Metal_Normal.jpg-a3b8e157846196e24d99c7bf5b5ed429.s3tc.ctex"]
+dest_files=["res://.godot/imported/Office Chair Metal_Normal.jpg-a3b8e157846196e24d99c7bf5b5ed429.s3tc.ctex", "res://.godot/imported/Office Chair Metal_Normal.jpg-a3b8e157846196e24d99c7bf5b5ed429.etc2.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://d2l6mnhhbj1pt" path="res://Scripts/clock_face.gd" id="1_2ytux"]
 
 [node name="ClockFace" type="Node2D" unique_id=327393787]
-position = Vector2(1018, 101)
+position = Vector2(1641, 145)
 script = ExtResource("1_2ytux")
 
 [node name="HourHand" type="Line2D" parent="." unique_id=1021657836]

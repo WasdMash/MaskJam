@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqdwh8jokpsbc"
 path.s3tc="res://.godot/imported/Table_Metallic-Table_Roughness.jpg-366db763eade03b21229b0daca77d759.s3tc.ctex"
+path.etc2="res://.godot/imported/Table_Metallic-Table_Roughness.jpg-366db763eade03b21229b0daca77d759.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Table_Metallic-Table_Roughness.jpg"
-dest_files=["res://.godot/imported/Table_Metallic-Table_Roughness.jpg-366db763eade03b21229b0daca77d759.s3tc.ctex"]
+dest_files=["res://.godot/imported/Table_Metallic-Table_Roughness.jpg-366db763eade03b21229b0daca77d759.s3tc.ctex", "res://.godot/imported/Table_Metallic-Table_Roughness.jpg-366db763eade03b21229b0daca77d759.etc2.ctex"]
 
 [params]
 

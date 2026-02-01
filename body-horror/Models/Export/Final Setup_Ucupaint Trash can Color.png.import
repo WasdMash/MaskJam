@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgh3v0nm1klx6"
 path.s3tc="res://.godot/imported/Final Setup_Ucupaint Trash can Color.png-c1ebf9dc5e5733dc9640bf0a39823c42.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Ucupaint Trash can Color.png-c1ebf9dc5e5733dc9640bf0a39823c42.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Ucupaint Trash can Color.png"
-dest_files=["res://.godot/imported/Final Setup_Ucupaint Trash can Color.png-c1ebf9dc5e5733dc9640bf0a39823c42.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Ucupaint Trash can Color.png-c1ebf9dc5e5733dc9640bf0a39823c42.s3tc.ctex", "res://.godot/imported/Final Setup_Ucupaint Trash can Color.png-c1ebf9dc5e5733dc9640bf0a39823c42.etc2.ctex"]
 
 [params]
 

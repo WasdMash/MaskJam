@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://qsvx5x77hw60"
 path.s3tc="res://.godot/imported/Final Setup_Ucupaint Fan Brand Color.jpg-607ae36a54947c0490a6353190163dbf.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Ucupaint Fan Brand Color.jpg-607ae36a54947c0490a6353190163dbf.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Ucupaint Fan Brand Color.jpg"
-dest_files=["res://.godot/imported/Final Setup_Ucupaint Fan Brand Color.jpg-607ae36a54947c0490a6353190163dbf.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Ucupaint Fan Brand Color.jpg-607ae36a54947c0490a6353190163dbf.s3tc.ctex", "res://.godot/imported/Final Setup_Ucupaint Fan Brand Color.jpg-607ae36a54947c0490a6353190163dbf.etc2.ctex"]
 
 [params]
 

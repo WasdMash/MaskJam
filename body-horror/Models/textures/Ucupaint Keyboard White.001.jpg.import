@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://tsdtveoeu70w"
 path.s3tc="res://.godot/imported/Ucupaint Keyboard White.001.jpg-07929e4ace0f82fabebb125f8e81b24e.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Keyboard White.001.jpg-07929e4ace0f82fabebb125f8e81b24e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Ucupaint Keyboard White.001.jpg"
-dest_files=["res://.godot/imported/Ucupaint Keyboard White.001.jpg-07929e4ace0f82fabebb125f8e81b24e.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ucupaint Keyboard White.001.jpg-07929e4ace0f82fabebb125f8e81b24e.s3tc.ctex", "res://.godot/imported/Ucupaint Keyboard White.001.jpg-07929e4ace0f82fabebb125f8e81b24e.etc2.ctex"]
 
 [params]
 

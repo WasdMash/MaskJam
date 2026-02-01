@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c73tmnl7qcj7s"
 path.s3tc="res://.godot/imported/Ucupaint Mug 4 Logo-Ucupaint Mug 4 Logo.png-f3e0477d4e3288921f6bc0c4eed1a252.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Mug 4 Logo-Ucupaint Mug 4 Logo.png-f3e0477d4e3288921f6bc0c4eed1a252.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Ucupaint Mug 4 Logo-Ucupaint Mug 4 Logo.png"
-dest_files=["res://.godot/imported/Ucupaint Mug 4 Logo-Ucupaint Mug 4 Logo.png-f3e0477d4e3288921f6bc0c4eed1a252.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ucupaint Mug 4 Logo-Ucupaint Mug 4 Logo.png-f3e0477d4e3288921f6bc0c4eed1a252.s3tc.ctex", "res://.godot/imported/Ucupaint Mug 4 Logo-Ucupaint Mug 4 Logo.png-f3e0477d4e3288921f6bc0c4eed1a252.etc2.ctex"]
 
 [params]
 

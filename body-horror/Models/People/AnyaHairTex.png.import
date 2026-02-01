@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc3lcli7aykn3"
 path.s3tc="res://.godot/imported/AnyaHairTex.png-95ee9961946eab9983a7a66764e0b52b.s3tc.ctex"
+path.etc2="res://.godot/imported/AnyaHairTex.png-95ee9961946eab9983a7a66764e0b52b.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/People/AnyaHairTex.png"
-dest_files=["res://.godot/imported/AnyaHairTex.png-95ee9961946eab9983a7a66764e0b52b.s3tc.ctex"]
+dest_files=["res://.godot/imported/AnyaHairTex.png-95ee9961946eab9983a7a66764e0b52b.s3tc.ctex", "res://.godot/imported/AnyaHairTex.png-95ee9961946eab9983a7a66764e0b52b.etc2.ctex"]
 
 [params]
 

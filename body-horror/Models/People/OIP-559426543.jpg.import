@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmsildc0hlu1d"
 path.s3tc="res://.godot/imported/OIP-559426543.jpg-cc2658694d2cb0bfbbcd7dc58611f2db.s3tc.ctex"
+path.etc2="res://.godot/imported/OIP-559426543.jpg-cc2658694d2cb0bfbbcd7dc58611f2db.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/People/OIP-559426543.jpg"
-dest_files=["res://.godot/imported/OIP-559426543.jpg-cc2658694d2cb0bfbbcd7dc58611f2db.s3tc.ctex"]
+dest_files=["res://.godot/imported/OIP-559426543.jpg-cc2658694d2cb0bfbbcd7dc58611f2db.s3tc.ctex", "res://.godot/imported/OIP-559426543.jpg-cc2658694d2cb0bfbbcd7dc58611f2db.etc2.ctex"]
 
 [params]
 

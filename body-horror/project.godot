@@ -27,9 +27,14 @@ directories/dch_directory={}
 directories/dtl_directory={}
 layout/style_directory={}
 
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+
 [editor_plugins]
 
-enabled=PackedStringArray()
+enabled=PackedStringArray("res://addons/virtual_joystick/plugin.cfg")
 
 [filesystem]
 
@@ -74,3 +79,4 @@ Interact={
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+textures/vram_compression/import_etc2_astc=true

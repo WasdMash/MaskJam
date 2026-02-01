@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dgxcft2700dkq"
 path.s3tc="res://.godot/imported/Office_Ucupaint Mouse Creme Roughness.jpg-250f93c8ca4443a09d9d88975662b575.s3tc.ctex"
+path.etc2="res://.godot/imported/Office_Ucupaint Mouse Creme Roughness.jpg-250f93c8ca4443a09d9d88975662b575.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Maps/Office_Ucupaint Mouse Creme Roughness.jpg"
-dest_files=["res://.godot/imported/Office_Ucupaint Mouse Creme Roughness.jpg-250f93c8ca4443a09d9d88975662b575.s3tc.ctex"]
+dest_files=["res://.godot/imported/Office_Ucupaint Mouse Creme Roughness.jpg-250f93c8ca4443a09d9d88975662b575.s3tc.ctex", "res://.godot/imported/Office_Ucupaint Mouse Creme Roughness.jpg-250f93c8ca4443a09d9d88975662b575.etc2.ctex"]
 
 [params]
 

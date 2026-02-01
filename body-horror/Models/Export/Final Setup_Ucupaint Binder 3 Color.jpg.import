@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl1gsbhglidc5"
 path.s3tc="res://.godot/imported/Final Setup_Ucupaint Binder 3 Color.jpg-7e5be7063d2ee250ae1f63fc3818797c.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Ucupaint Binder 3 Color.jpg-7e5be7063d2ee250ae1f63fc3818797c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Ucupaint Binder 3 Color.jpg"
-dest_files=["res://.godot/imported/Final Setup_Ucupaint Binder 3 Color.jpg-7e5be7063d2ee250ae1f63fc3818797c.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Ucupaint Binder 3 Color.jpg-7e5be7063d2ee250ae1f63fc3818797c.s3tc.ctex", "res://.godot/imported/Final Setup_Ucupaint Binder 3 Color.jpg-7e5be7063d2ee250ae1f63fc3818797c.etc2.ctex"]
 
 [params]
 

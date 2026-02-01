@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://hf1hwrhlwu6h"
 path.s3tc="res://.godot/imported/Final Setup_Ucupaint Mug 4 Normal.jpg-ee84b985288eed62474c8e7d9fe5c1fc.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Ucupaint Mug 4 Normal.jpg-ee84b985288eed62474c8e7d9fe5c1fc.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Ucupaint Mug 4 Normal.jpg"
-dest_files=["res://.godot/imported/Final Setup_Ucupaint Mug 4 Normal.jpg-ee84b985288eed62474c8e7d9fe5c1fc.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Ucupaint Mug 4 Normal.jpg-ee84b985288eed62474c8e7d9fe5c1fc.s3tc.ctex", "res://.godot/imported/Final Setup_Ucupaint Mug 4 Normal.jpg-ee84b985288eed62474c8e7d9fe5c1fc.etc2.ctex"]
 
 [params]
 

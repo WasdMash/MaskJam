@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwgae1tydllja"
 path.s3tc="res://.godot/imported/Fan Head_Alpha.jpg-4d998d2996e55e5db6246c947811e225.s3tc.ctex"
+path.etc2="res://.godot/imported/Fan Head_Alpha.jpg-4d998d2996e55e5db6246c947811e225.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Fan Head_Alpha.jpg"
-dest_files=["res://.godot/imported/Fan Head_Alpha.jpg-4d998d2996e55e5db6246c947811e225.s3tc.ctex"]
+dest_files=["res://.godot/imported/Fan Head_Alpha.jpg-4d998d2996e55e5db6246c947811e225.s3tc.ctex", "res://.godot/imported/Fan Head_Alpha.jpg-4d998d2996e55e5db6246c947811e225.etc2.ctex"]
 
 [params]
 

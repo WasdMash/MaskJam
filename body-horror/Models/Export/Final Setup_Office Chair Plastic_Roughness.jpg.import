@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cku5bvn3tpqm8"
 path.s3tc="res://.godot/imported/Final Setup_Office Chair Plastic_Roughness.jpg-db57294107811f34d59dc62d5fb822ee.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Office Chair Plastic_Roughness.jpg-db57294107811f34d59dc62d5fb822ee.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Office Chair Plastic_Roughness.jpg"
-dest_files=["res://.godot/imported/Final Setup_Office Chair Plastic_Roughness.jpg-db57294107811f34d59dc62d5fb822ee.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Office Chair Plastic_Roughness.jpg-db57294107811f34d59dc62d5fb822ee.s3tc.ctex", "res://.godot/imported/Final Setup_Office Chair Plastic_Roughness.jpg-db57294107811f34d59dc62d5fb822ee.etc2.ctex"]
 
 [params]
 

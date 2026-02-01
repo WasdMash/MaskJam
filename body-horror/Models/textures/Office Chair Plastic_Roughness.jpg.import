@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bek0rslmupac2"
 path.s3tc="res://.godot/imported/Office Chair Plastic_Roughness.jpg-1b531390013cc5a4f1191e6526f3f44e.s3tc.ctex"
+path.etc2="res://.godot/imported/Office Chair Plastic_Roughness.jpg-1b531390013cc5a4f1191e6526f3f44e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Office Chair Plastic_Roughness.jpg"
-dest_files=["res://.godot/imported/Office Chair Plastic_Roughness.jpg-1b531390013cc5a4f1191e6526f3f44e.s3tc.ctex"]
+dest_files=["res://.godot/imported/Office Chair Plastic_Roughness.jpg-1b531390013cc5a4f1191e6526f3f44e.s3tc.ctex", "res://.godot/imported/Office Chair Plastic_Roughness.jpg-1b531390013cc5a4f1191e6526f3f44e.etc2.ctex"]
 
 [params]
 

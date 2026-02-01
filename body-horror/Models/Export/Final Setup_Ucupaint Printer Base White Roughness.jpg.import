@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://wulih0aj85mr"
 path.s3tc="res://.godot/imported/Final Setup_Ucupaint Printer Base White Roughness.jpg-1e4d9b0ad8d1ce92b5ad1a2a9d85535c.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Ucupaint Printer Base White Roughness.jpg-1e4d9b0ad8d1ce92b5ad1a2a9d85535c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Ucupaint Printer Base White Roughness.jpg"
-dest_files=["res://.godot/imported/Final Setup_Ucupaint Printer Base White Roughness.jpg-1e4d9b0ad8d1ce92b5ad1a2a9d85535c.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Ucupaint Printer Base White Roughness.jpg-1e4d9b0ad8d1ce92b5ad1a2a9d85535c.s3tc.ctex", "res://.godot/imported/Final Setup_Ucupaint Printer Base White Roughness.jpg-1e4d9b0ad8d1ce92b5ad1a2a9d85535c.etc2.ctex"]
 
 [params]
 

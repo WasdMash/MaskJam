@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6y2nahpjns46"
 path.s3tc="res://.godot/imported/Ucupaint Fan_Metal Normal.jpg-fc4ef4ebc20c5171c677643ae278ec9c.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Fan_Metal Normal.jpg-fc4ef4ebc20c5171c677643ae278ec9c.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Ucupaint Fan_Metal Normal.jpg"
-dest_files=["res://.godot/imported/Ucupaint Fan_Metal Normal.jpg-fc4ef4ebc20c5171c677643ae278ec9c.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ucupaint Fan_Metal Normal.jpg-fc4ef4ebc20c5171c677643ae278ec9c.s3tc.ctex", "res://.godot/imported/Ucupaint Fan_Metal Normal.jpg-fc4ef4ebc20c5171c677643ae278ec9c.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqp4bphljsqt3"
 path.s3tc="res://.godot/imported/Ucupaint PC White Front Color.jpg-665671fb0c17862cffacedde77b1d784.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint PC White Front Color.jpg-665671fb0c17862cffacedde77b1d784.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Ucupaint PC White Front Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint PC White Front Color.jpg-665671fb0c17862cffacedde77b1d784.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ucupaint PC White Front Color.jpg-665671fb0c17862cffacedde77b1d784.s3tc.ctex", "res://.godot/imported/Ucupaint PC White Front Color.jpg-665671fb0c17862cffacedde77b1d784.etc2.ctex"]
 
 [params]
 

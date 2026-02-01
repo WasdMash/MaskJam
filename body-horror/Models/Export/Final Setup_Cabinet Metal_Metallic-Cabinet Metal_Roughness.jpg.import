@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqsoai8hxm4b2"
 path.s3tc="res://.godot/imported/Final Setup_Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg-6fe10bab11a8150a4d9a7656528111db.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg-6fe10bab11a8150a4d9a7656528111db.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg"
-dest_files=["res://.godot/imported/Final Setup_Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg-6fe10bab11a8150a4d9a7656528111db.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg-6fe10bab11a8150a4d9a7656528111db.s3tc.ctex", "res://.godot/imported/Final Setup_Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg-6fe10bab11a8150a4d9a7656528111db.etc2.ctex"]
 
 [params]
 

@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cppcjyuwk7dsg"
 path.s3tc="res://.godot/imported/Ucupaint Black Lamp Normal.jpg-6963209af9dd08054117928c38d7cf6d.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Black Lamp Normal.jpg-6963209af9dd08054117928c38d7cf6d.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Ucupaint Black Lamp Normal.jpg"
-dest_files=["res://.godot/imported/Ucupaint Black Lamp Normal.jpg-6963209af9dd08054117928c38d7cf6d.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ucupaint Black Lamp Normal.jpg-6963209af9dd08054117928c38d7cf6d.s3tc.ctex", "res://.godot/imported/Ucupaint Black Lamp Normal.jpg-6963209af9dd08054117928c38d7cf6d.etc2.ctex"]
 
 [params]
 

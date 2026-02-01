@@ -40,22 +40,12 @@ height = 2.8
 [sub_resource type="SphereShape3D" id="SphereShape3D_jbpsx"]
 radius = 0.805
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y4jh7"]
-transparency = 1
-albedo_color = Color(0.03529412, 0.52156866, 0, 0)
-
-[sub_resource type="PrismMesh" id="PrismMesh_iv3nx"]
-material = SubResource("StandardMaterial3D_y4jh7")
-
 [sub_resource type="SphereShape3D" id="SphereShape3D_qt07c"]
-radius = 1.395
-
-[sub_resource type="SphereShape3D" id="SphereShape3D_1jhdf"]
-radius = 0.854
+radius = 2.025
 
 [node name="Final Setup" unique_id=611171965 instance=ExtResource("1_8hs6q")]
 
-[node name="Plane" parent="." index="1" unique_id=102884732]
+[node name="Plane" parent="." index="1" unique_id=854627984]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.004415989, 0.0035786629, -0.0020589828)
 
 [node name="paper" type="MeshInstance3D" parent="Plane" index="0" unique_id=1218256643]
@@ -114,14 +104,14 @@ insaneIndex = 3
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.19, 0)
 shape = SubResource("CapsuleShape3D_f0i4i")
 
-[node name="Area3D" type="Area3D" parent="Node_72" parent_id_path=PackedInt32Array(407053164) index="2" unique_id=179260236]
+[node name="Area3D" type="Area3D" parent="Node_72" parent_id_path=PackedInt32Array(1712952247) index="2" unique_id=179260236]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9560914, -0.6412532, -9.826918)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Node_72/Area3D" index="0" unique_id=1686839977]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.175, 0)
 shape = SubResource("SphereShape3D_j7bc1")
 
-[node name="Emily" type="CharacterBody3D" parent="Armature_001/Skeleton3D" parent_id_path=PackedInt32Array(1223434262) index="1" unique_id=117270457]
+[node name="Emily" type="CharacterBody3D" parent="Armature_001/Skeleton3D" parent_id_path=PackedInt32Array(1382665536) index="1" unique_id=117270457]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.015, 0)
 script = ExtResource("3_j7bc1")
 
@@ -130,13 +120,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.165, -0.265, -0.24)
 shape = SubResource("CapsuleShape3D_xxu8d")
 disabled = true
 
-[node name="Area3D" type="Area3D" parent="Armature_001/Skeleton3D" parent_id_path=PackedInt32Array(1223434262) index="2" unique_id=1346405549]
+[node name="Area3D" type="Area3D" parent="Armature_001/Skeleton3D" parent_id_path=PackedInt32Array(1382665536) index="2" unique_id=1346405549]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Armature_001/Skeleton3D/Area3D" index="0" unique_id=564843305]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.705, -0.22)
 shape = SubResource("SphereShape3D_iv3nx")
 
-[node name="John" type="CharacterBody3D" parent="Armature_002" parent_id_path=PackedInt32Array(315562576) index="1" unique_id=1133185329]
+[node name="John" type="CharacterBody3D" parent="Armature_002" parent_id_path=PackedInt32Array(1158536705) index="1" unique_id=1133185329]
 transform = Transform3D(1, 0, 0, 0, 0.99999994, 0, 0, 0, 1, -0.09376478, 0, 0.641263)
 script = ExtResource("2_f0i4i")
 taskName = "Talk to John"
@@ -145,14 +135,14 @@ taskName = "Talk to John"
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.38, 0, 0.09)
 shape = SubResource("CapsuleShape3D_qt07c")
 
-[node name="Area3D" type="Area3D" parent="Armature_002" parent_id_path=PackedInt32Array(315562576) index="2" unique_id=1586699751]
+[node name="Area3D" type="Area3D" parent="Armature_002" parent_id_path=PackedInt32Array(1158536705) index="2" unique_id=1586699751]
 transform = Transform3D(1, 0, 0, 0, 0.99999994, 0, 0, 0, 1, -0.09376478, 0, 0.641263)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Armature_002/Area3D" index="0" unique_id=2089569383]
 transform = Transform3D(1.345, 0, 0, 0, 1.345, 0, 2.9802322e-08, 0, 1.345, 0.3172469, 0, 0.046388626)
 shape = SubResource("SphereShape3D_pw8bg")
 
-[node name="Naomi" type="CharacterBody3D" parent="Armature_003/Skeleton3D" parent_id_path=PackedInt32Array(1724045898) index="1" unique_id=1426972240]
+[node name="Naomi" type="CharacterBody3D" parent="Armature_003/Skeleton3D" parent_id_path=PackedInt32Array(1794613798) index="1" unique_id=1426972240]
 script = ExtResource("2_f0i4i")
 maxTime = 15
 taskName = "Check up on Naomi"
@@ -161,7 +151,7 @@ taskName = "Check up on Naomi"
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4336023, 0, -0.57042)
 shape = SubResource("CapsuleShape3D_j7bc1")
 
-[node name="Area3D" type="Area3D" parent="Armature_003/Skeleton3D" parent_id_path=PackedInt32Array(1724045898) index="2" unique_id=316615158]
+[node name="Area3D" type="Area3D" parent="Armature_003/Skeleton3D" parent_id_path=PackedInt32Array(1794613798) index="2" unique_id=316615158]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Armature_003/Skeleton3D/Area3D" index="0" unique_id=1804550618]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.521, 0.74, -0.636)
@@ -169,3 +159,35 @@ shape = SubResource("SphereShape3D_jbpsx")
 
 [node name="water" type="MeshInstance3D" parent="." index="159" unique_id=1940666556]
 transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0.90457165, 0.5, 0)
+
+[node name="Node3D" type="Node3D" parent="water" index="0" unique_id=1703513487]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06382799, 0.35257876, -28.777527)
+script = ExtResource("2_f0i4i")
+taskName = "Fetch Emily water"
+
+[node name="Area3D" type="Area3D" parent="water/Node3D" index="0" unique_id=1007155993]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="water/Node3D/Area3D" index="0" unique_id=894648937]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.16750336, 0, 0.25340652)
+shape = SubResource("SphereShape3D_qt07c")
+
+[node name="Node3D2" type="Node3D" parent="water" index="1" unique_id=284311073]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.410763, 0, -17.161793)
+script = ExtResource("2_f0i4i")
+taskName = "Fetch Emily water"
+
+[node name="Area3D" type="Area3D" parent="water/Node3D2" index="0" unique_id=947811410]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="water/Node3D2/Area3D" index="0" unique_id=1942002892]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.16750336, 0, 0.25340652)
+shape = SubResource("SphereShape3D_qt07c")
+
+[connection signal="body_entered" from="Plane/paper/Area3D" to="Plane/paper" method="_on_area_3d_body_entered"]
+[connection signal="body_entered" from="Plane/paper2/Area3D" to="Plane/paper2" method="_on_area_3d_body_entered"]
+[connection signal="body_entered" from="Trash can_003/Area3D" to="Trash can_003/Area3D" method="_on_body_entered"]
+[connection signal="body_entered" from="Node_72/Area3D" to="Node_72/Tyler" method="_on_area_3d_body_entered"]
+[connection signal="body_entered" from="Armature_001/Skeleton3D/Area3D" to="Armature_001/Skeleton3D/Emily" method="_on_area_3d_body_entered"]
+[connection signal="body_entered" from="Armature_002/Area3D" to="Armature_002/John" method="_on_area_3d_body_entered"]
+[connection signal="body_entered" from="Armature_003/Skeleton3D/Area3D" to="Armature_003/Skeleton3D/Naomi" method="_on_area_3d_body_entered"]
+[connection signal="body_entered" from="water/Node3D/Area3D" to="water/Node3D" method="_on_area_3d_body_entered"]
+[connection signal="body_entered" from="water/Node3D2/Area3D" to="water/Node3D2" method="_on_area_3d_body_entered"]

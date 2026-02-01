@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7mss6qwhvvi3"
 path.s3tc="res://.godot/imported/Final Setup_Ucupaint Binder 3 Metallic-Ucupaint Binder 3 Roughness.jpg-9c1359e769a1b4bf3ed805ca2ed9fa7e.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Ucupaint Binder 3 Metallic-Ucupaint Binder 3 Roughness.jpg-9c1359e769a1b4bf3ed805ca2ed9fa7e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Ucupaint Binder 3 Metallic-Ucupaint Binder 3 Roughness.jpg"
-dest_files=["res://.godot/imported/Final Setup_Ucupaint Binder 3 Metallic-Ucupaint Binder 3 Roughness.jpg-9c1359e769a1b4bf3ed805ca2ed9fa7e.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Ucupaint Binder 3 Metallic-Ucupaint Binder 3 Roughness.jpg-9c1359e769a1b4bf3ed805ca2ed9fa7e.s3tc.ctex", "res://.godot/imported/Final Setup_Ucupaint Binder 3 Metallic-Ucupaint Binder 3 Roughness.jpg-9c1359e769a1b4bf3ed805ca2ed9fa7e.etc2.ctex"]
 
 [params]
 

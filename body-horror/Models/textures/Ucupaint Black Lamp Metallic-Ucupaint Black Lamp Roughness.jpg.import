@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://b86lnledvb45l"
 path.s3tc="res://.godot/imported/Ucupaint Black Lamp Metallic-Ucupaint Black Lamp Roughness.jpg-f18b5efa5c5a029c72b514fa49e32cb1.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Black Lamp Metallic-Ucupaint Black Lamp Roughness.jpg-f18b5efa5c5a029c72b514fa49e32cb1.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Ucupaint Black Lamp Metallic-Ucupaint Black Lamp Roughness.jpg"
-dest_files=["res://.godot/imported/Ucupaint Black Lamp Metallic-Ucupaint Black Lamp Roughness.jpg-f18b5efa5c5a029c72b514fa49e32cb1.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ucupaint Black Lamp Metallic-Ucupaint Black Lamp Roughness.jpg-f18b5efa5c5a029c72b514fa49e32cb1.s3tc.ctex", "res://.godot/imported/Ucupaint Black Lamp Metallic-Ucupaint Black Lamp Roughness.jpg-f18b5efa5c5a029c72b514fa49e32cb1.etc2.ctex"]
 
 [params]
 

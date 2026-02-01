@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://chsa4bjv4rk5d"
 path.s3tc="res://.godot/imported/Ucupaint Transparent blue plastic procedural Normal.jpg-d6b57ec1f8c4a00199f244c8d2c61fab.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Transparent blue plastic procedural Normal.jpg-d6b57ec1f8c4a00199f244c8d2c61fab.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Ucupaint Transparent blue plastic procedural Normal.jpg"
-dest_files=["res://.godot/imported/Ucupaint Transparent blue plastic procedural Normal.jpg-d6b57ec1f8c4a00199f244c8d2c61fab.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ucupaint Transparent blue plastic procedural Normal.jpg-d6b57ec1f8c4a00199f244c8d2c61fab.s3tc.ctex", "res://.godot/imported/Ucupaint Transparent blue plastic procedural Normal.jpg-d6b57ec1f8c4a00199f244c8d2c61fab.etc2.ctex"]
 
 [params]
 

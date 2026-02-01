@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://rrah18t5ari6"
 path.s3tc="res://.godot/imported/Final Setup_Ucupaint DefaultMaterial Normal.jpg-1618f7150adca3c6d6aa554f29c066d6.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Ucupaint DefaultMaterial Normal.jpg-1618f7150adca3c6d6aa554f29c066d6.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Ucupaint DefaultMaterial Normal.jpg"
-dest_files=["res://.godot/imported/Final Setup_Ucupaint DefaultMaterial Normal.jpg-1618f7150adca3c6d6aa554f29c066d6.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Ucupaint DefaultMaterial Normal.jpg-1618f7150adca3c6d6aa554f29c066d6.s3tc.ctex", "res://.godot/imported/Final Setup_Ucupaint DefaultMaterial Normal.jpg-1618f7150adca3c6d6aa554f29c066d6.etc2.ctex"]
 
 [params]
 

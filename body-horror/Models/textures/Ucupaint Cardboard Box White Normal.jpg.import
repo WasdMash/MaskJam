@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcl4ybvk5036j"
 path.s3tc="res://.godot/imported/Ucupaint Cardboard Box White Normal.jpg-8992ba60efe46c6504c4cfaefdeed4dc.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Cardboard Box White Normal.jpg-8992ba60efe46c6504c4cfaefdeed4dc.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Models/Textures/Ucupaint Cardboard Box White Normal.jpg"
-dest_files=["res://.godot/imported/Ucupaint Cardboard Box White Normal.jpg-8992ba60efe46c6504c4cfaefdeed4dc.s3tc.ctex"]
+dest_files=["res://.godot/imported/Ucupaint Cardboard Box White Normal.jpg-8992ba60efe46c6504c4cfaefdeed4dc.s3tc.ctex", "res://.godot/imported/Ucupaint Cardboard Box White Normal.jpg-8992ba60efe46c6504c4cfaefdeed4dc.etc2.ctex"]
 
 [params]
 

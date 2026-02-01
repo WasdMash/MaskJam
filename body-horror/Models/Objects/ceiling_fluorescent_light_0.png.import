@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcb8go1or8ewt"
 path.s3tc="res://.godot/imported/ceiling_fluorescent_light_0.png-18017046f1658f33b37129633d7814cf.s3tc.ctex"
+path.etc2="res://.godot/imported/ceiling_fluorescent_light_0.png-18017046f1658f33b37129633d7814cf.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Objects/ceiling_fluorescent_light_0.png"
-dest_files=["res://.godot/imported/ceiling_fluorescent_light_0.png-18017046f1658f33b37129633d7814cf.s3tc.ctex"]
+dest_files=["res://.godot/imported/ceiling_fluorescent_light_0.png-18017046f1658f33b37129633d7814cf.s3tc.ctex", "res://.godot/imported/ceiling_fluorescent_light_0.png-18017046f1658f33b37129633d7814cf.etc2.ctex"]
 
 [params]
 

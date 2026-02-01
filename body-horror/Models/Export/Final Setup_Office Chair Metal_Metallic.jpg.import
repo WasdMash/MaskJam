@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccapfcbwfa380"
 path.s3tc="res://.godot/imported/Final Setup_Office Chair Metal_Metallic.jpg-efd5db7c32c41a8f540a3d18a0b37d61.s3tc.ctex"
+path.etc2="res://.godot/imported/Final Setup_Office Chair Metal_Metallic.jpg-efd5db7c32c41a8f540a3d18a0b37d61.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://Models/Export/Final Setup_Office Chair Metal_Metallic.jpg"
-dest_files=["res://.godot/imported/Final Setup_Office Chair Metal_Metallic.jpg-efd5db7c32c41a8f540a3d18a0b37d61.s3tc.ctex"]
+dest_files=["res://.godot/imported/Final Setup_Office Chair Metal_Metallic.jpg-efd5db7c32c41a8f540a3d18a0b37d61.s3tc.ctex", "res://.godot/imported/Final Setup_Office Chair Metal_Metallic.jpg-efd5db7c32c41a8f540a3d18a0b37d61.etc2.ctex"]
 
 [params]
 
