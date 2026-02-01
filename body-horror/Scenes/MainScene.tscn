@@ -2,10 +2,10 @@
 
 [ext_resource type="PackedScene" uid="uid://cslq1wavt36nc" path="res://Scenes/player.tscn" id="1_3mqji"]
 [ext_resource type="Script" uid="uid://kdgjqymkf3vk" path="res://Scripts/GameManager.gd" id="1_7rqgy"]
-[ext_resource type="PackedScene" uid="uid://duqlasgq387h8" path="res://Scenes/creepy_sounds.tscn" id="2_f140w"]
+[ext_resource type="PackedScene" path="res://Scenes/creepy_sounds.tscn" id="2_f140w"]
 [ext_resource type="PackedScene" uid="uid://cd4ac25cqkfmi" path="res://Scenes/clock_face.tscn" id="2_tr2i4"]
 [ext_resource type="PackedScene" uid="uid://c4spvjsmrcujc" path="res://Scenes/task_manager.tscn" id="5_y4jh7"]
-[ext_resource type="PackedScene" uid="uid://dnt6e6imadg13" path="res://Scenes/final_setup.tscn" id="6_y4jh7"]
+[ext_resource type="PackedScene" uid="uid://buigmdnsytlcu" path="res://Scenes/final_setup.tscn" id="6_y4jh7"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3mqji"]
 sky_top_color = Color(0.054096743, 0.04305879, 0.31080747, 1)
