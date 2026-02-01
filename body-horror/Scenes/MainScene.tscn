@@ -89,8 +89,8 @@ mesh = SubResource("PrismMesh_q68mp")
 
 [node name="Node3D" type="Node3D" parent="water" unique_id=842228221]
 script = ExtResource("6_y4jh7")
-maxTime = 60
-taskName = "Check up on Naomi"
+maxTime = 30
+taskName = "Fetch the boss water"
 
 [node name="Area3D" type="Area3D" parent="water/Node3D" unique_id=19681169]
 

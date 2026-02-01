@@ -9,6 +9,7 @@ extends Node2D
 		#Could be stored as an enum for optimisation
 		#Then read said values and use this to determine how it drives the insanity of the character
 var taskList: Label
+var currentTask: Label
 
 @export_group("Task completion stats")
 @export var taskTime := 0.0 #This will be handled by delta so it should be a float
@@ -27,7 +28,7 @@ func beginTask(taskName: String, taskMaxTime : float) -> void:
 	taskStarted = true
 	currentTaskName = taskName
 	currentMaxTaskTime = taskMaxTime
-	print(currentTaskName)
+	currentTask.text = "Current task: " + currentTaskName
 	
 func completeTask(insanityIndex : int):
 	#Now we can complete said task
@@ -47,6 +48,9 @@ func completeTask(insanityIndex : int):
 func register_task_label(label_node: Label):
 	taskList = label_node
 	updateTasks() # Initial fill of the list
+	
+func register_current_task_label(label_node: Label):
+	currentTask = label_node
 		
 enum completion{NOT_DONE, IGNORED, DONE_WELL, DONE_POORLY}
 #Lowkey ugly but we can make things better later
@@ -61,6 +65,11 @@ func updateTasks():
 		var progress = tasks[task]
 		if progress == completion.NOT_DONE:
 			taskList.text += "* " + str(task) + "\n"
+	if currentTask != null:
+		currentTask.text = "Completed task: " + currentTaskName
+		currentTaskName = "" #We don't have a current taskName
+		await get_tree().create_timer(3.0).timeout
+		currentTask.text = "Time to look for a new task to do"
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:

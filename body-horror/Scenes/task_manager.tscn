@@ -6,6 +6,7 @@
 [ext_resource type="Shader" uid="uid://dp7eginl78ey7" path="res://Scripts/Shaders/Vignette.gdshader" id="4_s88do"]
 [ext_resource type="Script" uid="uid://xqtifrnv6xna" path="res://Scripts/vignette_effect.gd" id="4_xw221"]
 [ext_resource type="Texture2D" uid="uid://fov8cdlaasum" path="res://Sprites/icon.svg" id="5_xw221"]
+[ext_resource type="Script" uid="uid://cwcl12byooyd7" path="res://Scripts/task_updater.gd" id="7_gmp3g"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_gmp3g"]
 shader = ExtResource("4_s88do")
@@ -55,3 +56,24 @@ layout_mode = 2
 text = "* "
 autowrap_mode = 3
 script = ExtResource("3_bt31k")
+
+[node name="Label" type="Label" parent="." unique_id=1019664616]
+custom_minimum_size = Vector2(2, 2)
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 74.0
+offset_top = 524.0
+offset_right = 1074.0
+offset_bottom = 641.8
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 4
+theme_override_font_sizes/font_size = 40
+text = "Current task: "
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+script = ExtResource("7_gmp3g")

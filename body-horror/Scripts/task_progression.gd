@@ -6,7 +6,7 @@ extends Node3D
 @export var taskName := "" #Set this in the editor per task
 
 func _on_area_3d_body_entered(body: Node3D) -> void:
-	if body.is_in_group("player"):
+	if body.is_in_group("player") and TaskManager.currentTaskName == "":
 		#Cool, now let's just trigger the task for now
 		TaskManager.beginTask(taskName, maxTime)
 		

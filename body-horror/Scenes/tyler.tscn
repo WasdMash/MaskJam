@@ -284,8 +284,8 @@ radius = 1.445
 [node name="Tyler" type="Node3D" unique_id=1424354333]
 transform = Transform3D(0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 0, 0, 0)
 script = ExtResource("2_1fbbp")
-maxTime = 30
-taskName = "Fetch the boss water"
+maxTime = 0
+taskName = "0"
 
 [node name="Armature" type="Node3D" parent="." unique_id=219226831]
 transform = Transform3D(100, 0, 0, 0, 0, 100, 0, -100, 0, -0.0028535873, -0.0046630073, -0.023925781)
