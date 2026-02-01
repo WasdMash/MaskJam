@@ -12,6 +12,8 @@ radius = 1.549
 [sub_resource type="SphereShape3D" id="SphereShape3D_qm0qd"]
 radius = 1.105
 
+[sub_resource type="SphereShape3D" id="SphereShape3D_heuwv"]
+
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_f0i4i"]
 height = 1.535
 
@@ -73,7 +75,19 @@ shape = SubResource("SphereShape3D_xxu8d")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Plane/paper/StaticBody3D" index="0" unique_id=1788993145]
 shape = SubResource("SphereShape3D_qm0qd")
 
+<<<<<<< HEAD
 [node name="Tyler" type="CharacterBody3D" parent="Node_72" parent_id_path=PackedInt32Array(407053164) index="1" unique_id=729414351]
+=======
+[node name="Area3D" type="Area3D" parent="Trash can_003" parent_id_path=PackedInt32Array(1555472245) index="0" unique_id=1307764176]
+script = ExtResource("2_f0i4i")
+maxTime = 5
+taskName = "Move the bin"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Trash can_003/Area3D" index="0" unique_id=725977223]
+shape = SubResource("SphereShape3D_heuwv")
+
+[node name="Tyler" type="CharacterBody3D" parent="Node_72" parent_id_path=PackedInt32Array(1712952247) index="1" unique_id=729414351]
+>>>>>>> d4b0233bb128edd3d5d5a2516a54d56ae4fb9214
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9560914, -0.6412532, -9.826918)
 script = ExtResource("2_f0i4i")
 maxTime = 10
