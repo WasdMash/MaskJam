@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://nk2ybwr7wxab"]
+
+[ext_resource type="Texture2D" uid="uid://bmmm73p5m6clj" path="res://Models/Maps/Office_Ucupaint DefaultMaterial Color.png" id="1_5f4cn"]
+[ext_resource type="Texture2D" uid="uid://cd5fyk1vjm3a5" path="res://Models/Maps/Office_Ucupaint DefaultMaterial Roughness.jpg" id="2_4qj78"]
+[ext_resource type="Texture2D" uid="uid://wf352btr72vm" path="res://Models/Maps/Office_Ucupaint DefaultMaterial Normal.jpg" id="3_hqund"]
+
+[resource]
+resource_name = "DefaultMaterial"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_5f4cn")
+metallic_texture = ExtResource("2_4qj78")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_4qj78")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_hqund")

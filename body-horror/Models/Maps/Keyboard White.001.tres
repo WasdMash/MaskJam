@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://crr0ug4wogilx"]
+
+[ext_resource type="Texture2D" uid="uid://cry6hgk8g60mk" path="res://Models/Maps/Office_Ucupaint Keyboard White_40.jpg" id="1_hb4i4"]
+[ext_resource type="Texture2D" uid="uid://duo4v0mwvlc7u" path="res://Models/Maps/Office_Ucupaint Keyboard White_18.jpg" id="2_gue2v"]
+[ext_resource type="Texture2D" uid="uid://bi4a875ff4af0" path="res://Models/Maps/Office_Ucupaint Keyboard White_39.jpg" id="3_wu5an"]
+
+[resource]
+resource_name = "Keyboard White.001"
+cull_mode = 2
+albedo_texture = ExtResource("1_hb4i4")
+metallic_texture = ExtResource("2_gue2v")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_gue2v")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_wu5an")

@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b0k8ptnc5xwya"]
+
+[ext_resource type="Texture2D" uid="uid://br0gnbg1o3x6s" path="res://Models/Maps/Office_Ucupaint Cardboard Box White Color.jpg" id="1_g0aok"]
+[ext_resource type="Texture2D" uid="uid://cnq2mjhhplxhi" path="res://Models/Maps/Office_Ucupaint Cardboard Box White Normal.jpg" id="2_wnh2y"]
+
+[resource]
+resource_name = "Cardboard Box White"
+cull_mode = 2
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_g0aok")
+roughness = 0.8
+normal_enabled = true
+normal_texture = ExtResource("2_wnh2y")

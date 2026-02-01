@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ukugu0xndqx" path="res://Scripts/sound_manager.gd" id="1_25ke0"]
 [ext_resource type="AudioStream" uid="uid://2051rv5eu2d0" path="res://Music/cut.mp3" id="2_25ke0"]
-[ext_resource type="AudioStream" uid="uid://ck4d14e0lf533" path="res://Music/loop.mp3" id="3_tox07"]
+[ext_resource type="AudioStream" uid="uid://hwhcx7gueoxi" path="res://Music/straight_zakai.mp3" id="2_tox07"]
 [ext_resource type="AudioStream" uid="uid://beaqhus5v2ei" path="res://Music/straight.mp3" id="4_wyfeo"]
 
 [node name="SoundManager" type="Control" unique_id=1168635246 node_paths=PackedStringArray("music_player")]
@@ -13,7 +13,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_25ke0")
-playlist = Array[AudioStream]([ExtResource("2_25ke0"), ExtResource("3_tox07"), ExtResource("4_wyfeo")])
+playlist = Array[AudioStream]([ExtResource("2_tox07"), ExtResource("4_wyfeo")])
 music_player = NodePath("BackgroundMusic")
 
 [node name="BackgroundMusic" type="AudioStreamPlayer" parent="." unique_id=673672056]

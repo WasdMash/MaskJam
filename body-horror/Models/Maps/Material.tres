@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c3hamvppklvb5"]
+
+[ext_resource type="Texture2D" uid="uid://dtqfcm6eco78b" path="res://Models/Maps/Office_Bricks093_1K-JPG_Color.jpg" id="1_xx17s"]
+
+[resource]
+resource_name = "Material"
+cull_mode = 2
+albedo_texture = ExtResource("1_xx17s")
+roughness = 0.5

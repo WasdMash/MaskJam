@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://16wnbxa3shr0"]
+
+[ext_resource type="Texture2D" uid="uid://bhsiv274401cb" path="res://Models/Maps/Office_Table_BaseColor.jpg" id="1_6qbh0"]
+[ext_resource type="Texture2D" uid="uid://b8p8sout3hufw" path="res://Models/Maps/Office_Table_Metallic-Table_Roughness.jpg" id="2_vuh1y"]
+[ext_resource type="Texture2D" uid="uid://dlvx31i1bwyqy" path="res://Models/Maps/Office_Ucupaint Table.jpg" id="3_imt05"]
+
+[resource]
+resource_name = "Table"
+cull_mode = 2
+albedo_texture = ExtResource("1_6qbh0")
+metallic = 1.0
+metallic_texture = ExtResource("2_vuh1y")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_vuh1y")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_imt05")

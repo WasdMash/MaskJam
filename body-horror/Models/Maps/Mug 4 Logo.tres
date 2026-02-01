@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b6o1ed2up28q"]
+
+[ext_resource type="Texture2D" uid="uid://ylbsv4otjqvp" path="res://Models/Maps/Office_Ucupaint Mug 4 Logo-Ucupaint Mug 4 Logo.png" id="1_m4htb"]
+
+[resource]
+resource_name = "Mug 4 Logo"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_m4htb")
+roughness = 0.5

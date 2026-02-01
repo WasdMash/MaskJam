@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://nmwedn458jed"]
+
+[ext_resource type="Texture2D" uid="uid://cxcw0fnoloxmr" path="res://Models/Maps/Office_Ucupaint Binder 1 Color.jpg" id="1_oiqd5"]
+[ext_resource type="Texture2D" uid="uid://dg3hq8g4cn1e2" path="res://Models/Maps/Office_Ucupaint Binder 1 Metallic-Ucupaint Binder 1 Roughness.jpg" id="2_e7lc1"]
+[ext_resource type="Texture2D" uid="uid://uljqq7uftrqs" path="res://Models/Maps/Office_Ucupaint Binder 1 Normal.jpg" id="3_3t8x0"]
+
+[resource]
+resource_name = "Binder red"
+cull_mode = 2
+albedo_texture = ExtResource("1_oiqd5")
+metallic = 1.0
+metallic_texture = ExtResource("2_e7lc1")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_e7lc1")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_3t8x0")

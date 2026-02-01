@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b258wpcyr6i4c"]
+
+[ext_resource type="Texture2D" uid="uid://0cnywwh5odlm" path="res://Models/Maps/Office_Ucupaint Trash can Color.png" id="1_1m333"]
+
+[resource]
+resource_name = "Trash can"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_1m333")
+roughness = 0.402256

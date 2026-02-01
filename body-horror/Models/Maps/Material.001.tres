@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dep8t53rhwyyi"]
+
+[ext_resource type="Texture2D" uid="uid://bvm3bughpdjuh" path="res://Models/Maps/Office_OfficeCeiling001_1K-JPG_Color.jpg" id="1_qxf0g"]
+
+[resource]
+resource_name = "Material.001"
+cull_mode = 2
+albedo_texture = ExtResource("1_qxf0g")
+roughness = 0.5

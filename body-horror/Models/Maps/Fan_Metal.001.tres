@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bsniddl65pxf4"]
+
+[ext_resource type="Texture2D" uid="uid://blgbfeikwbv3p" path="res://Models/Maps/Office_Ucupaint Fan_Metal Color.jpg" id="1_ea6k5"]
+[ext_resource type="Texture2D" uid="uid://w1k3lwrgv32k" path="res://Models/Maps/Office_Ucupaint Fan_Metal Metallic-Ucupaint Fan_Metal Roughness.jpg" id="2_30px2"]
+[ext_resource type="Texture2D" uid="uid://b2w0dfntxukfd" path="res://Models/Maps/Office_Ucupaint Fan_Metal Normal.jpg" id="3_b56of"]
+
+[resource]
+resource_name = "Fan_Metal.001"
+cull_mode = 2
+albedo_texture = ExtResource("1_ea6k5")
+metallic = 1.0
+metallic_texture = ExtResource("2_30px2")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_30px2")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_b56of")

@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://rvfppti7f4y0"]
+
+[ext_resource type="Texture2D" uid="uid://cra23shcp6wse" path="res://Models/Maps/Office_Ucupaint Monitor White Color.jpg" id="1_hlevv"]
+[ext_resource type="Texture2D" uid="uid://xtsm5l6mj7tl" path="res://Models/Maps/Office_Ucupaint Monitor White Roughness.jpg" id="2_87l33"]
+[ext_resource type="Texture2D" uid="uid://ddhs0gwhimleb" path="res://Models/Maps/Office_Ucupaint Monitor White Normal.jpg" id="3_efvr2"]
+
+[resource]
+resource_name = "Monitor White.001"
+cull_mode = 2
+albedo_texture = ExtResource("1_hlevv")
+metallic_texture = ExtResource("2_87l33")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_87l33")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_efvr2")

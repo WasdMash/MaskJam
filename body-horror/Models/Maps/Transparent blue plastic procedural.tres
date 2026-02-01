@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bdo541kfux6eb"]
+
+[ext_resource type="Texture2D" uid="uid://botmqx65lb5mo" path="res://Models/Maps/Office_Ucupaint Transparent blue plastic procedural Color.png" id="1_vw3jw"]
+[ext_resource type="Texture2D" uid="uid://c2ad3dukwsx6j" path="res://Models/Maps/Office_Ucupaint Transparent blue plastic procedural Normal.jpg" id="2_08mrh"]
+
+[resource]
+resource_name = "Transparent blue plastic procedural"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_vw3jw")
+roughness = 0.0
+normal_enabled = true
+normal_texture = ExtResource("2_08mrh")

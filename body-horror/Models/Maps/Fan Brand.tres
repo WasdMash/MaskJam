@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c2x1n23uw3ui1"]
+
+[ext_resource type="Texture2D" uid="uid://dr5f5ppioydmb" path="res://Models/Maps/Office_Ucupaint Fan Brand Color.jpg" id="1_ogcic"]
+
+[resource]
+resource_name = "Fan Brand"
+cull_mode = 2
+albedo_texture = ExtResource("1_ogcic")
+roughness = 0.5

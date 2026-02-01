@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dlrq8fp3sk5ay"]
+
+[ext_resource type="Texture2D" uid="uid://cni02y5gdisxa" path="res://Models/Maps/Office_Ucupaint Printer Base White Color.jpg" id="1_dtkyc"]
+[ext_resource type="Texture2D" uid="uid://d768e50mgm34" path="res://Models/Maps/Office_Ucupaint Printer Base White Roughness.jpg" id="2_18n0t"]
+[ext_resource type="Texture2D" uid="uid://buhfyxig0mnrp" path="res://Models/Maps/Office_Ucupaint Printer Base White Normal.jpg" id="3_mqvcr"]
+
+[resource]
+resource_name = "Printer Base White"
+cull_mode = 2
+albedo_texture = ExtResource("1_dtkyc")
+metallic_texture = ExtResource("2_18n0t")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_18n0t")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_mqvcr")

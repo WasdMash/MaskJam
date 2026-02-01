@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dbq3jp8q1l4nw"]
+
+[ext_resource type="Texture2D" uid="uid://bp8jlopfhc6sw" path="res://Models/Maps/Office_Office Chair Leather_BaseColor.jpg" id="1_fqi3k"]
+[ext_resource type="Texture2D" uid="uid://ee811x7luyfb" path="res://Models/Maps/Office_Office Chair Leather_Roughness.jpg" id="2_irexy"]
+[ext_resource type="Texture2D" uid="uid://cxkykfme1qhqu" path="res://Models/Maps/Office_Office Chair Leather_Normal.jpg" id="3_chx3n"]
+
+[resource]
+resource_name = "Office_Chair_Leather.001"
+cull_mode = 2
+albedo_texture = ExtResource("1_fqi3k")
+metallic_texture = ExtResource("2_irexy")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_irexy")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_chx3n")

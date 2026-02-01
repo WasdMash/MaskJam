@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dho63qb7u2sj"]
+
+[ext_resource type="Texture2D" uid="uid://dypwqd7v33dj0" path="res://Models/Maps/Office_Ucupaint paper 1 Color.jpg" id="1_wu62c"]
+
+[resource]
+resource_name = "paper "
+cull_mode = 2
+albedo_texture = ExtResource("1_wu62c")
+roughness = 0.5

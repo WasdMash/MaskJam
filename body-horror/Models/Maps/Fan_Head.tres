@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cqkfsi551pwry"]
+
+[ext_resource type="Texture2D" uid="uid://c8mr6mg0eh6h4" path="res://Models/Maps/Office_Fan Head_BaseColor-Fan Head_Alpha.png" id="1_uqdhp"]
+[ext_resource type="Texture2D" uid="uid://d4en5pu3tahw5" path="res://Models/Maps/Office_Fan Head_Metallic-Fan Head_Roughness.jpg" id="2_d8tit"]
+[ext_resource type="Texture2D" uid="uid://d3g1kf0kiucsb" path="res://Models/Maps/Office_Fan Head_Alpha.jpg" id="3_8qmi1"]
+
+[resource]
+resource_name = "Fan_Head"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_uqdhp")
+metallic = 1.0
+metallic_texture = ExtResource("2_d8tit")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_d8tit")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_8qmi1")

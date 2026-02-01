@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dulnxvckhaosw"]
+
+[ext_resource type="Texture2D" uid="uid://bn6nwmidr8wxp" path="res://Models/Maps/Office_Ucupaint Cooler Color.jpg" id="1_knbb5"]
+[ext_resource type="Texture2D" uid="uid://drutudug6upop" path="res://Models/Maps/Office_Ucupaint Cooler Metallic-Ucupaint Cooler Roughness.jpg" id="2_crsd3"]
+[ext_resource type="Texture2D" uid="uid://iltorrihukkk" path="res://Models/Maps/Office_Ucupaint Cooler Normal.jpg" id="3_vxmhn"]
+
+[resource]
+resource_name = "Cooler"
+cull_mode = 2
+albedo_texture = ExtResource("1_knbb5")
+metallic = 1.0
+metallic_texture = ExtResource("2_crsd3")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_crsd3")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_vxmhn")

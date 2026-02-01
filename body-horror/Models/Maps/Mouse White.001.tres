@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dpv244kgm3l4f"]
+
+[ext_resource type="Texture2D" uid="uid://dcr3ft4kxy4ny" path="res://Models/Maps/Office_Ucupaint Mouse Creme Color.jpg" id="1_e0h6g"]
+[ext_resource type="Texture2D" uid="uid://c40475415ghym" path="res://Models/Maps/Office_Ucupaint Mouse Creme Roughness.jpg" id="2_e02vo"]
+[ext_resource type="Texture2D" uid="uid://bmtqihesxbbuv" path="res://Models/Maps/Office_Ucupaint Mouse Creme Normal.jpg" id="3_oue7y"]
+
+[resource]
+resource_name = "Mouse White.001"
+cull_mode = 2
+albedo_texture = ExtResource("1_e0h6g")
+metallic_texture = ExtResource("2_e02vo")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_e02vo")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_oue7y")

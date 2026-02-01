@@ -1,0 +1,300 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dcarirhakd0i5"
+path="res://.godot/imported/Office.glb-0601d7388dfc8b88e9d9e097179d164e.scn"
+
+[deps]
+
+source_file="res://Models/Maps/Office.glb"
+dest_files=["res://.godot/imported/Office.glb-0601d7388dfc8b88e9d9e097179d164e.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"materials": {
+"Binder Black": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Binder Black.tres",
+"use_external/path": "uid://m4mkkgvfcc0c"
+},
+"Binder Blue": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Binder Blue.tres",
+"use_external/path": "uid://bu71tpxecps0i"
+},
+"Binder red": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Binder red.tres",
+"use_external/path": "uid://nmwedn458jed"
+},
+"Black": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Black.tres",
+"use_external/path": "uid://d3kuhq35vcsyk"
+},
+"Black Lamp": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Black Lamp.tres",
+"use_external/path": "uid://cob330wxwjps8"
+},
+"Cabinet Metal": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Cabinet Metal.tres",
+"use_external/path": "uid://dxbrqi5twc01p"
+},
+"Cardboard Box": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Cardboard Box.tres",
+"use_external/path": "uid://5p4214wxxd56"
+},
+"Cardboard Box White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Cardboard Box White.tres",
+"use_external/path": "uid://b0k8ptnc5xwya"
+},
+"Cooler": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Cooler.tres",
+"use_external/path": "uid://dulnxvckhaosw"
+},
+"DefaultMaterial": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/DefaultMaterial.tres",
+"use_external/path": "uid://nk2ybwr7wxab"
+},
+"Fan Brand": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Fan Brand.tres",
+"use_external/path": "uid://c2x1n23uw3ui1"
+},
+"Fan_Head": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Fan_Head.tres",
+"use_external/path": "uid://cqkfsi551pwry"
+},
+"Fan_Metal": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Fan_Metal.tres",
+"use_external/path": "uid://dngg2sbi5b1o2"
+},
+"Fan_Metal.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Fan_Metal.001.tres",
+"use_external/path": "uid://bsniddl65pxf4"
+},
+"Files": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Files.tres",
+"use_external/path": "uid://w13t6lt788o3"
+},
+"Generic Glass": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Generic Glass.tres",
+"use_external/path": "uid://c8lku3oj2bahl"
+},
+"Keyboard White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Keyboard White.tres",
+"use_external/path": "uid://cmmsdfx7shah1"
+},
+"Keyboard White.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Keyboard White.001.tres",
+"use_external/path": "uid://crr0ug4wogilx"
+},
+"Lamp1.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Lamp1.001.tres",
+"use_external/path": "uid://dmu07obb5ftcs"
+},
+"Material": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Material.tres",
+"use_external/path": "uid://c3hamvppklvb5"
+},
+"Material.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Material.001.tres",
+"use_external/path": "uid://dep8t53rhwyyi"
+},
+"Monitor White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Monitor White.tres",
+"use_external/path": "uid://dxj1qvfefulbv"
+},
+"Monitor White.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Monitor White.001.tres",
+"use_external/path": "uid://rvfppti7f4y0"
+},
+"Monitor_Glass.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Monitor_Glass.001.tres",
+"use_external/path": "uid://dmtkbw6qtvs4c"
+},
+"Monitor_Glass.002": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Monitor_Glass.002.tres",
+"use_external/path": "uid://dsrbjwdaxax3a"
+},
+"Mouse White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Mouse White.tres",
+"use_external/path": "uid://7ftftmm7h2g8"
+},
+"Mouse White.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Mouse White.001.tres",
+"use_external/path": "uid://dpv244kgm3l4f"
+},
+"Mug 4": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Mug 4.tres",
+"use_external/path": "uid://dqv45bf8qq7dn"
+},
+"Mug 4 Logo": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Mug 4 Logo.tres",
+"use_external/path": "uid://b6o1ed2up28q"
+},
+"Office_Chair_Leather.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Office_Chair_Leather.001.tres",
+"use_external/path": "uid://dbq3jp8q1l4nw"
+},
+"Office_Chair_Leather.002": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Office_Chair_Leather.002.tres",
+"use_external/path": "uid://cikybmivg51vb"
+},
+"Office_Chair_Metal.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Office_Chair_Metal.001.tres",
+"use_external/path": "uid://dcc3kyn357r72"
+},
+"Office_Chair_Metal.002": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Office_Chair_Metal.002.tres",
+"use_external/path": "uid://ckiqc687qejvt"
+},
+"Office_Chair_Plastic.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Office_Chair_Plastic.001.tres",
+"use_external/path": "uid://cnd43tirh3qca"
+},
+"Office_Chair_Plastic.002": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Office_Chair_Plastic.002.tres",
+"use_external/path": "uid://bkw0pdsphk2a8"
+},
+"PC White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/PC White.tres",
+"use_external/path": "uid://c5qi3hsei4u5j"
+},
+"PC White.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/PC White.001.tres",
+"use_external/path": "uid://wosu6a8mvbl7"
+},
+"Pc Feet": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Pc Feet.tres",
+"use_external/path": "uid://b1rapjguva4"
+},
+"Pc Feet.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Pc Feet.001.tres",
+"use_external/path": "uid://dr52ondgduks1"
+},
+"Pot": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Pot.tres",
+"use_external/path": "uid://b7r70sahh1fpj"
+},
+"Printer Base White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Printer Base White.tres",
+"use_external/path": "uid://dlrq8fp3sk5ay"
+},
+"Printer Top White": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Printer Top White.tres",
+"use_external/path": "uid://d14c70na7avp5"
+},
+"Table": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Table.tres",
+"use_external/path": "uid://16wnbxa3shr0"
+},
+"Table.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Table.001.tres",
+"use_external/path": "uid://bn0up0a5tqcm5"
+},
+"Transparent blue plastic procedural": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Transparent blue plastic procedural.tres",
+"use_external/path": "uid://bdo541kfux6eb"
+},
+"Trash can": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Trash can.tres",
+"use_external/path": "uid://b258wpcyr6i4c"
+},
+"Ucupaint PC White Front new": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Ucupaint PC White Front new.tres",
+"use_external/path": "uid://dcbl7p7mmy8r3"
+},
+"Ucupaint PC White Front new.001": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/Ucupaint PC White Front new.001.tres",
+"use_external/path": "uid://b7frlrh6gmmn3"
+},
+"paper ": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/paper.tres",
+"use_external/path": "uid://dho63qb7u2sj"
+},
+"paper 2": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/paper 2.tres",
+"use_external/path": "uid://dnidh8gqcrdp0"
+},
+"paper 3": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Models/Maps/paper 3.tres",
+"use_external/path": "uid://cmmkm8foeyxee"
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1

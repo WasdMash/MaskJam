@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://w13t6lt788o3"]
+
+[ext_resource type="Texture2D" uid="uid://cy5iruofln2e3" path="res://Models/Maps/Office_Paper color 512.jpg" id="1_lv5f0"]
+
+[resource]
+resource_name = "Files"
+cull_mode = 2
+albedo_texture = ExtResource("1_lv5f0")
+roughness = 0.5
+uv1_scale = Vector3(2.1799998, 0.1, 1)
+uv1_offset = Vector3(0, 0.9, 0)

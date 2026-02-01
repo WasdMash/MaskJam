@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bkw0pdsphk2a8"]
+
+[ext_resource type="Texture2D" uid="uid://cbo4nir1coqxc" path="res://Models/Maps/Office_Office Chair Plastic_BaseColor.jpg" id="1_gqcf5"]
+[ext_resource type="Texture2D" uid="uid://cannunvh8puy8" path="res://Models/Maps/Office_Office Chair Plastic_Roughness.jpg" id="2_7kn5t"]
+[ext_resource type="Texture2D" uid="uid://bo2qhggq36qds" path="res://Models/Maps/Office_Office Chair Plastic_Normal.jpg" id="3_ueto1"]
+
+[resource]
+resource_name = "Office_Chair_Plastic.002"
+cull_mode = 2
+albedo_texture = ExtResource("1_gqcf5")
+metallic_texture = ExtResource("2_7kn5t")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_7kn5t")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_ueto1")

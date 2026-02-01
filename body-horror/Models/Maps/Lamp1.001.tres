@@ -1,0 +1,24 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dmu07obb5ftcs"]
+
+[ext_resource type="Texture2D" uid="uid://bnbk5m0pghr5i" path="res://Models/Maps/Office_Image_0.png" id="1_i63jd"]
+[ext_resource type="Texture2D" uid="uid://8avjfwbrct6b" path="res://Models/Maps/Office_Image_2.jpg" id="2_0yun6"]
+[ext_resource type="Texture2D" uid="uid://d13nol5y2dxi2" path="res://Models/Maps/Office_Image_1.png" id="3_c6lim"]
+[ext_resource type="Texture2D" uid="uid://cbkk3h5eii2kr" path="res://Models/Maps/Office_Image_3.png" id="4_1o8xm"]
+
+[resource]
+resource_name = "Lamp1.001"
+transparency = 4
+cull_mode = 2
+albedo_texture = ExtResource("1_i63jd")
+metallic = 1.0
+metallic_texture = ExtResource("3_c6lim")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("3_c6lim")
+roughness_texture_channel = 1
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 3.5809634
+emission_operator = 1
+emission_texture = ExtResource("2_0yun6")
+normal_enabled = true
+normal_texture = ExtResource("4_1o8xm")

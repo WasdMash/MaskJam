@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c8lku3oj2bahl"]
+
+[resource]
+resource_name = "Generic Glass"
+transparency = 4
+cull_mode = 2
+albedo_color = Color(0.8826842, 0.9063476, 0.9029813, 0.20454547)
+roughness = 0.13181818

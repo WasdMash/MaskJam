@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dmtkbw6qtvs4c"]
+
+[ext_resource type="Texture2D" uid="uid://he1u5y8gsi50" path="res://Models/Maps/Office_Monitor Glass_BaseColor.jpg" id="1_wr36u"]
+[ext_resource type="Texture2D" uid="uid://derwj2ncfn21l" path="res://Models/Maps/Office_Monitor Glass_Roughness.jpg" id="2_10rrm"]
+[ext_resource type="Texture2D" uid="uid://cxh2wgpc06crx" path="res://Models/Maps/Office_Monitor Glass_Normal.jpg" id="3_vcvky"]
+
+[resource]
+resource_name = "Monitor_Glass.001"
+cull_mode = 2
+albedo_texture = ExtResource("1_wr36u")
+metallic_texture = ExtResource("2_10rrm")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_10rrm")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_vcvky")

@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dqv45bf8qq7dn"]
+
+[ext_resource type="Texture2D" uid="uid://cnbao386sp8m8" path="res://Models/Maps/Office_Ucupaint Mug 4 Color.jpg" id="1_w6hpg"]
+[ext_resource type="Texture2D" uid="uid://bbrgrcciqd2k2" path="res://Models/Maps/Office_Ucupaint Mug 4 Metallic-Ucupaint Mug 4 Roughness.jpg" id="2_1hi67"]
+[ext_resource type="Texture2D" uid="uid://chxjj45y06qlj" path="res://Models/Maps/Office_Ucupaint Mug 4 Normal.jpg" id="3_d25hu"]
+
+[resource]
+resource_name = "Mug 4"
+cull_mode = 2
+albedo_texture = ExtResource("1_w6hpg")
+metallic = 1.0
+metallic_texture = ExtResource("2_1hi67")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_1hi67")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_d25hu")

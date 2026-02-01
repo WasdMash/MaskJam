@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dxbrqi5twc01p"]
+
+[ext_resource type="Texture2D" uid="uid://dh23sxh17vqua" path="res://Models/Maps/Office_Cabinet Metal_BaseColor.jpg" id="1_t10ca"]
+[ext_resource type="Texture2D" uid="uid://c4mafu4yghc8u" path="res://Models/Maps/Office_Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg" id="2_s6qlf"]
+[ext_resource type="Texture2D" uid="uid://t3ut6k842sc6" path="res://Models/Maps/Office_Cabinet Metal Bevel Normal.jpg" id="3_oeo0n"]
+
+[resource]
+resource_name = "Cabinet Metal"
+cull_mode = 2
+albedo_texture = ExtResource("1_t10ca")
+metallic = 1.0
+metallic_texture = ExtResource("2_s6qlf")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_s6qlf")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_oeo0n")

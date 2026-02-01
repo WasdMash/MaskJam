@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dcbl7p7mmy8r3"]
+
+[ext_resource type="Texture2D" uid="uid://dmqo8akhsksvv" path="res://Models/Maps/Office_Ucupaint PC White Front Color.jpg" id="1_pongm"]
+[ext_resource type="Texture2D" uid="uid://cobbaort41ybh" path="res://Models/Maps/Office_Ucupaint PC Creme Front Roughness.jpg" id="2_ab4cp"]
+[ext_resource type="Texture2D" uid="uid://dh4caqjvtu1cn" path="res://Models/Maps/Office_Ucupaint PC Creme Front Normal.jpg" id="3_vuktk"]
+
+[resource]
+resource_name = "Ucupaint PC White Front new"
+cull_mode = 2
+albedo_texture = ExtResource("1_pongm")
+metallic_texture = ExtResource("2_ab4cp")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_ab4cp")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_vuktk")

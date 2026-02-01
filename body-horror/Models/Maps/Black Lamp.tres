@@ -1,0 +1,23 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cob330wxwjps8"]
+
+[ext_resource type="Texture2D" uid="uid://cov7r4f20fdbf" path="res://Models/Maps/Office_Ucupaint Black Lamp Color.jpg" id="1_itn1v"]
+[ext_resource type="Texture2D" uid="uid://2cll1jxprydl" path="res://Models/Maps/Office_Ucupaint Black Lamp Emission Color.jpg" id="2_6j2vi"]
+[ext_resource type="Texture2D" uid="uid://brpfudwirr0n3" path="res://Models/Maps/Office_Ucupaint Black Lamp Metallic-Ucupaint Black Lamp Roughness.jpg" id="3_j4icy"]
+[ext_resource type="Texture2D" uid="uid://iir2jpjouaj7" path="res://Models/Maps/Office_Ucupaint Black Lamp Normal.jpg" id="4_n1vfk"]
+
+[resource]
+resource_name = "Black Lamp"
+cull_mode = 2
+albedo_texture = ExtResource("1_itn1v")
+metallic = 1.0
+metallic_texture = ExtResource("3_j4icy")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("3_j4icy")
+roughness_texture_channel = 1
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 6.3999996
+emission_operator = 1
+emission_texture = ExtResource("2_6j2vi")
+normal_enabled = true
+normal_texture = ExtResource("4_n1vfk")

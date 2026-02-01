@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bu71tpxecps0i"]
+
+[ext_resource type="Texture2D" uid="uid://3v5pnfbxp5s4" path="res://Models/Maps/Office_Ucupaint Binder 2 Color.jpg" id="1_w2e7h"]
+[ext_resource type="Texture2D" uid="uid://bh144xjvu5kb5" path="res://Models/Maps/Office_Ucupaint Binder 2 Metallic-Ucupaint Binder 2 Roughness.jpg" id="2_3v7ai"]
+[ext_resource type="Texture2D" uid="uid://b7w6ccj7s8mhu" path="res://Models/Maps/Office_Ucupaint Binder 2 Normal.jpg" id="3_k721r"]
+
+[resource]
+resource_name = "Binder Blue"
+cull_mode = 2
+albedo_texture = ExtResource("1_w2e7h")
+metallic = 1.0
+metallic_texture = ExtResource("2_3v7ai")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_3v7ai")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_k721r")
