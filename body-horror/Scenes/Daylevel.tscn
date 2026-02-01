@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cdqlrafmc2y04"]
+
+[ext_resource type="PackedScene" uid="uid://bfw7xxgdg8c0w" path="res://Models/Export/Final Setup.glb" id="1_7drrm"]
+
+[node name="Node3D" type="Node3D" unique_id=1025908592]
+
+[node name="Final Setup" parent="." unique_id=872800178 instance=ExtResource("1_7drrm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.506708, 0, -1.489584)
