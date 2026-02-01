@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhndp010kga8t"
-path.s3tc="res://.godot/imported/Office Chair Plastic_BaseColor.jpg-35c81f9185032011c08ecbcced55e2ff.s3tc.ctex"
+path.s3tc="res://.godot/imported/Office Chair Plastic_BaseColor.jpg-e79b247b7927ba434c8423dc1624d7f2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/Office Chair Plastic_BaseColor.jpg"
-dest_files=["res://.godot/imported/Office Chair Plastic_BaseColor.jpg-35c81f9185032011c08ecbcced55e2ff.s3tc.ctex"]
+source_file="res://Models/Textures/Office Chair Plastic_BaseColor.jpg"
+dest_files=["res://.godot/imported/Office Chair Plastic_BaseColor.jpg-e79b247b7927ba434c8423dc1624d7f2.s3tc.ctex"]
 
 [params]
 

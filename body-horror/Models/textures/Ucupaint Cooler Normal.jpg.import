@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8bnqsli3lg14"
-path.s3tc="res://.godot/imported/Ucupaint Cooler Normal.jpg-a936bf2685bb5ad677cdebaa4f0d2b57.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Cooler Normal.jpg-c2a38978b860bc7384298babd615f414.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/Ucupaint Cooler Normal.jpg"
-dest_files=["res://.godot/imported/Ucupaint Cooler Normal.jpg-a936bf2685bb5ad677cdebaa4f0d2b57.s3tc.ctex"]
+source_file="res://Models/Textures/Ucupaint Cooler Normal.jpg"
+dest_files=["res://.godot/imported/Ucupaint Cooler Normal.jpg-c2a38978b860bc7384298babd615f414.s3tc.ctex"]
 
 [params]
 

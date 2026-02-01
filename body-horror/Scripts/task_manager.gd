@@ -10,6 +10,8 @@ extends Node2D
 		#Then read said values and use this to determine how it drives the insanity of the character
 var taskList: Label
 var currentTask: Label
+@export var tasksDoneToday := 0
+@export var taskstoBeDoneDaily := 3
 
 @export_group("Task completion stats")
 @export var taskTime := 0.0 #This will be handled by delta so it should be a float
@@ -23,14 +25,24 @@ var currentTask: Label
 #Basically, the higher their insanity, the wackier they will become
 @export var insanities := [100,100,100,100,100] #Everyone starts kinda sane but you can make it worse
 enum wellbeing{NORMAL,CREEP,WTF}
+enum completion{NOT_DONE, IGNORED, DONE_WELL, DONE_POORLY}
+#Lowkey ugly but we can make things better later
+var tasks:= {"Fetch the boss water": completion.NOT_DONE,
+			"Print the files": completion.NOT_DONE,
+			"Check up on Naomi": completion.NOT_DONE,
+			"Move the bin": completion.NOT_DONE,
+			"Talk to John": completion.NOT_DONE,
+			"Check over Tyler's work": completion.NOT_DONE,}
+var dailyTasks := {} #Picking the daily tasks of the day to be completed
 
 func beginTask(taskName: String, taskMaxTime : float) -> void:
 	#only start tasks that haven't been done yet - no takebacks
-	if tasks[taskName] == completion.NOT_DONE:
-		taskStarted = true
-		currentTaskName = taskName
-		currentMaxTaskTime = taskMaxTime
-		currentTask.text = "Current task: " + currentTaskName
+	if dailyTasks.has(taskName):
+		if dailyTasks[taskName] == completion.NOT_DONE:
+			taskStarted = true
+			currentTaskName = taskName
+			currentMaxTaskTime = taskMaxTime
+			currentTask.text = "Current task: " + currentTaskName
 	
 func completeTask(insanityIndex : int):
 	#Now we can complete said task
@@ -44,32 +56,42 @@ func completeTask(insanityIndex : int):
 	elif insanityCheck > 0.3:
 		taskCompletionType = completion.DONE_POORLY
 	#Should update the task list to accommodate this new change
-	tasks[currentTaskName] = taskCompletionType
+	dailyTasks[currentTaskName] = taskCompletionType
+	tasksDoneToday += 1
+	#We automatically start a new day
+	if tasksDoneToday == taskstoBeDoneDaily:
+		GameManager.start_next_day_sequence()
 	updateTasks()
 	
 func register_task_label(label_node: Label):
 	taskList = label_node
+	pick_daily_tasks()
 	updateTasks() # Initial fill of the list
+
+func pick_daily_tasks():
+	dailyTasks.clear()
+	var available_tasks = []
+	for task in tasks:
+		if tasks[task] == completion.NOT_DONE:
+			available_tasks.append(task)	
+	available_tasks.shuffle()
+	var count = min(taskstoBeDoneDaily, available_tasks.size())
+	for i in range(count):
+		var task_name = available_tasks[i]
+		dailyTasks[task_name] = completion.NOT_DONE
 	
 func register_current_task_label(label_node: Label):
 	currentTask = label_node
-		
-enum completion{NOT_DONE, IGNORED, DONE_WELL, DONE_POORLY}
-#Lowkey ugly but we can make things better later
-var tasks:= {"Fetch the boss water": completion.NOT_DONE,
-			"Print the files": completion.NOT_DONE,
-			"Check up on Naomi": completion.NOT_DONE,
-			"Move the bin": completion.NOT_DONE,
-			"Talk to John": completion.NOT_DONE,
-			"Check over Tyler's work": completion.NOT_DONE,}
-	
+
 #This is the function to be ran to update the task list
 func updateTasks():
+	#Need to pick TimeManager.tasksDoneDaily random tasks from our list
 	taskList.text = ""
-	for task in tasks:
-		var progress = tasks[task]
+	for task in dailyTasks:
+		var progress = dailyTasks[task]
 		if progress == completion.NOT_DONE:
 			taskList.text += "* " + str(task) + "\n"
+			
 	if currentTask != null:
 		currentTask.text = "Completed task: " + currentTaskName
 		currentTaskName = "" #We don't have a current taskName

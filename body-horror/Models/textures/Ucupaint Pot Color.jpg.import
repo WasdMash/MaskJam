@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3rn02nc234xl"
-path.s3tc="res://.godot/imported/Ucupaint Pot Color.jpg-aef752afa67b7a592a5d1ef66707079c.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Pot Color.jpg-725aa978faaaceb1ac613bf5ca871480.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/Ucupaint Pot Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint Pot Color.jpg-aef752afa67b7a592a5d1ef66707079c.s3tc.ctex"]
+source_file="res://Models/Textures/Ucupaint Pot Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint Pot Color.jpg-725aa978faaaceb1ac613bf5ca871480.s3tc.ctex"]
 
 [params]
 

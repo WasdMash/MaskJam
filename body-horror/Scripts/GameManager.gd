@@ -26,17 +26,18 @@ func get_vignette(vignette : ShaderMaterial) -> void:
 
 func start_next_day_sequence() -> void:
 	is_transitioning = true
-	print("Shift over. Processing results...")
-	# This pauses this specific function for 10 seconds 
-	# without freezing the whole game
-	await get_tree().create_timer(10.0).timeout
+	await get_tree().create_timer(3.0).timeout
 	
 	# Reset for the new day
 	current_hour = 9
 	current_day += 1
 	playerInsanity = 100.0 * current_day / 7
-	print("Welcome to Day ", current_day)
 	is_transitioning = false # Resumes the _process clock
+	#Cool
+	TaskManager.currentTask.text = "Welcome to Day " + str(current_day)
+	await get_tree().create_timer(0.5).timeout
+	TaskManager.currentTask.text = "Time to look for a new task to do"
+	TaskManager.pick_daily_tasks()
 
 func _process(delta: float) -> void:
 	# Tick the minutes based on frame time
@@ -48,7 +49,7 @@ func _process(delta: float) -> void:
 		# Use the material to get the value
 		var current = insaneVignette.get_shader_parameter("intensity")
 		insaneVignette.set_shader_parameter("intensity", lerp(current, target, 0.1))
-	
+		
 	if current_minute >= 60.0:
 		current_minute = 0.0
 		current_hour += 1

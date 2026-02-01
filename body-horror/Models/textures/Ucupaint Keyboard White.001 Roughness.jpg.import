@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djo8fl060i1ri"
-path.s3tc="res://.godot/imported/Ucupaint Keyboard White.001 Roughness.jpg-634bc22023e095e60a207ab8ce713f57.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Keyboard White.001 Roughness.jpg-38b546717de1d7abca797219b9017ac9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/Ucupaint Keyboard White.001 Roughness.jpg"
-dest_files=["res://.godot/imported/Ucupaint Keyboard White.001 Roughness.jpg-634bc22023e095e60a207ab8ce713f57.s3tc.ctex"]
+source_file="res://Models/Textures/Ucupaint Keyboard White.001 Roughness.jpg"
+dest_files=["res://.godot/imported/Ucupaint Keyboard White.001 Roughness.jpg-38b546717de1d7abca797219b9017ac9.s3tc.ctex"]
 
 [params]
 

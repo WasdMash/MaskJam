@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kt6wk2jgqysp"
-path.s3tc="res://.godot/imported/Ucupaint Binder 2 Color.jpg-1e4ff98cd9744c5a90a95661fbd1e48a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Binder 2 Color.jpg-17d27644777f918bad9e73815e06838d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/Ucupaint Binder 2 Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint Binder 2 Color.jpg-1e4ff98cd9744c5a90a95661fbd1e48a.s3tc.ctex"]
+source_file="res://Models/Textures/Ucupaint Binder 2 Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint Binder 2 Color.jpg-17d27644777f918bad9e73815e06838d.s3tc.ctex"]
 
 [params]
 
