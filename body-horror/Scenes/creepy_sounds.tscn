@@ -1,8 +1,12 @@
 [gd_scene format=3 uid="uid://duqlasgq387h8"]
 
 [ext_resource type="Script" uid="uid://dsv54qr0elivr" path="res://Scripts/creepy_sounds.gd" id="1_xm8ul"]
+[ext_resource type="AudioStream" uid="uid://bfro6at7dv72n" path="res://Music/Creepy_ambience/office room norm.wav" id="2_xfldq"]
+[ext_resource type="AudioStream" uid="uid://bgeq4m1lbikxl" path="res://Music/Creepy_ambience/office room Creep.wav" id="3_sc7ys"]
+[ext_resource type="AudioStream" uid="uid://b7r0a86fgbsr0" path="res://Music/Creepy_ambience/office room WTF.wav" id="4_u4qf5"]
 
 [node name="CreepySounds" type="Node3D" unique_id=1252416560]
 script = ExtResource("1_xm8ul")
+creepy_sounds = Array[AudioStream]([ExtResource("2_xfldq"), ExtResource("3_sc7ys"), ExtResource("4_u4qf5")])
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="." unique_id=1451763711]

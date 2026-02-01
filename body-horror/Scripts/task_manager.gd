@@ -56,7 +56,10 @@ enum completion{NOT_DONE, IGNORED, DONE_WELL, DONE_POORLY}
 #Lowkey ugly but we can make things better later
 var tasks:= {"Fetch the boss water": completion.NOT_DONE,
 			"Print the files": completion.NOT_DONE,
-			"Check up on Naomi": completion.NOT_DONE}
+			"Check up on Naomi": completion.NOT_DONE,
+			"Move the bin": completion.NOT_DONE,
+			"Talk to John": completion.NOT_DONE,
+			"Check over Tyler's work": completion.NOT_DONE,}
 	
 #This is the function to be ran to update the task list
 func updateTasks():
@@ -68,7 +71,8 @@ func updateTasks():
 	if currentTask != null:
 		currentTask.text = "Completed task: " + currentTaskName
 		currentTaskName = "" #We don't have a current taskName
-		await get_tree().create_timer(3.0).timeout
+		#Can have visual bugs if we enter a new zone in this time period
+		await get_tree().create_timer(0.5).timeout
 		currentTask.text = "Time to look for a new task to do"
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://c7aeo5ajaxkpc" path="res://Scripts/playerMovement.gd" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://cfwb3ak5wcmb" path="res://Scripts/playerCamera.gd" id="2_6t5aa"]
-[ext_resource type="Script" uid="uid://batecmuhoi3qa" path="res://Scripts/player_interaction.gd" id="2_cvnsp"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_vgqql"]
 
@@ -24,8 +23,5 @@ transform = Transform3D(0.9985665, 0.010169581, 0.052550316, -0.014842607, 0.995
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2520761, -0.099095196)
 current = true
 script = ExtResource("2_6t5aa")
-
-[node name="PlayerInteraction" type="Node3D" parent="." unique_id=649944021 groups=["player"]]
-script = ExtResource("2_cvnsp")
 
 [node name="AudioListener3D" type="AudioListener3D" parent="." unique_id=1744794726]
