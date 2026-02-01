@@ -1,8 +1,5 @@
-- Single-player mechanics
-- Learn Godot together
-- 5 office-workers and then 1
-- 3D
-	- We have to walk around
+
+- In menu, give instructions so that new players know what to do
 - Dialogue system
 	- Text system - how are we storing the text?
 
