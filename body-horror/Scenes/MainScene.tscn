@@ -2,14 +2,13 @@
 
 [ext_resource type="PackedScene" uid="uid://cslq1wavt36nc" path="res://Scenes/player.tscn" id="1_3mqji"]
 [ext_resource type="Script" uid="uid://kdgjqymkf3vk" path="res://Scripts/GameManager.gd" id="1_7rqgy"]
-[ext_resource type="PackedScene" uid="uid://duqlasgq387h8" path="res://Scenes/creepy_sounds.tscn" id="2_f140w"]
+[ext_resource type="PackedScene" path="res://Scenes/creepy_sounds.tscn" id="2_f140w"]
 [ext_resource type="PackedScene" uid="uid://cd4ac25cqkfmi" path="res://Scenes/clock_face.tscn" id="2_tr2i4"]
 [ext_resource type="PackedScene" uid="uid://c4spvjsmrcujc" path="res://Scenes/task_manager.tscn" id="5_y4jh7"]
 [ext_resource type="Script" uid="uid://wt3qusygvnq0" path="res://Scripts/task_progression.gd" id="6_y4jh7"]
-[ext_resource type="PackedScene" uid="uid://bh7s3yubemyed" path="res://Scenes/emily.tscn" id="7_q68mp"]
-[ext_resource type="PackedScene" uid="uid://cm4u87xp3u2t2" path="res://Scenes/tyler.tscn" id="8_f140w"]
-[ext_resource type="PackedScene" uid="uid://d2j48lo0wk7bb" path="res://Scenes/john.tscn" id="9_0iob3"]
-[ext_resource type="PackedScene" uid="uid://dn18tvryh3dk" path="res://Scenes/office.tscn" id="10_4b75m"]
+[ext_resource type="PackedScene" path="res://Scenes/emily.tscn" id="7_q68mp"]
+[ext_resource type="PackedScene" path="res://Scenes/tyler.tscn" id="8_f140w"]
+[ext_resource type="PackedScene" path="res://Scenes/john.tscn" id="9_0iob3"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3mqji"]
 sky_top_color = Color(0.054096743, 0.04305879, 0.31080747, 1)
@@ -110,8 +109,6 @@ transform = Transform3D(-0.5960167, 0, 0.36710227, 0, 0.7, 0, -0.36710227, 0, -0
 
 [node name="John" parent="." unique_id=1521713484 instance=ExtResource("9_0iob3")]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 9.898236, 0, -8.40553)
-
-[node name="Office" parent="." unique_id=899052843 instance=ExtResource("10_4b75m")]
 
 [connection signal="body_entered" from="paper/Area3D" to="paper" method="_on_area_3d_body_entered"]
 [connection signal="body_entered" from="water/Node3D/Area3D" to="water/Node3D" method="_on_area_3d_body_entered"]
