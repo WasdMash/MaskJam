@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bll3vcb4dn1lf"
-path.s3tc="res://.godot/imported/Ucupaint PC White Roughness.jpg-e6944b26c11b807da08106ca10b43329.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint PC White Roughness.jpg-6b6f54d63339a455207418a7dffddb38.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint PC White Roughness.jpg"
-dest_files=["res://.godot/imported/Ucupaint PC White Roughness.jpg-e6944b26c11b807da08106ca10b43329.s3tc.ctex"]
+source_file="res://Models/textures/Ucupaint PC White Roughness.jpg"
+dest_files=["res://.godot/imported/Ucupaint PC White Roughness.jpg-6b6f54d63339a455207418a7dffddb38.s3tc.ctex"]
 
 [params]
 

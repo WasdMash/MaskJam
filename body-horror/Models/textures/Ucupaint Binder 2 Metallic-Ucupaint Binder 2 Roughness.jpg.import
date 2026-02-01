@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cobsga2wjk5vx"
-path.s3tc="res://.godot/imported/Ucupaint Binder 2 Metallic-Ucupaint Binder 2 Roughness.jpg-cf439a37ac0f40218709b15d2f6087d8.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Binder 2 Metallic-Ucupaint Binder 2 Roughness.jpg-cc9a75ef9e103d526b4e0f92e30ab9ac.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Binder 2 Metallic-Ucupaint Binder 2 Roughness.jpg"
-dest_files=["res://.godot/imported/Ucupaint Binder 2 Metallic-Ucupaint Binder 2 Roughness.jpg-cf439a37ac0f40218709b15d2f6087d8.s3tc.ctex"]
+source_file="res://Models/textures/Ucupaint Binder 2 Metallic-Ucupaint Binder 2 Roughness.jpg"
+dest_files=["res://.godot/imported/Ucupaint Binder 2 Metallic-Ucupaint Binder 2 Roughness.jpg-cc9a75ef9e103d526b4e0f92e30ab9ac.s3tc.ctex"]
 
 [params]
 

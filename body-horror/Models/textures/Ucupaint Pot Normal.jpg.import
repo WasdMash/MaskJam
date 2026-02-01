@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2wsjl7ypdn4y"
-path.s3tc="res://.godot/imported/Ucupaint Pot Normal.jpg-b1670ee5fe60c341cd3d1804afe6c89a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Pot Normal.jpg-bcb6fb1247656b0664680b1664ae5cc7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Pot Normal.jpg"
-dest_files=["res://.godot/imported/Ucupaint Pot Normal.jpg-b1670ee5fe60c341cd3d1804afe6c89a.s3tc.ctex"]
+source_file="res://Models/textures/Ucupaint Pot Normal.jpg"
+dest_files=["res://.godot/imported/Ucupaint Pot Normal.jpg-bcb6fb1247656b0664680b1664ae5cc7.s3tc.ctex"]
 
 [params]
 

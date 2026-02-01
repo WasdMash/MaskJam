@@ -2,17 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqrnre771mbfi"
-path.s3tc="res://.godot/imported/Ucupaint Keyboard White.001 Color.jpg-5cf89d87684397a2340876a1957450f2.s3tc.ctex"
+uid="uid://cdt0ukwbprl64"
+path.s3tc="res://.godot/imported/Mask Creep_msak Distortion 1.png-fe0f56eacde3e603ff9164dfb9802dad.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={
+"md5": "e237b7bf08db5325cb58e6bd933e8980"
+}
 
 [deps]
 
-source_file="res://Models/textures/Ucupaint Keyboard White.001 Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint Keyboard White.001 Color.jpg-5cf89d87684397a2340876a1957450f2.s3tc.ctex"]
+source_file="res://Models/Objects/Mask Creep_msak Distortion 1.png"
+dest_files=["res://.godot/imported/Mask Creep_msak Distortion 1.png-fe0f56eacde3e603ff9164dfb9802dad.s3tc.ctex"]
 
 [params]
 
