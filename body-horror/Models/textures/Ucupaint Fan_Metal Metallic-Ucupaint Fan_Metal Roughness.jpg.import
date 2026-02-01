@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0s4grxoxm5yo"
-path.s3tc="res://.godot/imported/Ucupaint Fan_Metal Metallic-Ucupaint Fan_Metal Roughness.jpg-758057aa3dc23058e6dbed6845f600cf.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Fan_Metal Metallic-Ucupaint Fan_Metal Roughness.jpg-428db375a541714588c99ca459bb6ff8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Fan_Metal Metallic-Ucupaint Fan_Metal Roughness.jpg"
-dest_files=["res://.godot/imported/Ucupaint Fan_Metal Metallic-Ucupaint Fan_Metal Roughness.jpg-758057aa3dc23058e6dbed6845f600cf.s3tc.ctex"]
+source_file="res://Models/textures/Ucupaint Fan_Metal Metallic-Ucupaint Fan_Metal Roughness.jpg"
+dest_files=["res://.godot/imported/Ucupaint Fan_Metal Metallic-Ucupaint Fan_Metal Roughness.jpg-428db375a541714588c99ca459bb6ff8.s3tc.ctex"]
 
 [params]
 

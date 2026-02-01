@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c20hqivtoieci"
-path.s3tc="res://.godot/imported/Monitor Glass_Normal.jpg-9c69cf504757c1d921443bc714a7d8dc.s3tc.ctex"
+path.s3tc="res://.godot/imported/Monitor Glass_Normal.jpg-0f58586c053960d69110276feff1bee7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Monitor Glass_Normal.jpg"
-dest_files=["res://.godot/imported/Monitor Glass_Normal.jpg-9c69cf504757c1d921443bc714a7d8dc.s3tc.ctex"]
+source_file="res://Models/textures/Monitor Glass_Normal.jpg"
+dest_files=["res://.godot/imported/Monitor Glass_Normal.jpg-0f58586c053960d69110276feff1bee7.s3tc.ctex"]
 
 [params]
 

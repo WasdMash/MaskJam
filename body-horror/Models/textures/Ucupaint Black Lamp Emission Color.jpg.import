@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btvy6kp458vfo"
-path.s3tc="res://.godot/imported/Ucupaint Black Lamp Emission Color.jpg-2ec265c21a1a3d63dd040e5ec8c875cf.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Black Lamp Emission Color.jpg-b0d14f23b77e54fafa4a785ea5c080f7.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Black Lamp Emission Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint Black Lamp Emission Color.jpg-2ec265c21a1a3d63dd040e5ec8c875cf.s3tc.ctex"]
+source_file="res://Models/textures/Ucupaint Black Lamp Emission Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint Black Lamp Emission Color.jpg-b0d14f23b77e54fafa4a785ea5c080f7.s3tc.ctex"]
 
 [params]
 

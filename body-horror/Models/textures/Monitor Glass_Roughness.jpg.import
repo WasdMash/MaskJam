@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ep880nn3volp"
-path.s3tc="res://.godot/imported/Monitor Glass_Roughness.jpg-31c1587b89b3826edd161ceb190cdab6.s3tc.ctex"
+path.s3tc="res://.godot/imported/Monitor Glass_Roughness.jpg-4092d3db03f6cab2613ececacb284101.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Monitor Glass_Roughness.jpg"
-dest_files=["res://.godot/imported/Monitor Glass_Roughness.jpg-31c1587b89b3826edd161ceb190cdab6.s3tc.ctex"]
+source_file="res://Models/textures/Monitor Glass_Roughness.jpg"
+dest_files=["res://.godot/imported/Monitor Glass_Roughness.jpg-4092d3db03f6cab2613ececacb284101.s3tc.ctex"]
 
 [params]
 

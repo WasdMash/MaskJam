@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crhliddisgl8"
-path.s3tc="res://.godot/imported/Ucupaint Printer Top White Normal.jpg-a0780e0d5da8c2365bc2f52f25004f27.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Printer Top White Normal.jpg-2860d7591ecd875620a975cb95a6a4c1.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Printer Top White Normal.jpg"
-dest_files=["res://.godot/imported/Ucupaint Printer Top White Normal.jpg-a0780e0d5da8c2365bc2f52f25004f27.s3tc.ctex"]
+source_file="res://Models/textures/Ucupaint Printer Top White Normal.jpg"
+dest_files=["res://.godot/imported/Ucupaint Printer Top White Normal.jpg-2860d7591ecd875620a975cb95a6a4c1.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chupp1exdc22u"
-path.s3tc="res://.godot/imported/Office Chair Metal_Metallic.png-Office Chair Metal_Roughness.jpg-b662ef5fab41cfabc592091acd9f1fce.s3tc.ctex"
+path.s3tc="res://.godot/imported/Office Chair Metal_Metallic.png-Office Chair Metal_Roughness.jpg-33fe83bf78b34631f2c711c5ec95d578.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Office Chair Metal_Metallic.png-Office Chair Metal_Roughness.jpg"
-dest_files=["res://.godot/imported/Office Chair Metal_Metallic.png-Office Chair Metal_Roughness.jpg-b662ef5fab41cfabc592091acd9f1fce.s3tc.ctex"]
+source_file="res://Models/textures/Office Chair Metal_Metallic.png-Office Chair Metal_Roughness.jpg"
+dest_files=["res://.godot/imported/Office Chair Metal_Metallic.png-Office Chair Metal_Roughness.jpg-33fe83bf78b34631f2c711c5ec95d578.s3tc.ctex"]
 
 [params]
 
