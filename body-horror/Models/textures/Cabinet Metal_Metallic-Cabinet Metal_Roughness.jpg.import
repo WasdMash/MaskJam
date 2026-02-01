@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kag6vruj4t1l"
-path.s3tc="res://.godot/imported/Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg-12bdc5a990f26011ae4a29d3a265e93a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg-fc77f50ad2e4eab29ea77135017c0f84.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg"
-dest_files=["res://.godot/imported/Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg-12bdc5a990f26011ae4a29d3a265e93a.s3tc.ctex"]
+source_file="res://Models/Textures/Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg"
+dest_files=["res://.godot/imported/Cabinet Metal_Metallic-Cabinet Metal_Roughness.jpg-fc77f50ad2e4eab29ea77135017c0f84.s3tc.ctex"]
 
 [params]
 

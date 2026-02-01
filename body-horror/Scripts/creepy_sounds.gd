@@ -40,7 +40,7 @@ func play_random_creepy_sound() -> void:
 	temp_player.stream = random_audio
 	temp_player.volume_db = linear_to_db(chance) 
 	print(temp_player.stream.resource_path.get_basename() + " : " + str(temp_player.volume_db))
-	temp_player.position = Vector3(randf_range(-40, 40), 0, randf_range(-40, 40)) # Random direction!
+	temp_player.position = Vector3(randf_range(-20, 20), 0, randf_range(-20, 20)) # Random direction!
 	temp_player.play()
 	
 	# Clean up the node once the sound finishes

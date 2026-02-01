@@ -5,7 +5,9 @@
 [ext_resource type="PackedScene" path="res://Scenes/creepy_sounds.tscn" id="2_f140w"]
 [ext_resource type="PackedScene" uid="uid://cd4ac25cqkfmi" path="res://Scenes/clock_face.tscn" id="2_tr2i4"]
 [ext_resource type="PackedScene" uid="uid://c4spvjsmrcujc" path="res://Scenes/task_manager.tscn" id="5_y4jh7"]
-[ext_resource type="PackedScene" uid="uid://buigmdnsytlcu" path="res://Scenes/final_setup.tscn" id="6_y4jh7"]
+[ext_resource type="PackedScene" uid="uid://dnt6e6imadg13" path="res://Scenes/final_setup.tscn" id="6_y4jh7"]
+[ext_resource type="PackedScene" uid="uid://bitb5no2g0jc3" path="res://Models/Objects/Mask Creep.glb" id="7_f140w"]
+[ext_resource type="PackedScene" uid="uid://bbw6odxb2g7in" path="res://Models/Objects/Mask WTF.glb" id="8_0iob3"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3mqji"]
 sky_top_color = Color(0.054096743, 0.04305879, 0.31080747, 1)
@@ -42,3 +44,37 @@ environment = SubResource("Environment_x4av3")
 [node name="TaskManager" parent="." unique_id=1926607034 instance=ExtResource("5_y4jh7")]
 
 [node name="Final Setup" parent="." unique_id=611171965 instance=ExtResource("6_y4jh7")]
+
+[node name="CreepMasks" type="Node3D" parent="." unique_id=390198049 groups=["creep"]]
+
+[node name="Mask Creep5" parent="CreepMasks" unique_id=102802567 groups=["creep"] instance=ExtResource("7_f140w")]
+transform = Transform3D(-4.371139e-09, 0.1, -4.371139e-09, 0, -4.371139e-09, -0.1, -0.1, -4.371139e-09, 1.9106854e-16, 3.3361764, 1.3634976, -3.263919)
+
+[node name="Mask Creep4" parent="CreepMasks" unique_id=1836545266 groups=["creep"] instance=ExtResource("7_f140w")]
+transform = Transform3D(0.063006654, 0.051414095, -0.058195807, -0.0056438753, -0.071712226, -0.069465846, -0.07744875, 0.047052607, -0.04228173, 8.2820425, 1.0603168, -10.120123)
+
+[node name="Mask Creep2" parent="CreepMasks" unique_id=1542725033 groups=["creep"] instance=ExtResource("7_f140w")]
+transform = Transform3D(-0.0551937, -0.08338859, 4.120417e-09, -1.0574742e-09, -4.2412975e-09, -0.1, 0.08338859, -0.0551937, 1.4591163e-09, 8.492755, 1.354275, -5.8118024)
+
+[node name="Mask Creep" parent="CreepMasks" unique_id=1483475446 groups=["creep"] instance=ExtResource("7_f140w")]
+transform = Transform3D(-0.099996194, 0.00044945496, -0.0007480188, 0, -0.08571673, -0.051503804, -0.0008726637, -0.05150184, 0.08571347, 4.853, 0.808, -10.045)
+
+[node name="Mask Creep3" parent="CreepMasks" unique_id=549396411 groups=["creep"] instance=ExtResource("7_f140w")]
+transform = Transform3D(0.058778528, 0.080901705, -3.9615973e-09, -8.340527e-10, -4.290829e-09, -0.1, -0.080901705, 0.058778528, -1.8473231e-09, 10.282181, 1.3083435, -3.1697323)
+
+[node name="WTF_masks" type="Node3D" parent="." unique_id=414025542 groups=["wtf"]]
+
+[node name="Mask WTF" parent="WTF_masks" unique_id=414225417 groups=["wtf"] instance=ExtResource("8_0iob3")]
+transform = Transform3D(-4.371139e-09, 0.1, -4.371139e-09, 0, -4.371139e-09, -0.1, -0.1, -4.371139e-09, 1.9106854e-16, 3.3221765, 1.3703476, -3.2530522)
+
+[node name="Mask WTF2" parent="WTF_masks" unique_id=189501383 groups=["wtf"] instance=ExtResource("8_0iob3")]
+transform = Transform3D(0.063006654, 0.051414102, -0.058195807, -0.00564387, -0.071712226, -0.069465846, -0.07744875, 0.0470526, -0.042281725, 8.2845, 1.0715634, -10.11991)
+
+[node name="Mask WTF3" parent="WTF_masks" unique_id=2133141117 groups=["wtf"] instance=ExtResource("8_0iob3")]
+transform = Transform3D(-0.055193692, -0.08338859, 3.645031e-09, 0, -4.371139e-09, -0.1, 0.08338859, -0.055193692, 2.412593e-09, 8.496832, 1.3559611, -5.8035183)
+
+[node name="Mask WTF4" parent="WTF_masks" unique_id=1021858209 groups=["wtf"] instance=ExtResource("8_0iob3")]
+transform = Transform3D(-0.099996194, 0.00044946373, -0.00074801885, -7.493596e-09, -0.08571674, -0.051503804, -0.00087266817, -0.05150184, 0.08571347, 4.8477845, 0.81155634, -10.036548)
+
+[node name="Mask WTF5" parent="WTF_masks" unique_id=462747765 groups=["wtf"] instance=ExtResource("8_0iob3")]
+transform = Transform3D(0.058778524, 0.080901705, -3.5363257e-09, 0, -4.371139e-09, -0.1, -0.080901705, 0.058778524, -2.569291e-09, 10.284297, 1.3120538, -3.1726184)

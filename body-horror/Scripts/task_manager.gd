@@ -18,16 +18,17 @@ var currentTask: Label
 @export var taskStarted := false
 @export var currentTaskName := ""
 @export var currentMaxTaskTime := 0
+var currentInsanityIndex := 0
 
 @export_group("Insanities")
 #Need to be able to track the insanity metres of each NPC
 	#Emily. John , John Pork, Tyler and Naomi
 #Basically, the higher their insanity, the wackier they will become
-@export var insanities := [100,100,100,100,100] #Everyone starts kinda sane but you can make it worse
+@export var insanities := [100.0,100.0,100.0,100.0,100.0] #Everyone starts kinda sane but you can make it worse
 enum wellbeing{NORMAL,CREEP,WTF}
 enum completion{NOT_DONE, IGNORED, DONE_WELL, DONE_POORLY}
 #Lowkey ugly but we can make things better later
-var tasks:= {"Fetch the boss water": completion.NOT_DONE,
+var tasks:= {"Fetch Emily water": completion.NOT_DONE,
 			"Print the files": completion.NOT_DONE,
 			"Check up on Naomi": completion.NOT_DONE,
 			"Move the bin": completion.NOT_DONE,
@@ -35,7 +36,39 @@ var tasks:= {"Fetch the boss water": completion.NOT_DONE,
 			"Check over Tyler's work": completion.NOT_DONE,}
 var dailyTasks := {} #Picking the daily tasks of the day to be completed
 
-func beginTask(taskName: String, taskMaxTime : float) -> void:
+#The masks that we will set active and unactive depending on their insanities
+@export_group("Checking the masks")
+@export var creepMasks := []
+@export  var WTFMasks := []
+var foundMasks := false
+
+func initialise_masks():
+	#Getting all of my creep masks
+	creepMasks = get_tree().get_nodes_in_group("creep")
+	creepMasks.sort_custom(func(a, b): return a.get_index() < b.get_index())
+	if len(creepMasks) > 0:
+		foundMasks = true
+	#Getting all of my WTF masks
+	WTFMasks = get_tree().get_nodes_in_group("wtf")
+	WTFMasks.sort_custom(func(a, b): return a.get_index() < b.get_index())
+	
+func switchMask(index : int):
+	#This function should check the insanity of this mask and set its mask accordingly
+	var insanity = insanities[index]
+	if insanity < 0.33:
+		#WTF time
+		WTFMasks[index].show()
+		creepMasks[index].hide()
+	elif insanity < 0.66:
+		#creep time
+		creepMasks[index].show()
+		WTFMasks[index].hide()
+	else:
+		#We are chilling rn, so let all of the masks go free
+		creepMasks[index].hide()
+		WTFMasks[index].hide()
+
+func beginTask(taskName: String, taskMaxTime : float, insaneIndex:int) -> void:
 	#only start tasks that haven't been done yet - no takebacks
 	if dailyTasks.has(taskName):
 		if dailyTasks[taskName] == completion.NOT_DONE:
@@ -43,14 +76,15 @@ func beginTask(taskName: String, taskMaxTime : float) -> void:
 			currentTaskName = taskName
 			currentMaxTaskTime = taskMaxTime
 			currentTask.text = "Current task: " + currentTaskName
+			currentInsanityIndex = insaneIndex
 	
-func completeTask(insanityIndex : int):
+func completeTask():
 	#Now we can complete said task
 	#Calculate its insanity and then alter the insanity of the relevant character
 	taskStarted = false #stop the timer
 	var insanityCheck = taskTime / currentMaxTaskTime
 	var taskCompletionType = completion.NOT_DONE
-	insanities[insanityIndex] *= (1 - insanityCheck) #The faster the tasks are done, the less insane they become
+	insanities[currentInsanityIndex] *= (1 - insanityCheck) #The faster the tasks are done, the less insane they become
 	if insanityCheck > 0.5:
 		taskCompletionType = completion.DONE_WELL
 	elif insanityCheck > 0.3:
@@ -101,4 +135,8 @@ func updateTasks():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
-	pass
+	#Should be slowly deteriorating the insanities of everyone in the office
+	for i in range(len(insanities)):
+		insanities[i] -= _delta
+		if foundMasks: switchMask(i)
+		else: initialise_masks()

@@ -43,25 +43,13 @@ texture = ExtResource("2_xhh6f")
 
 [node name="Button" type="Button" parent="." unique_id=1259135301]
 layout_mode = 0
-offset_left = 234.0
-offset_top = 526.0
-offset_right = 500.0
-offset_bottom = 591.0
+offset_left = 454.0
+offset_top = 534.0
+offset_right = 720.0
+offset_bottom = 599.0
 theme_override_colors/font_hover_color = Color(0.56508195, 0.5300347, 0.24726555, 1)
 theme_override_font_sizes/font_size = 40
 text = "Start"
 flat = true
 
-[node name="Button2" type="Button" parent="." unique_id=1561496369]
-layout_mode = 0
-offset_left = 667.0
-offset_top = 526.0
-offset_right = 933.0
-offset_bottom = 591.0
-theme_override_colors/font_hover_color = Color(0.56508195, 0.5300347, 0.24726555, 1)
-theme_override_font_sizes/font_size = 34
-text = "Options"
-flat = true
-
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="Button2" to="." method="_on_option_button_pressed"]

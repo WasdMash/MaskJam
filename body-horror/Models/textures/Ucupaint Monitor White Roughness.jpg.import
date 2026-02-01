@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://q1by6e85s3pb"
-path.s3tc="res://.godot/imported/Ucupaint Monitor White Roughness.jpg-6a1a16d41da5dfd537e98cc73af5da0a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Monitor White Roughness.jpg-10f7a2f4343f794c262f37fda96cc0ff.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/Ucupaint Monitor White Roughness.jpg"
-dest_files=["res://.godot/imported/Ucupaint Monitor White Roughness.jpg-6a1a16d41da5dfd537e98cc73af5da0a.s3tc.ctex"]
+source_file="res://Models/Textures/Ucupaint Monitor White Roughness.jpg"
+dest_files=["res://.godot/imported/Ucupaint Monitor White Roughness.jpg-10f7a2f4343f794c262f37fda96cc0ff.s3tc.ctex"]
 
 [params]
 

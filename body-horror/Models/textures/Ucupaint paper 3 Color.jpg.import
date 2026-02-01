@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cuxeq44s3uvn0"
-path.s3tc="res://.godot/imported/Ucupaint paper 3 Color.jpg-82a2103156d9eb83bb5150b446ba568a.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint paper 3 Color.jpg-2fa7afc3028db080b5aba0915a288525.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/Ucupaint paper 3 Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint paper 3 Color.jpg-82a2103156d9eb83bb5150b446ba568a.s3tc.ctex"]
+source_file="res://Models/Textures/Ucupaint paper 3 Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint paper 3 Color.jpg-2fa7afc3028db080b5aba0915a288525.s3tc.ctex"]
 
 [params]
 

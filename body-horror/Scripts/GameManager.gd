@@ -38,6 +38,7 @@ func start_next_day_sequence() -> void:
 	await get_tree().create_timer(0.5).timeout
 	TaskManager.currentTask.text = "Time to look for a new task to do"
 	TaskManager.pick_daily_tasks()
+	TaskManager.updateTasks()
 
 func _process(delta: float) -> void:
 	# Tick the minutes based on frame time

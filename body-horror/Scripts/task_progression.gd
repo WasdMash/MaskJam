@@ -4,14 +4,19 @@ extends Node3D
 #This max time should be unique based on the task
 @export var maxTime := 20 #We shouldn't be spending more than 20 seconds on delivering paper
 @export var taskName := "" #Set this in the editor per task
+@export var insaneIndex := 0
 
 func _on_area_3d_body_entered(body: Node3D) -> void:
 	if body.is_in_group("player") and TaskManager.currentTaskName == "":
 		#Cool, now let's just trigger the task for now
 		#Should probably check first to see if the task has already been done first
-		TaskManager.beginTask(taskName, maxTime)
+		TaskManager.beginTask(taskName, maxTime, insaneIndex)
 		
 func _process(delta: float) -> void:
 	if TaskManager.taskStarted and TaskManager.taskTime < maxTime:
 		TaskManager.taskTime += delta
 	
+
+
+func _on_body_entered(body: Node3D) -> void:
+	pass # Replace with function body.

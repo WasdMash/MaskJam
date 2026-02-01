@@ -7,7 +7,7 @@ func _on_area_3d_body_entered(body: Node3D) -> void:
 	if body.is_in_group("player") and TaskManager.currentTaskName != "":
 		print("Finish task")
 		if TaskManager.taskStarted:
-			TaskManager.completeTask(0) #We update the insanity of Emily now
+			TaskManager.completeTask() #We update the insanity of Emily now
 
 #NPC interaction - just need to figure out where exactly it should be
 	#Preferably in above function but this depends on which tasks require what - for example check up on Naomi

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ehby2pqvvk00"
-path.s3tc="res://.godot/imported/Ucupaint Printer Base White Color.jpg-4120ad5fc29a7eb742416a7aaf8d7844.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Printer Base White Color.jpg-b9c340310b15efb99bdd6d771d602f14.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/Ucupaint Printer Base White Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint Printer Base White Color.jpg-4120ad5fc29a7eb742416a7aaf8d7844.s3tc.ctex"]
+source_file="res://Models/Textures/Ucupaint Printer Base White Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint Printer Base White Color.jpg-b9c340310b15efb99bdd6d771d602f14.s3tc.ctex"]
 
 [params]
 

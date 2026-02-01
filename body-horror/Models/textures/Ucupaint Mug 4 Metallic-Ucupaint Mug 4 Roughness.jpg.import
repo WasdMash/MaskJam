@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdc6e6avqiior"
-path.s3tc="res://.godot/imported/Ucupaint Mug 4 Metallic-Ucupaint Mug 4 Roughness.jpg-092d2b64f89fd47e8feff294caa25578.s3tc.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Mug 4 Metallic-Ucupaint Mug 4 Roughness.jpg-8a19ea0186beb7c4756106f3216960a3.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/textures/Ucupaint Mug 4 Metallic-Ucupaint Mug 4 Roughness.jpg"
-dest_files=["res://.godot/imported/Ucupaint Mug 4 Metallic-Ucupaint Mug 4 Roughness.jpg-092d2b64f89fd47e8feff294caa25578.s3tc.ctex"]
+source_file="res://Models/Textures/Ucupaint Mug 4 Metallic-Ucupaint Mug 4 Roughness.jpg"
+dest_files=["res://.godot/imported/Ucupaint Mug 4 Metallic-Ucupaint Mug 4 Roughness.jpg-8a19ea0186beb7c4756106f3216960a3.s3tc.ctex"]
 
 [params]
 
