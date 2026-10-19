@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://oplyvivh12lf"
-path.s3tc="res://.godot/imported/Image_0.png-ad9d4493696a80a76750c8d517f2f305.s3tc.ctex"
-path.etc2="res://.godot/imported/Image_0.png-ad9d4493696a80a76750c8d517f2f305.etc2.ctex"
+path.s3tc="res://.godot/imported/Image_0.png-600d1a427218a6df02e84958dd4a7096.s3tc.ctex"
+path.etc2="res://.godot/imported/Image_0.png-600d1a427218a6df02e84958dd4a7096.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Image_0.png"
-dest_files=["res://.godot/imported/Image_0.png-ad9d4493696a80a76750c8d517f2f305.s3tc.ctex", "res://.godot/imported/Image_0.png-ad9d4493696a80a76750c8d517f2f305.etc2.ctex"]
+source_file="res://Models/textures/Image_0.png"
+dest_files=["res://.godot/imported/Image_0.png-600d1a427218a6df02e84958dd4a7096.s3tc.ctex", "res://.godot/imported/Image_0.png-600d1a427218a6df02e84958dd4a7096.etc2.ctex"]
 
 [params]
 

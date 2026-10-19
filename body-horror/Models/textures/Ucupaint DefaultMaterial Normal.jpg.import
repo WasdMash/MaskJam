@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b102dqpyhdq10"
-path.s3tc="res://.godot/imported/Ucupaint DefaultMaterial Normal.jpg-68b8907a72a5c338323c7f1d0aaef0ba.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint DefaultMaterial Normal.jpg-68b8907a72a5c338323c7f1d0aaef0ba.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint DefaultMaterial Normal.jpg-13866eedd375729d2f7d5b459406f953.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint DefaultMaterial Normal.jpg-13866eedd375729d2f7d5b459406f953.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint DefaultMaterial Normal.jpg"
-dest_files=["res://.godot/imported/Ucupaint DefaultMaterial Normal.jpg-68b8907a72a5c338323c7f1d0aaef0ba.s3tc.ctex", "res://.godot/imported/Ucupaint DefaultMaterial Normal.jpg-68b8907a72a5c338323c7f1d0aaef0ba.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint DefaultMaterial Normal.jpg"
+dest_files=["res://.godot/imported/Ucupaint DefaultMaterial Normal.jpg-13866eedd375729d2f7d5b459406f953.s3tc.ctex", "res://.godot/imported/Ucupaint DefaultMaterial Normal.jpg-13866eedd375729d2f7d5b459406f953.etc2.ctex"]
 
 [params]
 

@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://t0blu642opol"
-path.s3tc="res://.godot/imported/Ucupaint PC Creme Front Normal.jpg-8fc152d97cb479df737feead7532d369.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint PC Creme Front Normal.jpg-8fc152d97cb479df737feead7532d369.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint PC Creme Front Normal.jpg-10387bef3c0ae45340b7e6833be26cfe.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint PC Creme Front Normal.jpg-10387bef3c0ae45340b7e6833be26cfe.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint PC Creme Front Normal.jpg"
-dest_files=["res://.godot/imported/Ucupaint PC Creme Front Normal.jpg-8fc152d97cb479df737feead7532d369.s3tc.ctex", "res://.godot/imported/Ucupaint PC Creme Front Normal.jpg-8fc152d97cb479df737feead7532d369.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint PC Creme Front Normal.jpg"
+dest_files=["res://.godot/imported/Ucupaint PC Creme Front Normal.jpg-10387bef3c0ae45340b7e6833be26cfe.s3tc.ctex", "res://.godot/imported/Ucupaint PC Creme Front Normal.jpg-10387bef3c0ae45340b7e6833be26cfe.etc2.ctex"]
 
 [params]
 

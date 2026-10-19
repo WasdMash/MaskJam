@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7emlbnfpi1p4"
-path.s3tc="res://.godot/imported/Ucupaint Mug 4 Color.jpg-45e23573f1dc6d4d212e08e7d92f66a0.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint Mug 4 Color.jpg-45e23573f1dc6d4d212e08e7d92f66a0.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Mug 4 Color.jpg-2535302319ee8fd44394db484755048b.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Mug 4 Color.jpg-2535302319ee8fd44394db484755048b.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Mug 4 Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint Mug 4 Color.jpg-45e23573f1dc6d4d212e08e7d92f66a0.s3tc.ctex", "res://.godot/imported/Ucupaint Mug 4 Color.jpg-45e23573f1dc6d4d212e08e7d92f66a0.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint Mug 4 Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint Mug 4 Color.jpg-2535302319ee8fd44394db484755048b.s3tc.ctex", "res://.godot/imported/Ucupaint Mug 4 Color.jpg-2535302319ee8fd44394db484755048b.etc2.ctex"]
 
 [params]
 

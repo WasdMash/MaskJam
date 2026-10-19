@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r6j3w4phc47d"
-path.s3tc="res://.godot/imported/Ucupaint Mouse Creme Color.jpg-1da63eab0e477547969b997c25140a96.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint Mouse Creme Color.jpg-1da63eab0e477547969b997c25140a96.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Mouse Creme Color.jpg-7dcbc5602762bca2a241f76f498f3275.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Mouse Creme Color.jpg-7dcbc5602762bca2a241f76f498f3275.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Mouse Creme Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint Mouse Creme Color.jpg-1da63eab0e477547969b997c25140a96.s3tc.ctex", "res://.godot/imported/Ucupaint Mouse Creme Color.jpg-1da63eab0e477547969b997c25140a96.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint Mouse Creme Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint Mouse Creme Color.jpg-7dcbc5602762bca2a241f76f498f3275.s3tc.ctex", "res://.godot/imported/Ucupaint Mouse Creme Color.jpg-7dcbc5602762bca2a241f76f498f3275.etc2.ctex"]
 
 [params]
 

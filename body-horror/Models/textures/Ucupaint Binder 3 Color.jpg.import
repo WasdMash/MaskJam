@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://di4mxdvjqmxgb"
-path.s3tc="res://.godot/imported/Ucupaint Binder 3 Color.jpg-4b3d705dd5f6ca8e6bcfad803a797785.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint Binder 3 Color.jpg-4b3d705dd5f6ca8e6bcfad803a797785.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Binder 3 Color.jpg-91669bdc86bda73e71639f6e57aded99.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Binder 3 Color.jpg-91669bdc86bda73e71639f6e57aded99.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Binder 3 Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint Binder 3 Color.jpg-4b3d705dd5f6ca8e6bcfad803a797785.s3tc.ctex", "res://.godot/imported/Ucupaint Binder 3 Color.jpg-4b3d705dd5f6ca8e6bcfad803a797785.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint Binder 3 Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint Binder 3 Color.jpg-91669bdc86bda73e71639f6e57aded99.s3tc.ctex", "res://.godot/imported/Ucupaint Binder 3 Color.jpg-91669bdc86bda73e71639f6e57aded99.etc2.ctex"]
 
 [params]
 

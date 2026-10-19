@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc1x318s8s3qe"
-path.s3tc="res://.godot/imported/Paper color 512.jpg-1f3141a04f8cae83ffdad0c4827e66ec.s3tc.ctex"
-path.etc2="res://.godot/imported/Paper color 512.jpg-1f3141a04f8cae83ffdad0c4827e66ec.etc2.ctex"
+path.s3tc="res://.godot/imported/Paper color 512.jpg-71ffe015dc40f97b140a358120ce4bc4.s3tc.ctex"
+path.etc2="res://.godot/imported/Paper color 512.jpg-71ffe015dc40f97b140a358120ce4bc4.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Paper color 512.jpg"
-dest_files=["res://.godot/imported/Paper color 512.jpg-1f3141a04f8cae83ffdad0c4827e66ec.s3tc.ctex", "res://.godot/imported/Paper color 512.jpg-1f3141a04f8cae83ffdad0c4827e66ec.etc2.ctex"]
+source_file="res://Models/textures/Paper color 512.jpg"
+dest_files=["res://.godot/imported/Paper color 512.jpg-71ffe015dc40f97b140a358120ce4bc4.s3tc.ctex", "res://.godot/imported/Paper color 512.jpg-71ffe015dc40f97b140a358120ce4bc4.etc2.ctex"]
 
 [params]
 

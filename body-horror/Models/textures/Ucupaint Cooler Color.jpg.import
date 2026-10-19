@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dk18uiew0uum7"
-path.s3tc="res://.godot/imported/Ucupaint Cooler Color.jpg-d29dcb71810d2a63d88072b2910b08ad.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint Cooler Color.jpg-d29dcb71810d2a63d88072b2910b08ad.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Cooler Color.jpg-19cfdd74ecbb85825da59ceb5a3be769.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Cooler Color.jpg-19cfdd74ecbb85825da59ceb5a3be769.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Cooler Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint Cooler Color.jpg-d29dcb71810d2a63d88072b2910b08ad.s3tc.ctex", "res://.godot/imported/Ucupaint Cooler Color.jpg-d29dcb71810d2a63d88072b2910b08ad.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint Cooler Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint Cooler Color.jpg-19cfdd74ecbb85825da59ceb5a3be769.s3tc.ctex", "res://.godot/imported/Ucupaint Cooler Color.jpg-19cfdd74ecbb85825da59ceb5a3be769.etc2.ctex"]
 
 [params]
 

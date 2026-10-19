@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cm57quadtwfui"
-path.s3tc="res://.godot/imported/Ucupaint Printer Base White Normal.jpg-c1ea1555760531b3a90cb5a48cc100de.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint Printer Base White Normal.jpg-c1ea1555760531b3a90cb5a48cc100de.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Printer Base White Normal.jpg-e6571ca63edff4a62eb1ed6cb5591b49.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Printer Base White Normal.jpg-e6571ca63edff4a62eb1ed6cb5591b49.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Printer Base White Normal.jpg"
-dest_files=["res://.godot/imported/Ucupaint Printer Base White Normal.jpg-c1ea1555760531b3a90cb5a48cc100de.s3tc.ctex", "res://.godot/imported/Ucupaint Printer Base White Normal.jpg-c1ea1555760531b3a90cb5a48cc100de.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint Printer Base White Normal.jpg"
+dest_files=["res://.godot/imported/Ucupaint Printer Base White Normal.jpg-e6571ca63edff4a62eb1ed6cb5591b49.s3tc.ctex", "res://.godot/imported/Ucupaint Printer Base White Normal.jpg-e6571ca63edff4a62eb1ed6cb5591b49.etc2.ctex"]
 
 [params]
 

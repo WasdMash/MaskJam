@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnucdk7f8obs2"
-path.s3tc="res://.godot/imported/Fan Head_Metallic-Fan Head_Roughness.jpg-5c98e3f40c1e7971f8fcab6acae3caa1.s3tc.ctex"
-path.etc2="res://.godot/imported/Fan Head_Metallic-Fan Head_Roughness.jpg-5c98e3f40c1e7971f8fcab6acae3caa1.etc2.ctex"
+path.s3tc="res://.godot/imported/Fan Head_Metallic-Fan Head_Roughness.jpg-b32cc1446f572ded0583ef20655cb124.s3tc.ctex"
+path.etc2="res://.godot/imported/Fan Head_Metallic-Fan Head_Roughness.jpg-b32cc1446f572ded0583ef20655cb124.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Fan Head_Metallic-Fan Head_Roughness.jpg"
-dest_files=["res://.godot/imported/Fan Head_Metallic-Fan Head_Roughness.jpg-5c98e3f40c1e7971f8fcab6acae3caa1.s3tc.ctex", "res://.godot/imported/Fan Head_Metallic-Fan Head_Roughness.jpg-5c98e3f40c1e7971f8fcab6acae3caa1.etc2.ctex"]
+source_file="res://Models/textures/Fan Head_Metallic-Fan Head_Roughness.jpg"
+dest_files=["res://.godot/imported/Fan Head_Metallic-Fan Head_Roughness.jpg-b32cc1446f572ded0583ef20655cb124.s3tc.ctex", "res://.godot/imported/Fan Head_Metallic-Fan Head_Roughness.jpg-b32cc1446f572ded0583ef20655cb124.etc2.ctex"]
 
 [params]
 

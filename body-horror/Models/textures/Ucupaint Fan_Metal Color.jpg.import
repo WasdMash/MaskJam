@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cj8kx1k0ihaq8"
-path.s3tc="res://.godot/imported/Ucupaint Fan_Metal Color.jpg-1030d0d8cf48f64dd21b302dcbf690b7.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint Fan_Metal Color.jpg-1030d0d8cf48f64dd21b302dcbf690b7.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Fan_Metal Color.jpg-5366df5dab7e0f447c9a75d275737341.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Fan_Metal Color.jpg-5366df5dab7e0f447c9a75d275737341.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Fan_Metal Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint Fan_Metal Color.jpg-1030d0d8cf48f64dd21b302dcbf690b7.s3tc.ctex", "res://.godot/imported/Ucupaint Fan_Metal Color.jpg-1030d0d8cf48f64dd21b302dcbf690b7.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint Fan_Metal Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint Fan_Metal Color.jpg-5366df5dab7e0f447c9a75d275737341.s3tc.ctex", "res://.godot/imported/Ucupaint Fan_Metal Color.jpg-5366df5dab7e0f447c9a75d275737341.etc2.ctex"]
 
 [params]
 

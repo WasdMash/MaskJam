@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4ddhvw5nrvyu"
-path.s3tc="res://.godot/imported/Office Chair Leather_Roughness.jpg-c24d128dde89bda85881fb7a16d6fc98.s3tc.ctex"
-path.etc2="res://.godot/imported/Office Chair Leather_Roughness.jpg-c24d128dde89bda85881fb7a16d6fc98.etc2.ctex"
+path.s3tc="res://.godot/imported/Office Chair Leather_Roughness.jpg-171eb9af80725d9962a2c7a3b14bfbb6.s3tc.ctex"
+path.etc2="res://.godot/imported/Office Chair Leather_Roughness.jpg-171eb9af80725d9962a2c7a3b14bfbb6.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Office Chair Leather_Roughness.jpg"
-dest_files=["res://.godot/imported/Office Chair Leather_Roughness.jpg-c24d128dde89bda85881fb7a16d6fc98.s3tc.ctex", "res://.godot/imported/Office Chair Leather_Roughness.jpg-c24d128dde89bda85881fb7a16d6fc98.etc2.ctex"]
+source_file="res://Models/textures/Office Chair Leather_Roughness.jpg"
+dest_files=["res://.godot/imported/Office Chair Leather_Roughness.jpg-171eb9af80725d9962a2c7a3b14bfbb6.s3tc.ctex", "res://.godot/imported/Office Chair Leather_Roughness.jpg-171eb9af80725d9962a2c7a3b14bfbb6.etc2.ctex"]
 
 [params]
 

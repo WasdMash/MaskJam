@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmqfyde3jp3tr"
-path.s3tc="res://.godot/imported/Cabinet Metal_BaseColor.jpg-187a65b9df88768eb7ec07ce399f9c03.s3tc.ctex"
-path.etc2="res://.godot/imported/Cabinet Metal_BaseColor.jpg-187a65b9df88768eb7ec07ce399f9c03.etc2.ctex"
+path.s3tc="res://.godot/imported/Cabinet Metal_BaseColor.jpg-55094f1c10f597cd483ec3229b96d9d7.s3tc.ctex"
+path.etc2="res://.godot/imported/Cabinet Metal_BaseColor.jpg-55094f1c10f597cd483ec3229b96d9d7.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Cabinet Metal_BaseColor.jpg"
-dest_files=["res://.godot/imported/Cabinet Metal_BaseColor.jpg-187a65b9df88768eb7ec07ce399f9c03.s3tc.ctex", "res://.godot/imported/Cabinet Metal_BaseColor.jpg-187a65b9df88768eb7ec07ce399f9c03.etc2.ctex"]
+source_file="res://Models/textures/Cabinet Metal_BaseColor.jpg"
+dest_files=["res://.godot/imported/Cabinet Metal_BaseColor.jpg-55094f1c10f597cd483ec3229b96d9d7.s3tc.ctex", "res://.godot/imported/Cabinet Metal_BaseColor.jpg-55094f1c10f597cd483ec3229b96d9d7.etc2.ctex"]
 
 [params]
 

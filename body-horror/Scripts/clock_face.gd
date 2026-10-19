@@ -9,11 +9,14 @@ const MINUTE_HAND_LENGTH = 100
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	hour_hand.points[1] = calculate_hand_tip_location(HOUR)
-	minute_hand.points[1] = calculate_hand_tip_location(MINUTE)
-	# Optional: Use a Label to see the horror in real-time
-	$ClockLabel.text = "Day %d | %02d:%02d" % [GameManager.current_day, GameManager.current_hour, GameManager.current_minute]
+func _process(_delta: float) -> void:
+	hour_hand.set_point_position(1, calculate_hand_tip_location(HOUR))
+	minute_hand.set_point_position(1, calculate_hand_tip_location(MINUTE))
+	$ClockLabel.text = "Day %d | %02d:%02d" % [
+		GameManager.current_day,
+		GameManager.current_hour,
+		GameManager.current_minute
+	]
 
 # Calculate the coordintes of the tip of a clock hand
 func calculate_hand_tip_location(hand) -> Vector2:

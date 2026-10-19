@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwcq6s2ifi5sq"
-path.s3tc="res://.godot/imported/Office Chair Plastic_Normal.jpg-99cacbc2b41c06b629c4a228910e47ad.s3tc.ctex"
-path.etc2="res://.godot/imported/Office Chair Plastic_Normal.jpg-99cacbc2b41c06b629c4a228910e47ad.etc2.ctex"
+path.s3tc="res://.godot/imported/Office Chair Plastic_Normal.jpg-6e3575a296a00e4bb6d15b5d0fd2bfd1.s3tc.ctex"
+path.etc2="res://.godot/imported/Office Chair Plastic_Normal.jpg-6e3575a296a00e4bb6d15b5d0fd2bfd1.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Office Chair Plastic_Normal.jpg"
-dest_files=["res://.godot/imported/Office Chair Plastic_Normal.jpg-99cacbc2b41c06b629c4a228910e47ad.s3tc.ctex", "res://.godot/imported/Office Chair Plastic_Normal.jpg-99cacbc2b41c06b629c4a228910e47ad.etc2.ctex"]
+source_file="res://Models/textures/Office Chair Plastic_Normal.jpg"
+dest_files=["res://.godot/imported/Office Chair Plastic_Normal.jpg-6e3575a296a00e4bb6d15b5d0fd2bfd1.s3tc.ctex", "res://.godot/imported/Office Chair Plastic_Normal.jpg-6e3575a296a00e4bb6d15b5d0fd2bfd1.etc2.ctex"]
 
 [params]
 

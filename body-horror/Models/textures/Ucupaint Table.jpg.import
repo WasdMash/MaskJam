@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bja7hvvkdxktr"
-path.s3tc="res://.godot/imported/Ucupaint Table.jpg-aaf002c973850daf1100e0d6608c4231.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint Table.jpg-aaf002c973850daf1100e0d6608c4231.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Table.jpg-0420bce439599ffeb951722db6d5be48.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Table.jpg-0420bce439599ffeb951722db6d5be48.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Table.jpg"
-dest_files=["res://.godot/imported/Ucupaint Table.jpg-aaf002c973850daf1100e0d6608c4231.s3tc.ctex", "res://.godot/imported/Ucupaint Table.jpg-aaf002c973850daf1100e0d6608c4231.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint Table.jpg"
+dest_files=["res://.godot/imported/Ucupaint Table.jpg-0420bce439599ffeb951722db6d5be48.s3tc.ctex", "res://.godot/imported/Ucupaint Table.jpg-0420bce439599ffeb951722db6d5be48.etc2.ctex"]
 
 [params]
 

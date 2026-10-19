@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bl7bhs2ia3gp7"
-path.s3tc="res://.godot/imported/Ucupaint paper 2 Color.jpg-853587d27e137f0a31185b0fe9e98e73.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint paper 2 Color.jpg-853587d27e137f0a31185b0fe9e98e73.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint paper 2 Color.jpg-aa8236e171368a76aecaa42df500e3cc.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint paper 2 Color.jpg-aa8236e171368a76aecaa42df500e3cc.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint paper 2 Color.jpg"
-dest_files=["res://.godot/imported/Ucupaint paper 2 Color.jpg-853587d27e137f0a31185b0fe9e98e73.s3tc.ctex", "res://.godot/imported/Ucupaint paper 2 Color.jpg-853587d27e137f0a31185b0fe9e98e73.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint paper 2 Color.jpg"
+dest_files=["res://.godot/imported/Ucupaint paper 2 Color.jpg-aa8236e171368a76aecaa42df500e3cc.s3tc.ctex", "res://.godot/imported/Ucupaint paper 2 Color.jpg-aa8236e171368a76aecaa42df500e3cc.etc2.ctex"]
 
 [params]
 

@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0vxdqq4q3mds"
-path.s3tc="res://.godot/imported/Ucupaint Mouse Creme Roughness.jpg-30b6057dbec292afa1aee5705edff152.s3tc.ctex"
-path.etc2="res://.godot/imported/Ucupaint Mouse Creme Roughness.jpg-30b6057dbec292afa1aee5705edff152.etc2.ctex"
+path.s3tc="res://.godot/imported/Ucupaint Mouse Creme Roughness.jpg-8598316779d250e05ea3ee4ff0422a01.s3tc.ctex"
+path.etc2="res://.godot/imported/Ucupaint Mouse Creme Roughness.jpg-8598316779d250e05ea3ee4ff0422a01.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Ucupaint Mouse Creme Roughness.jpg"
-dest_files=["res://.godot/imported/Ucupaint Mouse Creme Roughness.jpg-30b6057dbec292afa1aee5705edff152.s3tc.ctex", "res://.godot/imported/Ucupaint Mouse Creme Roughness.jpg-30b6057dbec292afa1aee5705edff152.etc2.ctex"]
+source_file="res://Models/textures/Ucupaint Mouse Creme Roughness.jpg"
+dest_files=["res://.godot/imported/Ucupaint Mouse Creme Roughness.jpg-8598316779d250e05ea3ee4ff0422a01.s3tc.ctex", "res://.godot/imported/Ucupaint Mouse Creme Roughness.jpg-8598316779d250e05ea3ee4ff0422a01.etc2.ctex"]
 
 [params]
 

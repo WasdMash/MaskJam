@@ -3,8 +3,8 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kvi0k4tln7ro"
-path.s3tc="res://.godot/imported/Cabinet Metal Bevel Normal.jpg-478b2b554e36a8a08a783b42abb4361d.s3tc.ctex"
-path.etc2="res://.godot/imported/Cabinet Metal Bevel Normal.jpg-478b2b554e36a8a08a783b42abb4361d.etc2.ctex"
+path.s3tc="res://.godot/imported/Cabinet Metal Bevel Normal.jpg-51e924aa6865e69995b3ea673a5d3b28.s3tc.ctex"
+path.etc2="res://.godot/imported/Cabinet Metal Bevel Normal.jpg-51e924aa6865e69995b3ea673a5d3b28.etc2.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ metadata={
 
 [deps]
 
-source_file="res://Models/Textures/Cabinet Metal Bevel Normal.jpg"
-dest_files=["res://.godot/imported/Cabinet Metal Bevel Normal.jpg-478b2b554e36a8a08a783b42abb4361d.s3tc.ctex", "res://.godot/imported/Cabinet Metal Bevel Normal.jpg-478b2b554e36a8a08a783b42abb4361d.etc2.ctex"]
+source_file="res://Models/textures/Cabinet Metal Bevel Normal.jpg"
+dest_files=["res://.godot/imported/Cabinet Metal Bevel Normal.jpg-51e924aa6865e69995b3ea673a5d3b28.s3tc.ctex", "res://.godot/imported/Cabinet Metal Bevel Normal.jpg-51e924aa6865e69995b3ea673a5d3b28.etc2.ctex"]
 
 [params]
 
